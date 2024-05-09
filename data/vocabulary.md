@@ -94,9 +94,10 @@ http://www.judopourtous.com/Images/Keikogi%202.jpg
                             .....,             ,.....  YUBI
 ```
 
-| Kanji | Furigana | Romaji | English Translation | French Translation |
+| Kanji  | Furigana  | Romaji | English Translation | French Translation |
+|-------|----------|--------|---------------------|--------------------|
 | 腰     | こし       | Koshi  | Hip                 | Hanche             |
-| 股     | また       | Mata   | Thigh or Crotch     | Cuisse ou Entre Jambe  |
+| 股     | また       | Mata   | Thigh or Crotch     | Cuisse ou Entre Jambe |
 | 首     | くび       | Kubi   | Neck                | Cou                |
 | 手     | て         | Te     | Hand                | Main               |
 | 背     | せお       | Seo    | Back                | Dos                |
@@ -144,6 +145,7 @@ http://www.judopourtous.com/Images/Keikogi%202.jpg
                     @@                                    ,@@                   
 ```
 | Kanji | Furigana | Romaji | English Translation | French Translation |
+|-------|----------|--------|---------------------|--------------------|
 | 袖     | そで       | Sode   | Sleeve              | Manche             |
 | 裸     | はだか     | Hadaka | Naked               | Nu                 |
 | 襟     | えり       | Eri    | Collar              | Col                |
