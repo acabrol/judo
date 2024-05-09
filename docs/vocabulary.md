@@ -109,6 +109,7 @@ http://www.judopourtous.com/Images/Keikogi%202.jpg
 | 腹     | はら       | Hara   | Abdomen             | Abdomen            |
 | 膝     | ひざ       | Hiza   | Knee                | Genou              |
 | 脇     | わき       | Waki   | Armpit              | Aisselle           |
+| 裸     | はだか     | Hadaka | Naked               | Nu                 |
 
 ```ascii
                              #@@@@@@@@@@@@@@@@@@@@@.                            
@@ -147,7 +148,8 @@ http://www.judopourtous.com/Images/Keikogi%202.jpg
 | Kanji | Furigana | Romaji | English Translation | French Translation |
 |-------|----------|--------|---------------------|--------------------|
 | 袖     | そで       | Sode   | Sleeve              | Manche             |
-| 裸     | はだか     | Hadaka | Naked               | Nu                 |
 | 襟     | えり       | Eri    | Collar              | Col                |
+| 引手     | ひきて       | Hiki-te    | Pull-hand     | Tirer-main |
+| 釣手     | つりて       | Tsuri-te    | Fich-hand     | Pécher-main |
 
 
