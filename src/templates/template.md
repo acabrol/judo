@@ -2,11 +2,23 @@
 
 {% for main_cat, sub_cats in data.items() -%}
 ## {{ main_cat }}
+{%- set first_key = sub_cats.keys() | list | first %}
+<ruby>{{sub_cats[first_key][0]['main_category-kanji']}}<rt>{{sub_cats[first_key][0]['main_category-furigana']}}</rt></ruby>
+
+english: {{sub_cats[first_key][0]['en-main_category-translation']}}
+
+french: {{sub_cats[first_key][0]['fr-main_category-translation']}}
 
 {% for sub_cat, items in sub_cats.items() -%}
 ### {{ sub_cat }}
 
-| {%- for header in items[0].keys() if header not in exclude -%}{{ header }} |{% endfor %} Picture | Video |
+<ruby>{{items[0]['subcategory-kanji']}}<rt>{{items[0]['subcategory-furigana']}}</rt></ruby>
+
+english: {{items[0]['en-subcategory-translation']}}
+
+french: {{items[0]['fr-subcategory-translation']}}
+
+| {%- for header in items[0].keys() if header not in exclude -%}{{ header }} |{% endfor %} Tutorial | Video |
 | {%- for header in items[0].keys() if header not in exclude %}---|{% endfor %}---|---|
 {% for item in items -%}
 | {% for key, value in item.items() if key not in exclude -%}
@@ -21,7 +33,7 @@
   {%- else -%}
     {{ value }}
   {%- endif -%}
-| {% endfor %} <a href="{{ item.tutorial }}"><img src="{{ item.picture }}" alt="Picture" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/{{ item.video_id }}"><img src="https://img.youtube.com/vi/{{ item.video_id }}/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
+| {% endfor %} <a href="{{ item.tutorial }}"><img src="{{ item.picture }}" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/{{ item.video_id }}"><img src="https://img.youtube.com/vi/{{ item.video_id }}/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 {% endfor %}
 {%- endfor %}
 {%- endfor %}
