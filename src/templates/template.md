@@ -10,6 +10,7 @@ english: {{sub_cats[first_key][0]['en-main_category-translation']}}
 french: {{sub_cats[first_key][0]['fr-main_category-translation']}}
 
 {% for sub_cat, items in sub_cats.items() -%}
+{%- if sub_cat != main_cat%}
 ### {{ sub_cat }}
 
 <ruby>{{items[0]['subcategory-kanji']}}<rt>{{items[0]['subcategory-furigana']}}</rt></ruby>
@@ -17,7 +18,7 @@ french: {{sub_cats[first_key][0]['fr-main_category-translation']}}
 english: {{items[0]['en-subcategory-translation']}}
 
 french: {{items[0]['fr-subcategory-translation']}}
-
+{%- endif %}
 | {%- for header in items[0].keys() if header not in exclude -%}{{ header }} |{% endfor %} Tutorial | Video |
 | {%- for header in items[0].keys() if header not in exclude %}---|{% endfor %}---|---|
 {% for item in items -%}
@@ -31,7 +32,12 @@ french: {{items[0]['fr-subcategory-translation']}}
       &nbsp;  {# Empty cell for better table formatting #}
     {%- endif -%}
   {%- else -%}
+    {%- if key=='kanji' -%}
+    <ruby>{{ value }}<rt>{{item['furigana']}}</rt></ruby>
+    {%- elif key=='furigana' -%}
+    {%- else -%}
     {{ value }}
+    {%- endif -%}
   {%- endif -%}
 | {% endfor %} <a href="{{ item.tutorial }}"><img src="{{ item.picture }}" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/{{ item.video_id }}"><img src="https://img.youtube.com/vi/{{ item.video_id }}/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 {% endfor %}
