@@ -1,6 +1,5 @@
 import pandas as pd
-from jinja2 import Environment, FileSystemLoader
-
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 def extract_video_id(url):
     if 'youtu.be' in url:
         return url.split('/')[-1]
@@ -22,6 +21,11 @@ exclusion_list = ['root_category-name','root_category-kanji','root_category-furi
 
 env = Environment(loader=FileSystemLoader('.'))
 template = env.get_template('templates/template.md')
+# env = Environment(
+#     loader=FileSystemLoader('templates/template.md'),
+#     autoescape=select_autoescape(['html', 'xml']),
+# )
+
 
 markdown_file_content = template.render(data=organized_data, exclude=exclusion_list)
 
