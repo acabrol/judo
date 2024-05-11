@@ -146,7 +146,7 @@
 
     <div class="container">
       {%- if items[j].tutorial -%}<img  class="qrcode tutorialQR" alt="{{items[j].tutorial}}" src="data:image/png;base64,{{ items[j]['tutorial_qrcode'] }}"/>{%- endif -%}
-      {%- if items[j].video -%}<img  class="qrcode videoQR" alt="{{items[j].video}}" src="data:image/png;base64,{{ items[j]['tutorial_qrcode'] }}"/>{%- endif -%}
+      {%- if items[j].video -%}<img  class="qrcode videoQR" alt="{{items[j].video}}" src="data:image/png;base64,{{ items[j]['video_qrcode'] }}"/>{%- endif -%}
     </div>
     </div>
   {%- endfor -%}
@@ -164,7 +164,7 @@
 
         <div class="container">
         {%- if items[j].tutorial -%}<img class="qrcode tutorialQR" alt="{{items[j].tutorial}}" src="data:image/png;base64,{{ items[j]['tutorial_qrcode'] }}"/>{%- endif -%}
-        {%- if items[j].video -%}<img class="qrcode videoQR" alt="{{items[j].video}}" src="data:image/png;base64,{{ items[j]['tutorial_qrcode'] }}"/>{%- endif -%}
+        {%- if items[j].video -%}<img class="qrcode videoQR" alt="{{items[j].video}}" src="data:image/png;base64,{{ items[j]['video_qrcode'] }}"/>{%- endif -%}
         </div>
     </div>
   {%- endfor -%}
