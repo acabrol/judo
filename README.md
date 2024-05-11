@@ -6,6 +6,6 @@ Please visit:
 
 [Techniques](docs/techniques.md)
 
-[Cards](docs/cards.html)
+[Cards](docs/cards.html) (Printable with Flip on Long Edge)
 
 [Techniques CSV](data/techniques/techniques.csv)
