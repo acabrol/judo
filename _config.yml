@@ -45,7 +45,7 @@ minima:
   
 exclude: [src]
 
-markdown: kramdown
+markdown: GFM #kramdown
 
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
