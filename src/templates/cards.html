@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Detailed Judo Techniques Cards</title>
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script> <!-- QR Code library -->
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+  }
+  .a4 {
+    width: 200mm;
+    height: 267mm;
+    margin: 10mm auto 10mm;
+    border: 1px dashed #bbb;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    background-color: white;
+    page-break-after: always;
+  }
+  .cell {
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    position: relative; /* Allow positioning of QR codes */
+    height: 100%; /* Full height of grid area */
+  }
+  .container {
+    font-size: 0;
+  }
+  .category-name, .technique-name {
+    font-size: 16px;
+    text-align: center;
+    margin: 4px 0 0;
+    font-weight: bold;
+  }
+ .translation, .description {
+    font-size: 10px;
+    text-align: center;
+    margin: 0 0 0 0; /* Changed margin-bottom to 0 */
+    font-weight: bold;
+  }
+  .kanji {
+    font-size: 16px;
+    position: relative;
+    margin: 4px 0; /* Changed margin-bottom to 0 */
+  }
+  .furigana {
+    position: absolute;
+    top: -15px;
+    margin: auto auto auto -50%; /* Changed margin-bottom to 0 */
+    font-size: 8px;
+    width: 200%;
+    text-align: center;
+    color: #666;
+  }
+  .technique-image {
+    width: 90%;
+    height: auto;
+    margin: 0 0 0 0;
+  }
+  .qrcode {
+    position: absolute;
+    bottom: 10px;
+    width: 25%;
+    height: auto;
+  }
+  .tutorialQR {
+    left: 10px;
+  }
+  .videoQR {
+    right: 10px;
+  }
+  @media print {
+    .a4 {
+      border: none;
+    }
+  }
+</style>
+<script>
+    function generateQRCode() {
+        // Find all elements with id = qrcode
+        var elements = document.querySelectorAll('[id="qrcode"]');
+
+        // Loop through each element
+        elements.forEach(function(element) {
+            var src = element.getAttribute('src'); // Get the src attribute
+            new QRCode(element, {
+    text: src,
+    width: 64,
+    height: 64
+  });
+
+        });
+    }
+
+    // Call the function when the page is loaded
+    window.onload = generateQRCode;
+</script>
+</head>
+<body>
+{%- for main_cat, sub_cats in data.items() -%}
+{%- for sub_cat, items in sub_cats.items() -%}
+{%- if items|length > 0 -%}
+{%- for i in range(0, items|length, 6) -%}
+<div class="a4" id="front">
+    {%- for j in range(i, i+6) if items[j] -%}
+      <div class="cell">
+        <div>DAN:&nbsp;{%- if items[j].technique==items[j]['fr-1-dan'] -%}1&nbsp;{%- endif -%}{%- if items[j].technique==items[j]['fr-2-dan'] -%}2&nbsp;{%- endif -%}{%- if items[j].technique==items[j]['fr-3-dan'] -%}3&nbsp;{%- endif -%}</div>
+        <div><a href="https://www.blagnacartsmartiaux.fr"><img src="https://www.blagnacartsmartiaux.fr/site/wp-content/uploads/2020/05/cropped-bam-wide-152x51.png"/></a></div>
+        <div class="technique-name">{{ items[j].technique }}</div>
+        <div class="kanji">
+          <span class="furigana">{{ items[j].furigana }}</span>
+          {{ items[j].kanji }}
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+<div class="a4" id="back">
+  {%- for j in range(i, i+3)|reverse if items[j] -%}
+    <div class="cell">
+      <div class="technique-category">{{ items[j]['subcategory-name'] }}</div>
+      <div class="technique-name">{{ items[j].technique }}</div>
+        <div class="kanji">
+          <span class="furigana">{{ items[j].furigana }}</span>
+          {{ items[j].kanji }}
+        </div>
+        {%- if items[j]['fr-translation'] -%}<div class="translation">{{ items[j]['fr-translation'] }}</div>{%- endif -%}
+        {%- if items[j]['fr-description'] -%}<div class="description">{{ items[j]['fr-description'] }}</div>{%- endif -%}
+      <img class="technique-image" src="{{ items[j].picture }}" alt="{{ items[j].technique }} Technique">
+
+    <div class="container">
+      {%- if items[j].tutorial -%}<img  class="qrcode tutorialQR" alt="{{items[j].tutorial}}" src="data:image/png;base64,{{ items[j]['tutorial_qrcode'] }}"/>{%- endif -%}
+      {%- if items[j].video -%}<img  class="qrcode videoQR" alt="{{items[j].video}}" src="data:image/png;base64,{{ items[j]['tutorial_qrcode'] }}"/>{%- endif -%}
+    </div>
+    </div>
+  {%- endfor -%}
+  {%- for j in range(i+3, i+6)|reverse if items[j] -%}
+    <div class="cell">
+        <div class="technique-category">{{ items[j]['subcategory-name'] }}</div>
+        <div class="technique-name">{{ items[j].technique }}</div>
+            <div class="kanji">
+            <span class="furigana">{{ items[j].furigana }}</span>
+            {{ items[j].kanji }}
+            </div>
+            {%- if items[j]['fr-translation'] -%}<div class="translation">{{ items[j]['fr-translation'] }}</div>{%- endif -%}
+            {%- if items[j]['fr-description'] -%}<div class="description">{{ items[j]['fr-description'] }}</div>{%- endif -%}
+        <img class="technique-image" src="{{ items[j].picture }}" alt="{{ items[j].technique }} Technique">
+
+        <div class="container">
+        {%- if items[j].tutorial -%}<img class="qrcode tutorialQR" alt="{{items[j].tutorial}}" src="data:image/png;base64,{{ items[j]['tutorial_qrcode'] }}"/>{%- endif -%}
+        {%- if items[j].video -%}<img class="qrcode videoQR" alt="{{items[j].video}}" src="data:image/png;base64,{{ items[j]['tutorial_qrcode'] }}"/>{%- endif -%}
+        </div>
+    </div>
+  {%- endfor -%}
+</div>
+{%- endfor -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endfor -%}
+</body>
+</html>
