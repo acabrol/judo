@@ -20,7 +20,7 @@ for (main_cat, sub_cat), group in data.groupby(['main_category-name', 'subcatego
 file_json = open("../data/techniques/techniques.json", "w") 
 file_json.write(json.dumps(organized_data))
 
-exclusion_list = ['root_category-name','root_category-kanji','root_category-furigana','en-root_category_translation','fr-root_category_translation','main_category-name','main_category-kanji','main_category-furigana','en-main_category-translation','fr-main_category-translation','subcategory-name','subcategory-kanji','subcategory-furigana','en-subcategory-translation','fr-subcategory-translation','en-description','en-translation','steps','video_id','video','picture','tutorial']  # Update your exclusion list
+exclusion_list = ['root_category-name','root_category-kanji','root_category-furigana','en-root_category_translation','fr-root_category_translation','main_category-name','main_category-kanji','main_category-furigana','en-main_category-translation','fr-main_category-translation','subcategory-name','subcategory-kanji','subcategory-furigana','en-subcategory-translation','fr-subcategory-translation','furigana','en-description','en-translation','steps','video_id','video','picture','tutorial']  # Update your exclusion list
 
 env = Environment(loader=FileSystemLoader('.'))
 template = env.get_template('templates/template.md')
