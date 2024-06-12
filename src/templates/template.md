@@ -1,6 +1,25 @@
 # Judo Techniques Catalog
 
+<!-- Define the print area -->
+<style>
+@media print {
+  .print-section {
+    display: block;
+  }
+  .no-print {
+    display: none;
+  }
+}
+
+@media screen {
+  .print-section {
+    display: none;
+  }
+}
+</style>
+
 {% for main_cat, sub_cats in data.items() -%}
+<div class="print-section">
 ## {{ main_cat }}
 {%- set first_key = sub_cats.keys() | list | first %}
 <ruby>{{sub_cats[first_key][0]['main_category-kanji']}}<rt>{{sub_cats[first_key][0]['main_category-furigana']}}</rt></ruby>
@@ -42,4 +61,11 @@ french: {{items[0]['fr-subcategory-translation']}}
 | {% endfor %} <a href="{{ item.tutorial }}"><img src="{{ item.picture }}" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/{{ item.video_id }}"><img src="https://img.youtube.com/vi/{{ item.video_id }}/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 {% endfor %}
 {%- endfor %}
+</div>
 {%- endfor %}
+
+## Sources
+
+[FFJDA Technical Referential](https://www.ffjudo.com/uploads/elfinder/CULTURE/GRADES%20CSDGE/REFERENTIEL%20TECHNIQUE%202023-2024%20%20(1).pdf)
+[Judo Channel](https://www.judo-ch.jp)
+[Youtube KODOKAN JUDO](https://www.youtube.com/@KODOKANJUDO)
