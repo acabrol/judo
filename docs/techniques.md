@@ -1,6 +1,7 @@
 # Judo Techniques Catalog
 
 <div class="print-section">
+
 ## kansetsu-waza
 <ruby>関節技<rt>かんせつわざ</rt></ruby>
 
@@ -20,7 +21,9 @@ french: implication_articulation-technique
 | ude-hishigi-waki-gatame| Luxation du coude par contrôle de l'aisselle| &#10004;| &#10004;| &#10004;| <ruby>腕挫腋固<rt>うでひしぎわきがため</rt></ruby>| bras-écraser-aisselle-fixer|  <a href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udewaki/"><img src="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udewaki/image-mfi/img01.gif" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/8F5p1zuJRG0"><img src="https://img.youtube.com/vi/8F5p1zuJRG0/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 | ude-garami| Enroulement de coude| &#10004;| &#10004;| &#10004;| <ruby>腕緘<rt>うでがらみ</rt></ruby>| bras-sceller|  <a href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udegarami/"><img src="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udegarami/image-mfi/img01.gif" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/AIlTvZb4RlE"><img src="https://img.youtube.com/vi/AIlTvZb4RlE/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 
+
 </div><div class="print-section">
+
 ## osaekomi-waza
 <ruby>抑込技<rt>おさえこみわざ</rt></ruby>
 
@@ -43,7 +46,9 @@ french: scellement_massif-technique
 | yoko-shiho-gatame| Contrôle des 4 points par côté| &#10004;| &#10004;| &#10004;| <ruby>横四方固<rt>よこしほうがため</rt></ruby>| decote-quatredirection-fixer|  <a href="nan"><img src="nan" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/TT7XJVSEQxA"><img src="https://img.youtube.com/vi/TT7XJVSEQxA/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 | makura-gesa-gatame| Contrôle en oreiller de travers| &#10004;| &#10004;| &#10004;| <ruby>枕袈裟固<rt>まくらけさがため</rt></ruby>| oreillet-drapé_sur_une_épaule_en_diagonal-fixer|  <a href="nan"><img src="https://commons.wikimedia.org/wiki/File:Makura-kesa-gatame.gif?uselang=fr" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/e5HrhANfDcU"><img src="https://img.youtube.com/vi/e5HrhANfDcU/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 
+
 </div><div class="print-section">
+
 ## shime-waza
 <ruby>絞技<rt>しめわざ</rt></ruby>
 
@@ -68,7 +73,9 @@ french: etranglement-technique
 | sode-guruma-jime| Etranglement en enroulant la manche| &nbsp;  | &#10004;| &#10004;| <ruby>袖車絞<rt>そでぐるまじめ</rt></ruby>| manche-roue-etranglement|  <a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/sodeguruma/"><img src="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/sodeguruma/image-mfi/img01.gif" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/E3nvQzClcAU"><img src="https://img.youtube.com/vi/E3nvQzClcAU/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 | tsukkomi-jime| Etranglement en poussant| &nbsp;  | &nbsp;  | &#10004;| <ruby>突込絞<rt>つっこみじめ</rt></ruby>| poussée-inclusion-etranglement|  <a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/tukkomi/"><img src="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/tukkomi/image-mfi/img01.gif" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/dKKpnD3eLcY"><img src="https://img.youtube.com/vi/dKKpnD3eLcY/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 
+
 </div><div class="print-section">
+
 ## sutemi-waza
 <ruby>捨身技<rt>すてみわざ</rt></ruby>
 
@@ -117,7 +124,9 @@ french: coté-sacrifice_corps-technique
 | yoko-otoshi| Renversement latéral| &nbsp;  | &nbsp;  | &#10004;| <ruby>横落<rt>よこおとし</rt></ruby>| decoté-chute|  <a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokootosi/"><img src="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokootosi/image-mfi/img01.gif" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/MnNG67pF_a0"><img src="https://img.youtube.com/vi/MnNG67pF_a0/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 | yoko-wakare| Séparation latérale| &nbsp;  | &nbsp;  | &#10004;| <ruby>横分<rt>よこわかれ</rt></ruby>| decoté-partie(segment)|  <a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokowakare/"><img src="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokowakare/image-mfi/img01.gif" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/bp1tscHlePI"><img src="https://img.youtube.com/vi/bp1tscHlePI/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 
+
 </div><div class="print-section">
+
 ## tachi-waza
 <ruby>立技<rt>たちわざ</rt></ruby>
 
@@ -204,6 +213,7 @@ french: main-technique
 | uki-otoshi| Renversement flottant| &#10004;| &#10004;| &#10004;| <ruby>浮落<rt>うきおと</rt></ruby>| flottante-chute|  <a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/ukiotosi/"><img src="https://www.judo-ch.jp/english/dictionary/technique/nage/te/ukiotosi/image-mfi/img01.gif" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/6H5tmncOY4Q"><img src="https://img.youtube.com/vi/6H5tmncOY4Q/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 | yama-arashi| Tempête sur la montagne| &nbsp;  | &nbsp;  | &#10004;| <ruby>山嵐<rt>やまあらし</rt></ruby>| montagne-tempéte|  <a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/yamaarasi/"><img src="https://www.judo-ch.jp/english/dictionary/technique/nage/te/yamaarasi/image-mfi/img01.gif" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/MGlyKmSuzdc"><img src="https://img.youtube.com/vi/MGlyKmSuzdc/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 | eri-seoi-nage| Projection en chargeant sur le dos par un revers| &#10004;| &#10004;| &#10004;| <ruby>襟背負投<rt>えりせおいなげ</rt></ruby>| revers-dosporter-projection|  <a href="nan"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Eri-seoi-nage.jpg/220px-Eri-seoi-nage.jpg" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/tvjQxhfz6RE?si=VLicjnlUJ9vRqD_m"><img src="https://img.youtube.com/vi/tvjQxhfz6RE?si=VLicjnlUJ9vRqD_m/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
+
 
 </div>
 
