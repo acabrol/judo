@@ -2,6 +2,7 @@
 
 {% for main_cat, sub_cats in data.items() -%}
 <div class="print-section">
+
 ## {{ main_cat }}
 {%- set first_key = sub_cats.keys() | list | first %}
 <ruby>{{sub_cats[first_key][0]['main_category-kanji']}}<rt>{{sub_cats[first_key][0]['main_category-furigana']}}</rt></ruby>
@@ -43,7 +44,9 @@ french: {{items[0]['fr-subcategory-translation']}}
 | {% endfor %} <a href="{{ item.tutorial }}"><img src="{{ item.picture }}" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/{{ item.video_id }}"><img src="https://img.youtube.com/vi/{{ item.video_id }}/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
 {% endfor %}
 {%- endfor %}
+
 </div>
+
 {%- endfor %}
 
 ## Sources
