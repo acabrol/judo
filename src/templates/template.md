@@ -1,23 +1,5 @@
 # Judo Techniques Catalog
 
-<!-- Define the print area -->
-<style>
-@media print {
-  .print-section {
-    display: block;
-  }
-  .no-print {
-    display: none;
-  }
-}
-
-@media screen {
-  .print-section {
-    display: none;
-  }
-}
-</style>
-
 {% for main_cat, sub_cats in data.items() -%}
 <div class="print-section">
 ## {{ main_cat }}

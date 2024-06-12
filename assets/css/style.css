@@ -1,0 +1,17 @@
+<!-- Define the print area -->
+<style>
+@media print {
+  .print-section {
+    display: block;
+  }
+  .no-print {
+    display: none;
+  }
+}
+
+@media screen {
+  .print-section {
+    display: none;
+  }
+}
+</style>
