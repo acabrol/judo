@@ -1,23 +1,5 @@
 # Judo Techniques Catalog
 
-<!-- Define the print area -->
-<style>
-@media print {
-  .print-section {
-    display: block;
-  }
-  .no-print {
-    display: none;
-  }
-}
-
-@media screen {
-  .print-section {
-    display: none;
-  }
-}
-</style>
-
 <div class="print-section">
 ## kansetsu-waza
 <ruby>関節技<rt>かんせつわざ</rt></ruby>
