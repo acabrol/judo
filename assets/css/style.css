@@ -1,17 +1,20 @@
 <!-- Define the print area -->
 <style>
 @media print {
-  .print-section {
-    display: block;
+    .print-section {
+      display: block;
+    }
+    .no-print {
+      display: none;
+    }
+    table.full-width-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    table.full-width-table th, table.full-width-table td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
   }
-  .no-print {
-    display: none;
-  }
-}
-
-@media screen {
-  .print-section {
-    display: none;
-  }
-}
 </style>

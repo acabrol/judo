@@ -132,6 +132,7 @@
     {%- endfor -%}
   </div>
 <div class="a4" id="back">
+  <br/>
   {%- for j in range(i, i+3)|reverse if items[j] -%}
     <div class="cell">
       <div class="technique-category">{{ items[j]['subcategory-name'] }}</div>
