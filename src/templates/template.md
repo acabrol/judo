@@ -51,6 +51,6 @@ french: {{items[0]['fr-subcategory-translation']}}
 
 ## Sources
 
-[FFJDA Technical Referential](https://www.ffjudo.com/uploads/elfinder/CULTURE/GRADES%20CSDGE/REFERENTIEL%20TECHNIQUE%202023-2024%20%20(1).pdf)
+[FFJDA Technical Referential](https://www.ffjudo.com/uploads/elfinder/CULTURE/GRADES%20CSDGE/REFERENTIEL%20TECHNIQUE%202024-2025%20GL.pdf)
 [Judo Channel](https://www.judo-ch.jp)
 [Youtube KODOKAN JUDO](https://www.youtube.com/@KODOKANJUDO)
