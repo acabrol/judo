@@ -137,11 +137,12 @@
 
   .col-technique { width: 16%; }
   .col-kanji { width: 13%; text-align: center; }
-  .col-description { width: 27%; }
-  .col-translation { width: 16%; }
+  .col-description { width: 24%; }
+  .col-translation { width: 14%; }
   .col-dan { width: 4.5%; text-align: center; }
-  .col-video { width: 7.25%; text-align: center; }
-  .col-tuto { width: 7.25%; text-align: center; }
+  .col-image { width: 9%; text-align: center; }
+  .col-video { width: 5.5%; text-align: center; }
+  .col-tuto { width: 5.5%; text-align: center; }
 
   .technique-name {
     font-weight: 700;
@@ -198,7 +199,7 @@
   .media-link-preview {
     display: block;
     width: 100%;
-    max-width: 220px;
+    max-width: 180px;
     border: 1px solid var(--line);
     border-radius: 6px;
   }
@@ -217,7 +218,7 @@
     width: 100%;
   }
 
-  .media-link-body--video {
+  .media-link-body--image {
     align-items: center;
   }
 
@@ -293,11 +294,12 @@
 
     .col-technique { width: 16%; }
     .col-kanji { width: 13%; }
-    .col-description { width: 29%; }
-    .col-translation { width: 16%; }
+    .col-description { width: 25%; }
+    .col-translation { width: 15%; }
     .col-dan { width: 4%; }
-    .col-video { width: 7%; }
-    .col-tuto { width: 7%; }
+    .col-image { width: 10%; }
+    .col-video { width: 5.5%; }
+    .col-tuto { width: 5.5%; }
 
     .media-links {
       gap: 2px;
@@ -314,7 +316,7 @@
     }
 
     .media-link-preview {
-      max-width: 104px;
+      max-width: 92px;
       border-radius: 3px;
     }
 
@@ -367,6 +369,7 @@
               <th class="col-dan">1D</th>
               <th class="col-dan">2D</th>
               <th class="col-dan">3D</th>
+              <th class="col-image">Image</th>
               <th class="col-video">Vidéo</th>
               <th class="col-tuto">Tuto</th>
             </tr>
@@ -380,10 +383,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/M9_7De6A1kk">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/M9_7De6A1kk/0.jpg" alt="Aperçu vidéo de hane-goshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/M9_7De6A1kk">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/M9_7De6A1kk/0.jpg" alt="Aperçu vidéo de hane-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FM9_7De6A1kk" alt="QR code de la vidéo hane-goshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FM9_7De6A1kk" alt="QR code de la vidéo hane-goshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -401,10 +412,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/qTo8HlAAkOo">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/qTo8HlAAkOo/0.jpg" alt="Aperçu vidéo de harai-goshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/qTo8HlAAkOo">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/qTo8HlAAkOo/0.jpg" alt="Aperçu vidéo de harai-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FqTo8HlAAkOo" alt="QR code de la vidéo harai-goshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FqTo8HlAAkOo" alt="QR code de la vidéo harai-goshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -422,10 +441,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/SU7Id6uVJ44">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/SU7Id6uVJ44/0.jpg" alt="Aperçu vidéo de koshi-guruma">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/SU7Id6uVJ44">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/SU7Id6uVJ44/0.jpg" alt="Aperçu vidéo de koshi-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FSU7Id6uVJ44" alt="QR code de la vidéo koshi-guruma"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FSU7Id6uVJ44" alt="QR code de la vidéo koshi-guruma"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -443,10 +470,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/yhu1mfy2vJ4">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/yhu1mfy2vJ4/0.jpg" alt="Aperçu vidéo de o-goshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/yhu1mfy2vJ4">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/yhu1mfy2vJ4/0.jpg" alt="Aperçu vidéo de o-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fyhu1mfy2vJ4" alt="QR code de la vidéo o-goshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fyhu1mfy2vJ4" alt="QR code de la vidéo o-goshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -464,10 +499,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=QsmAxpmYLOI">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/QsmAxpmYLOI/0.jpg" alt="Aperçu vidéo de sode-tsurikomi-goshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=QsmAxpmYLOI">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/QsmAxpmYLOI/0.jpg" alt="Aperçu vidéo de sode-tsurikomi-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQsmAxpmYLOI" alt="QR code de la vidéo sode-tsurikomi-goshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQsmAxpmYLOI" alt="QR code de la vidéo sode-tsurikomi-goshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -485,10 +528,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=51Htlp7xEvE">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/51Htlp7xEvE/0.jpg" alt="Aperçu vidéo de tsuri-goshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=51Htlp7xEvE">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/51Htlp7xEvE/0.jpg" alt="Aperçu vidéo de tsuri-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D51Htlp7xEvE" alt="QR code de la vidéo tsuri-goshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D51Htlp7xEvE" alt="QR code de la vidéo tsuri-goshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -506,10 +557,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/51Htlp7xEvE">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/51Htlp7xEvE/0.jpg" alt="Aperçu vidéo de tsurikomi-goshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/51Htlp7xEvE">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/51Htlp7xEvE/0.jpg" alt="Aperçu vidéo de tsurikomi-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F51Htlp7xEvE" alt="QR code de la vidéo tsurikomi-goshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F51Htlp7xEvE" alt="QR code de la vidéo tsurikomi-goshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -527,10 +586,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/0Q80pgrZYVk?si=vFlt07awBsFbC_OB&amp;t=140">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/0Q80pgrZYVk/0.jpg" alt="Aperçu vidéo de uchi-mata">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/0Q80pgrZYVk?si=vFlt07awBsFbC_OB&amp;t=140">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/0Q80pgrZYVk/0.jpg" alt="Aperçu vidéo de uchi-mata"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F0Q80pgrZYVk%3Fsi%3DvFlt07awBsFbC_OB%26t%3D140" alt="QR code de la vidéo uchi-mata"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F0Q80pgrZYVk%3Fsi%3DvFlt07awBsFbC_OB%26t%3D140" alt="QR code de la vidéo uchi-mata"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -545,10 +612,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=bPKwtB4lyOQ">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/bPKwtB4lyOQ/0.jpg" alt="Aperçu vidéo de uki-goshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=bPKwtB4lyOQ">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/bPKwtB4lyOQ/0.jpg" alt="Aperçu vidéo de uki-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbPKwtB4lyOQ" alt="QR code de la vidéo uki-goshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbPKwtB4lyOQ" alt="QR code de la vidéo uki-goshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -566,10 +641,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/ORIYstuxYT8">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/ORIYstuxYT8/0.jpg" alt="Aperçu vidéo de ushiro-goshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/ORIYstuxYT8">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/ORIYstuxYT8/0.jpg" alt="Aperçu vidéo de ushiro-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FORIYstuxYT8" alt="QR code de la vidéo ushiro-goshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FORIYstuxYT8" alt="QR code de la vidéo ushiro-goshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -587,10 +670,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/4pQd_bEnlf0">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/4pQd_bEnlf0/0.jpg" alt="Aperçu vidéo de utsuri-goshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/4pQd_bEnlf0">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/4pQd_bEnlf0/0.jpg" alt="Aperçu vidéo de utsuri-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F4pQd_bEnlf0" alt="QR code de la vidéo utsuri-goshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F4pQd_bEnlf0" alt="QR code de la vidéo utsuri-goshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -608,10 +699,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=F-4fyNwx52w&amp;t=6s">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/F-4fyNwx52w/0.jpg" alt="Aperçu vidéo de kubi-nage">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=F-4fyNwx52w&amp;t=6s">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/F-4fyNwx52w/0.jpg" alt="Aperçu vidéo de kubi-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DF-4fyNwx52w%26t%3D6s" alt="QR code de la vidéo kubi-nage"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DF-4fyNwx52w%26t%3D6s" alt="QR code de la vidéo kubi-nage"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -640,6 +739,7 @@
               <th class="col-dan">1D</th>
               <th class="col-dan">2D</th>
               <th class="col-dan">3D</th>
+              <th class="col-image">Image</th>
               <th class="col-video">Vidéo</th>
               <th class="col-tuto">Tuto</th>
             </tr>
@@ -653,10 +753,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/FQnOlCxo4oI">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/FQnOlCxo4oI/0.jpg" alt="Aperçu vidéo de ippon-seoi-nage">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/FQnOlCxo4oI">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/FQnOlCxo4oI/0.jpg" alt="Aperçu vidéo de ippon-seoi-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FFQnOlCxo4oI" alt="QR code de la vidéo ippon-seoi-nage"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FFQnOlCxo4oI" alt="QR code de la vidéo ippon-seoi-nage"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -674,10 +782,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/cnHRhSy8yi4">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/cnHRhSy8yi4/0.jpg" alt="Aperçu vidéo de kata-guruma">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/cnHRhSy8yi4">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/cnHRhSy8yi4/0.jpg" alt="Aperçu vidéo de kata-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FcnHRhSy8yi4" alt="QR code de la vidéo kata-guruma"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FcnHRhSy8yi4" alt="QR code de la vidéo kata-guruma"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -695,10 +811,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/tJylJYfBliA">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/tJylJYfBliA/0.jpg" alt="Aperçu vidéo de kibisu-gaeshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/tJylJYfBliA">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/tJylJYfBliA/0.jpg" alt="Aperçu vidéo de kibisu-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FtJylJYfBliA" alt="QR code de la vidéo kibisu-gaeshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FtJylJYfBliA" alt="QR code de la vidéo kibisu-gaeshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -716,10 +840,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/ZNL47q1aJNY">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/ZNL47q1aJNY/0.jpg" alt="Aperçu vidéo de kuchiki-taoshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/ZNL47q1aJNY">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/ZNL47q1aJNY/0.jpg" alt="Aperçu vidéo de kuchiki-taoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FZNL47q1aJNY" alt="QR code de la vidéo kuchiki-taoshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FZNL47q1aJNY" alt="QR code de la vidéo kuchiki-taoshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -737,10 +869,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/BHLQS4K85bs">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/BHLQS4K85bs/0.jpg" alt="Aperçu vidéo de morote-gari">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/BHLQS4K85bs">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/BHLQS4K85bs/0.jpg" alt="Aperçu vidéo de morote-gari"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FBHLQS4K85bs" alt="QR code de la vidéo morote-gari"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FBHLQS4K85bs" alt="QR code de la vidéo morote-gari"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -758,10 +898,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/ff8U2TVZIYI">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/ff8U2TVZIYI/0.jpg" alt="Aperçu vidéo de obi-otoshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/ff8U2TVZIYI">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/ff8U2TVZIYI/0.jpg" alt="Aperçu vidéo de obi-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fff8U2TVZIYI" alt="QR code de la vidéo obi-otoshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fff8U2TVZIYI" alt="QR code de la vidéo obi-otoshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -779,10 +927,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/bpc82SrunUU">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/bpc82SrunUU/0.jpg" alt="Aperçu vidéo de obi-tori-gaeshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/bpc82SrunUU">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/bpc82SrunUU/0.jpg" alt="Aperçu vidéo de obi-tori-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fbpc82SrunUU" alt="QR code de la vidéo obi-tori-gaeshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fbpc82SrunUU" alt="QR code de la vidéo obi-tori-gaeshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -797,10 +953,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/zIq0xI0ogxk">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/zIq0xI0ogxk/0.jpg" alt="Aperçu vidéo de morote-seoi-nage">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/zIq0xI0ogxk">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/zIq0xI0ogxk/0.jpg" alt="Aperçu vidéo de morote-seoi-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FzIq0xI0ogxk" alt="QR code de la vidéo morote-seoi-nage"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FzIq0xI0ogxk" alt="QR code de la vidéo morote-seoi-nage"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -818,10 +982,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/vu1TMVNnq34">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/vu1TMVNnq34/0.jpg" alt="Aperçu vidéo de seoi-otoshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/vu1TMVNnq34">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/vu1TMVNnq34/0.jpg" alt="Aperçu vidéo de seoi-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fvu1TMVNnq34" alt="QR code de la vidéo seoi-otoshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fvu1TMVNnq34" alt="QR code de la vidéo seoi-otoshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -839,10 +1011,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/vU6aJ2kFxoI">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/vU6aJ2kFxoI/0.jpg" alt="Aperçu vidéo de sukui-nage">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/vU6aJ2kFxoI">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/vU6aJ2kFxoI/0.jpg" alt="Aperçu vidéo de sukui-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FvU6aJ2kFxoI" alt="QR code de la vidéo sukui-nage"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FvU6aJ2kFxoI" alt="QR code de la vidéo sukui-nage"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -860,10 +1040,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/lLU9wv52ni0">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/lLU9wv52ni0/0.jpg" alt="Aperçu vidéo de sumi-otoshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/lLU9wv52ni0">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/lLU9wv52ni0/0.jpg" alt="Aperçu vidéo de sumi-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FlLU9wv52ni0" alt="QR code de la vidéo sumi-otoshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FlLU9wv52ni0" alt="QR code de la vidéo sumi-otoshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -881,10 +1069,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/4x6S3Q-Ktv8">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/4x6S3Q-Ktv8/0.jpg" alt="Aperçu vidéo de tai-otoshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/4x6S3Q-Ktv8">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/4x6S3Q-Ktv8/0.jpg" alt="Aperçu vidéo de tai-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F4x6S3Q-Ktv8" alt="QR code de la vidéo tai-otoshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F4x6S3Q-Ktv8" alt="QR code de la vidéo tai-otoshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -902,10 +1098,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/QA2PK_tm2fQ">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/QA2PK_tm2fQ/0.jpg" alt="Aperçu vidéo de te-guruma">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/QA2PK_tm2fQ">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/QA2PK_tm2fQ/0.jpg" alt="Aperçu vidéo de te-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FQA2PK_tm2fQ" alt="QR code de la vidéo te-guruma"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FQA2PK_tm2fQ" alt="QR code de la vidéo te-guruma"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -923,10 +1127,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/V-RS3uhtVWM">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/V-RS3uhtVWM/0.jpg" alt="Aperçu vidéo de uchi-mata-sukashi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/V-RS3uhtVWM">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/V-RS3uhtVWM/0.jpg" alt="Aperçu vidéo de uchi-mata-sukashi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FV-RS3uhtVWM" alt="QR code de la vidéo uchi-mata-sukashi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FV-RS3uhtVWM" alt="QR code de la vidéo uchi-mata-sukashi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -944,10 +1156,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/6H5tmncOY4Q">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/6H5tmncOY4Q/0.jpg" alt="Aperçu vidéo de uki-otoshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/6H5tmncOY4Q">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/6H5tmncOY4Q/0.jpg" alt="Aperçu vidéo de uki-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F6H5tmncOY4Q" alt="QR code de la vidéo uki-otoshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F6H5tmncOY4Q" alt="QR code de la vidéo uki-otoshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -965,10 +1185,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/MGlyKmSuzdc">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/MGlyKmSuzdc/0.jpg" alt="Aperçu vidéo de yama-arashi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/MGlyKmSuzdc">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/MGlyKmSuzdc/0.jpg" alt="Aperçu vidéo de yama-arashi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FMGlyKmSuzdc" alt="QR code de la vidéo yama-arashi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FMGlyKmSuzdc" alt="QR code de la vidéo yama-arashi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -986,10 +1214,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/tvjQxhfz6RE?si=VLicjnlUJ9vRqD_m">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/tvjQxhfz6RE/0.jpg" alt="Aperçu vidéo de eri-seoi-nage">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/tvjQxhfz6RE?si=VLicjnlUJ9vRqD_m">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/tvjQxhfz6RE/0.jpg" alt="Aperçu vidéo de eri-seoi-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FtvjQxhfz6RE%3Fsi%3DVLicjnlUJ9vRqD_m" alt="QR code de la vidéo eri-seoi-nage"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FtvjQxhfz6RE%3Fsi%3DVLicjnlUJ9vRqD_m" alt="QR code de la vidéo eri-seoi-nage"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1018,6 +1254,7 @@
               <th class="col-dan">1D</th>
               <th class="col-dan">2D</th>
               <th class="col-dan">3D</th>
+              <th class="col-image">Image</th>
               <th class="col-video">Vidéo</th>
               <th class="col-tuto">Tuto</th>
             </tr>
@@ -1031,10 +1268,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/ROeayhvom9U">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/ROeayhvom9U/0.jpg" alt="Aperçu vidéo de ashi-guruma">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/ROeayhvom9U">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/ROeayhvom9U/0.jpg" alt="Aperçu vidéo de ashi-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FROeayhvom9U" alt="QR code de la vidéo ashi-guruma"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FROeayhvom9U" alt="QR code de la vidéo ashi-guruma"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1052,10 +1297,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/4BUUvqxi_Kk">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/4BUUvqxi_Kk/0.jpg" alt="Aperçu vidéo de de-ashi-barai (-harai)">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/4BUUvqxi_Kk">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/4BUUvqxi_Kk/0.jpg" alt="Aperçu vidéo de de-ashi-barai (-harai)"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F4BUUvqxi_Kk" alt="QR code de la vidéo de-ashi-barai (-harai)"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F4BUUvqxi_Kk" alt="QR code de la vidéo de-ashi-barai (-harai)"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1073,10 +1326,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/9bZAZSBtnGs">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/9bZAZSBtnGs/0.jpg" alt="Aperçu vidéo de hane-goshi-gaeshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/9bZAZSBtnGs">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/9bZAZSBtnGs/0.jpg" alt="Aperçu vidéo de hane-goshi-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F9bZAZSBtnGs" alt="QR code de la vidéo hane-goshi-gaeshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F9bZAZSBtnGs" alt="QR code de la vidéo hane-goshi-gaeshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1094,10 +1355,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/gGPXvWL8VbE">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/gGPXvWL8VbE/0.jpg" alt="Aperçu vidéo de harai-tsurikomi-ashi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/gGPXvWL8VbE">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/gGPXvWL8VbE/0.jpg" alt="Aperçu vidéo de harai-tsurikomi-ashi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FgGPXvWL8VbE" alt="QR code de la vidéo harai-tsurikomi-ashi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FgGPXvWL8VbE" alt="QR code de la vidéo harai-tsurikomi-ashi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1115,10 +1384,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/JPJx9-oAVns">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/JPJx9-oAVns/0.jpg" alt="Aperçu vidéo de hiza-guruma">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/JPJx9-oAVns">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/JPJx9-oAVns/0.jpg" alt="Aperçu vidéo de hiza-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FJPJx9-oAVns" alt="QR code de la vidéo hiza-guruma"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FJPJx9-oAVns" alt="QR code de la vidéo hiza-guruma"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1136,10 +1413,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/8b6kY4s4zH4">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/8b6kY4s4zH4/0.jpg" alt="Aperçu vidéo de ko-soto-gake">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/8b6kY4s4zH4">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/8b6kY4s4zH4/0.jpg" alt="Aperçu vidéo de ko-soto-gake"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F8b6kY4s4zH4" alt="QR code de la vidéo ko-soto-gake"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F8b6kY4s4zH4" alt="QR code de la vidéo ko-soto-gake"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1157,10 +1442,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/jeQ541ScLB4">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/jeQ541ScLB4/0.jpg" alt="Aperçu vidéo de ko-soto-gari">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/jeQ541ScLB4">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/jeQ541ScLB4/0.jpg" alt="Aperçu vidéo de ko-soto-gari"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FjeQ541ScLB4" alt="QR code de la vidéo ko-soto-gari"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FjeQ541ScLB4" alt="QR code de la vidéo ko-soto-gari"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1178,10 +1471,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/_MWAdYi_LC4">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/_MWAdYi_LC4/0.jpg" alt="Aperçu vidéo de ko-uchi-gaeshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/_MWAdYi_LC4">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/_MWAdYi_LC4/0.jpg" alt="Aperçu vidéo de ko-uchi-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F_MWAdYi_LC4" alt="QR code de la vidéo ko-uchi-gaeshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F_MWAdYi_LC4" alt="QR code de la vidéo ko-uchi-gaeshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1199,10 +1500,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/3Jb3tZvr9Ng">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/3Jb3tZvr9Ng/0.jpg" alt="Aperçu vidéo de ko-uchi-gari">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/3Jb3tZvr9Ng">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/3Jb3tZvr9Ng/0.jpg" alt="Aperçu vidéo de ko-uchi-gari"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F3Jb3tZvr9Ng" alt="QR code de la vidéo ko-uchi-gari"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F3Jb3tZvr9Ng" alt="QR code de la vidéo ko-uchi-gari"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1220,10 +1529,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/SnZciTAY9vc">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/SnZciTAY9vc/0.jpg" alt="Aperçu vidéo de o-guruma">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/SnZciTAY9vc">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/SnZciTAY9vc/0.jpg" alt="Aperçu vidéo de o-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FSnZciTAY9vc" alt="QR code de la vidéo o-guruma"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FSnZciTAY9vc" alt="QR code de la vidéo o-guruma"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1241,10 +1558,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/nw1ZdRjrdRI">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/nw1ZdRjrdRI/0.jpg" alt="Aperçu vidéo de okuri-ashi-barai (-harai)">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/nw1ZdRjrdRI">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/nw1ZdRjrdRI/0.jpg" alt="Aperçu vidéo de okuri-ashi-barai (-harai)"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fnw1ZdRjrdRI" alt="QR code de la vidéo okuri-ashi-barai (-harai)"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fnw1ZdRjrdRI" alt="QR code de la vidéo okuri-ashi-barai (-harai)"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1262,10 +1587,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/8ZjM3X_EANo">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/8ZjM3X_EANo/0.jpg" alt="Aperçu vidéo de o-soto-gaeshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/8ZjM3X_EANo">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/8ZjM3X_EANo/0.jpg" alt="Aperçu vidéo de o-soto-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F8ZjM3X_EANo" alt="QR code de la vidéo o-soto-gaeshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F8ZjM3X_EANo" alt="QR code de la vidéo o-soto-gaeshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1283,10 +1616,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=c-A_nP7mKAc">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/c-A_nP7mKAc/0.jpg" alt="Aperçu vidéo de o-soto-gari">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=c-A_nP7mKAc">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/c-A_nP7mKAc/0.jpg" alt="Aperçu vidéo de o-soto-gari"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dc-A_nP7mKAc" alt="QR code de la vidéo o-soto-gari"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dc-A_nP7mKAc" alt="QR code de la vidéo o-soto-gari"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1304,10 +1645,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/92KbCm6pQeI">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/92KbCm6pQeI/0.jpg" alt="Aperçu vidéo de o-soto-guruma">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/92KbCm6pQeI">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/92KbCm6pQeI/0.jpg" alt="Aperçu vidéo de o-soto-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F92KbCm6pQeI" alt="QR code de la vidéo o-soto-guruma"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F92KbCm6pQeI" alt="QR code de la vidéo o-soto-guruma"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1325,10 +1674,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/2DsVvDw7b8g">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/2DsVvDw7b8g/0.jpg" alt="Aperçu vidéo de o-soto-otoshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/2DsVvDw7b8g">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/2DsVvDw7b8g/0.jpg" alt="Aperçu vidéo de o-soto-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F2DsVvDw7b8g" alt="QR code de la vidéo o-soto-otoshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F2DsVvDw7b8g" alt="QR code de la vidéo o-soto-otoshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1346,10 +1703,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/dCyZTXyjIXE">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/dCyZTXyjIXE/0.jpg" alt="Aperçu vidéo de o-uchi-gaeshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/dCyZTXyjIXE">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/dCyZTXyjIXE/0.jpg" alt="Aperçu vidéo de o-uchi-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FdCyZTXyjIXE" alt="QR code de la vidéo o-uchi-gaeshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FdCyZTXyjIXE" alt="QR code de la vidéo o-uchi-gaeshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1367,10 +1732,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/0itJFhV9pDQ">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/0itJFhV9pDQ/0.jpg" alt="Aperçu vidéo de o-uchi-gari">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/0itJFhV9pDQ">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/0itJFhV9pDQ/0.jpg" alt="Aperçu vidéo de o-uchi-gari"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F0itJFhV9pDQ" alt="QR code de la vidéo o-uchi-gari"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F0itJFhV9pDQ" alt="QR code de la vidéo o-uchi-gari"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1388,10 +1761,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/699i--pvYmE">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/699i--pvYmE/0.jpg" alt="Aperçu vidéo de sasae-tsurikomi-ashi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/699i--pvYmE">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/699i--pvYmE/0.jpg" alt="Aperçu vidéo de sasae-tsurikomi-ashi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F699i--pvYmE" alt="QR code de la vidéo sasae-tsurikomi-ashi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F699i--pvYmE" alt="QR code de la vidéo sasae-tsurikomi-ashi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1409,10 +1790,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/GwweWqqFB5g">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/GwweWqqFB5g/0.jpg" alt="Aperçu vidéo de tsubame-gaeshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/GwweWqqFB5g">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/GwweWqqFB5g/0.jpg" alt="Aperçu vidéo de tsubame-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FGwweWqqFB5g" alt="QR code de la vidéo tsubame-gaeshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FGwweWqqFB5g" alt="QR code de la vidéo tsubame-gaeshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1430,10 +1819,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/iUpSu5J-bgw">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/iUpSu5J-bgw/0.jpg" alt="Aperçu vidéo de uchi-mata">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/iUpSu5J-bgw">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/iUpSu5J-bgw/0.jpg" alt="Aperçu vidéo de uchi-mata"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FiUpSu5J-bgw" alt="QR code de la vidéo uchi-mata"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FiUpSu5J-bgw" alt="QR code de la vidéo uchi-mata"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1479,6 +1876,7 @@
               <th class="col-dan">1D</th>
               <th class="col-dan">2D</th>
               <th class="col-dan">3D</th>
+              <th class="col-image">Image</th>
               <th class="col-video">Vidéo</th>
               <th class="col-tuto">Tuto</th>
             </tr>
@@ -1492,10 +1890,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/92zUYWBp5N8">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/92zUYWBp5N8/0.jpg" alt="Aperçu vidéo de hikikomi-gaeshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/92zUYWBp5N8">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/92zUYWBp5N8/0.jpg" alt="Aperçu vidéo de hikikomi-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F92zUYWBp5N8" alt="QR code de la vidéo hikikomi-gaeshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F92zUYWBp5N8" alt="QR code de la vidéo hikikomi-gaeshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1513,10 +1919,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/5VhduA5xkbA">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/5VhduA5xkbA/0.jpg" alt="Aperçu vidéo de sumi-gaeshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/5VhduA5xkbA">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/5VhduA5xkbA/0.jpg" alt="Aperçu vidéo de sumi-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F5VhduA5xkbA" alt="QR code de la vidéo sumi-gaeshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F5VhduA5xkbA" alt="QR code de la vidéo sumi-gaeshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1534,10 +1948,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/TmTWgrmViZc">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/TmTWgrmViZc/0.jpg" alt="Aperçu vidéo de tawara-gaeshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/TmTWgrmViZc">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/TmTWgrmViZc/0.jpg" alt="Aperçu vidéo de tawara-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FTmTWgrmViZc" alt="QR code de la vidéo tawara-gaeshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FTmTWgrmViZc" alt="QR code de la vidéo tawara-gaeshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1555,10 +1977,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/880WbHvHv6A">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/880WbHvHv6A/0.jpg" alt="Aperçu vidéo de tomoe-nage">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/880WbHvHv6A">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/880WbHvHv6A/0.jpg" alt="Aperçu vidéo de tomoe-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F880WbHvHv6A" alt="QR code de la vidéo tomoe-nage"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F880WbHvHv6A" alt="QR code de la vidéo tomoe-nage"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1576,10 +2006,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/Fgi9b8DJ5sQ">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/Fgi9b8DJ5sQ/0.jpg" alt="Aperçu vidéo de ura-nage">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/Fgi9b8DJ5sQ">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/Fgi9b8DJ5sQ/0.jpg" alt="Aperçu vidéo de ura-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FFgi9b8DJ5sQ" alt="QR code de la vidéo ura-nage"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FFgi9b8DJ5sQ" alt="QR code de la vidéo ura-nage"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1611,6 +2049,7 @@
               <th class="col-dan">1D</th>
               <th class="col-dan">2D</th>
               <th class="col-dan">3D</th>
+              <th class="col-image">Image</th>
               <th class="col-video">Vidéo</th>
               <th class="col-tuto">Tuto</th>
             </tr>
@@ -1624,10 +2063,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/Hr0cOMGBDYo">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/Hr0cOMGBDYo/0.jpg" alt="Aperçu vidéo de daki-wakare">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/Hr0cOMGBDYo">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/Hr0cOMGBDYo/0.jpg" alt="Aperçu vidéo de daki-wakare"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FHr0cOMGBDYo" alt="QR code de la vidéo daki-wakare"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FHr0cOMGBDYo" alt="QR code de la vidéo daki-wakare"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1645,10 +2092,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/6CRBGLGz9j8">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/6CRBGLGz9j8/0.jpg" alt="Aperçu vidéo de hane-makikomi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/6CRBGLGz9j8">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/6CRBGLGz9j8/0.jpg" alt="Aperçu vidéo de hane-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F6CRBGLGz9j8" alt="QR code de la vidéo hane-makikomi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F6CRBGLGz9j8" alt="QR code de la vidéo hane-makikomi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1666,10 +2121,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/VBaHzKaCXss">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/VBaHzKaCXss/0.jpg" alt="Aperçu vidéo de harai-makikomi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/VBaHzKaCXss">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/VBaHzKaCXss/0.jpg" alt="Aperçu vidéo de harai-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FVBaHzKaCXss" alt="QR code de la vidéo harai-makikomi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FVBaHzKaCXss" alt="QR code de la vidéo harai-makikomi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1684,10 +2147,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/_1eygIXLD_w">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/_1eygIXLD_w/0.jpg" alt="Aperçu vidéo de ko-uchi-makikomi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/_1eygIXLD_w">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/_1eygIXLD_w/0.jpg" alt="Aperçu vidéo de ko-uchi-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F_1eygIXLD_w" alt="QR code de la vidéo ko-uchi-makikomi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F_1eygIXLD_w" alt="QR code de la vidéo ko-uchi-makikomi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1702,10 +2173,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/DGDv2oMwmas">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/DGDv2oMwmas/0.jpg" alt="Aperçu vidéo de osoto-makikomi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/DGDv2oMwmas">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/DGDv2oMwmas/0.jpg" alt="Aperçu vidéo de osoto-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FDGDv2oMwmas" alt="QR code de la vidéo osoto-makikomi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FDGDv2oMwmas" alt="QR code de la vidéo osoto-makikomi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1723,10 +2202,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/bWG9O1BVKtQ">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/bWG9O1BVKtQ/0.jpg" alt="Aperçu vidéo de soto-makikomi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/bWG9O1BVKtQ">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/bWG9O1BVKtQ/0.jpg" alt="Aperçu vidéo de soto-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FbWG9O1BVKtQ" alt="QR code de la vidéo soto-makikomi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FbWG9O1BVKtQ" alt="QR code de la vidéo soto-makikomi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1744,10 +2231,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/3b9Me3Fohpk">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/3b9Me3Fohpk/0.jpg" alt="Aperçu vidéo de tani-otoshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/3b9Me3Fohpk">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/3b9Me3Fohpk/0.jpg" alt="Aperçu vidéo de tani-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F3b9Me3Fohpk" alt="QR code de la vidéo tani-otoshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F3b9Me3Fohpk" alt="QR code de la vidéo tani-otoshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1765,10 +2260,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=W8l0iOAqx5E">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/W8l0iOAqx5E/0.jpg" alt="Aperçu vidéo de yoko-tomoe-nage">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=W8l0iOAqx5E">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/W8l0iOAqx5E/0.jpg" alt="Aperçu vidéo de yoko-tomoe-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DW8l0iOAqx5E" alt="QR code de la vidéo yoko-tomoe-nage"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DW8l0iOAqx5E" alt="QR code de la vidéo yoko-tomoe-nage"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1783,10 +2286,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/_1eygIXLD_w">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/_1eygIXLD_w/0.jpg" alt="Aperçu vidéo de uchi-makikomi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/_1eygIXLD_w">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/_1eygIXLD_w/0.jpg" alt="Aperçu vidéo de uchi-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F_1eygIXLD_w" alt="QR code de la vidéo uchi-makikomi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F_1eygIXLD_w" alt="QR code de la vidéo uchi-makikomi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1804,10 +2315,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/jZXENTLpJCI">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/jZXENTLpJCI/0.jpg" alt="Aperçu vidéo de uchi-mata-makikomi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/jZXENTLpJCI">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/jZXENTLpJCI/0.jpg" alt="Aperçu vidéo de uchi-mata-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FjZXENTLpJCI" alt="QR code de la vidéo uchi-mata-makikomi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FjZXENTLpJCI" alt="QR code de la vidéo uchi-mata-makikomi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1825,10 +2344,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/weVOpJ63gII">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/weVOpJ63gII/0.jpg" alt="Aperçu vidéo de uki-waza">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/weVOpJ63gII">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/weVOpJ63gII/0.jpg" alt="Aperçu vidéo de uki-waza"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FweVOpJ63gII" alt="QR code de la vidéo uki-waza"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FweVOpJ63gII" alt="QR code de la vidéo uki-waza"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1846,10 +2373,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/tP1Sj1uDfSo">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/tP1Sj1uDfSo/0.jpg" alt="Aperçu vidéo de yoko-gake">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/tP1Sj1uDfSo">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/tP1Sj1uDfSo/0.jpg" alt="Aperçu vidéo de yoko-gake"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FtP1Sj1uDfSo" alt="QR code de la vidéo yoko-gake"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FtP1Sj1uDfSo" alt="QR code de la vidéo yoko-gake"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1867,10 +2402,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/MehP6I5cY2c">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/MehP6I5cY2c/0.jpg" alt="Aperçu vidéo de yoko-guruma">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/MehP6I5cY2c">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/MehP6I5cY2c/0.jpg" alt="Aperçu vidéo de yoko-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FMehP6I5cY2c" alt="QR code de la vidéo yoko-guruma"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FMehP6I5cY2c" alt="QR code de la vidéo yoko-guruma"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1888,10 +2431,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/MnNG67pF_a0">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/MnNG67pF_a0/0.jpg" alt="Aperçu vidéo de yoko-otoshi">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/MnNG67pF_a0">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/MnNG67pF_a0/0.jpg" alt="Aperçu vidéo de yoko-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FMnNG67pF_a0" alt="QR code de la vidéo yoko-otoshi"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FMnNG67pF_a0" alt="QR code de la vidéo yoko-otoshi"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1909,10 +2460,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/bp1tscHlePI">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/bp1tscHlePI/0.jpg" alt="Aperçu vidéo de yoko-wakare">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/bp1tscHlePI">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/bp1tscHlePI/0.jpg" alt="Aperçu vidéo de yoko-wakare"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fbp1tscHlePI" alt="QR code de la vidéo yoko-wakare"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fbp1tscHlePI" alt="QR code de la vidéo yoko-wakare"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1958,6 +2517,7 @@
               <th class="col-dan">1D</th>
               <th class="col-dan">2D</th>
               <th class="col-dan">3D</th>
+              <th class="col-image">Image</th>
               <th class="col-video">Vidéo</th>
               <th class="col-tuto">Tuto</th>
             </tr>
@@ -1971,10 +2531,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=NDaQuJOFBYk">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/NDaQuJOFBYk/0.jpg" alt="Aperçu vidéo de hon-gesa-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=NDaQuJOFBYk">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/NDaQuJOFBYk/0.jpg" alt="Aperçu vidéo de hon-gesa-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNDaQuJOFBYk" alt="QR code de la vidéo hon-gesa-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNDaQuJOFBYk" alt="QR code de la vidéo hon-gesa-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -1992,10 +2560,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/HFuMjOv0WN8">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/HFuMjOv0WN8/0.jpg" alt="Aperçu vidéo de kami-shiho-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/HFuMjOv0WN8">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/HFuMjOv0WN8/0.jpg" alt="Aperçu vidéo de kami-shiho-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FHFuMjOv0WN8" alt="QR code de la vidéo kami-shiho-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FHFuMjOv0WN8" alt="QR code de la vidéo kami-shiho-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2013,10 +2589,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/zQR3IOXxO_Q">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/zQR3IOXxO_Q/0.jpg" alt="Aperçu vidéo de kata-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/zQR3IOXxO_Q">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/zQR3IOXxO_Q/0.jpg" alt="Aperçu vidéo de kata-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FzQR3IOXxO_Q" alt="QR code de la vidéo kata-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FzQR3IOXxO_Q" alt="QR code de la vidéo kata-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2034,10 +2618,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/Q2fb9jaoUFQ">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/Q2fb9jaoUFQ/0.jpg" alt="Aperçu vidéo de kuzure-gesa-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/Q2fb9jaoUFQ">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/Q2fb9jaoUFQ/0.jpg" alt="Aperçu vidéo de kuzure-gesa-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FQ2fb9jaoUFQ" alt="QR code de la vidéo kuzure-gesa-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FQ2fb9jaoUFQ" alt="QR code de la vidéo kuzure-gesa-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2055,10 +2647,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/YUrogQWdwiY">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/YUrogQWdwiY/0.jpg" alt="Aperçu vidéo de kuzure-kami-shiho-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/YUrogQWdwiY">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/YUrogQWdwiY/0.jpg" alt="Aperçu vidéo de kuzure-kami-shiho-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FYUrogQWdwiY" alt="QR code de la vidéo kuzure-kami-shiho-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FYUrogQWdwiY" alt="QR code de la vidéo kuzure-kami-shiho-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2076,10 +2676,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/55-rFmBx53g">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/55-rFmBx53g/0.jpg" alt="Aperçu vidéo de kuzure-tate-shiho-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/55-rFmBx53g">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/55-rFmBx53g/0.jpg" alt="Aperçu vidéo de kuzure-tate-shiho-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F55-rFmBx53g" alt="QR code de la vidéo kuzure-tate-shiho-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F55-rFmBx53g" alt="QR code de la vidéo kuzure-tate-shiho-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2094,10 +2702,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/54fQM7dYz0M?si=9DtSRV6XsOjN1kH0">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/54fQM7dYz0M/0.jpg" alt="Aperçu vidéo de kuzure-yoko-shiho-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/54fQM7dYz0M?si=9DtSRV6XsOjN1kH0">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/54fQM7dYz0M/0.jpg" alt="Aperçu vidéo de kuzure-yoko-shiho-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F54fQM7dYz0M%3Fsi%3D9DtSRV6XsOjN1kH0" alt="QR code de la vidéo kuzure-yoko-shiho-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F54fQM7dYz0M%3Fsi%3D9DtSRV6XsOjN1kH0" alt="QR code de la vidéo kuzure-yoko-shiho-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2112,10 +2728,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=XjWzNxlKH1M">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/XjWzNxlKH1M/0.jpg" alt="Aperçu vidéo de tate-shiho-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=XjWzNxlKH1M">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/XjWzNxlKH1M/0.jpg" alt="Aperçu vidéo de tate-shiho-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXjWzNxlKH1M" alt="QR code de la vidéo tate-shiho-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXjWzNxlKH1M" alt="QR code de la vidéo tate-shiho-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2130,10 +2754,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/SBapox2M2dE">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/SBapox2M2dE/0.jpg" alt="Aperçu vidéo de ushiro-kesa-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/SBapox2M2dE">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/SBapox2M2dE/0.jpg" alt="Aperçu vidéo de ushiro-kesa-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FSBapox2M2dE" alt="QR code de la vidéo ushiro-kesa-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FSBapox2M2dE" alt="QR code de la vidéo ushiro-kesa-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2148,10 +2780,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/TT7XJVSEQxA">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/TT7XJVSEQxA/0.jpg" alt="Aperçu vidéo de yoko-shiho-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/TT7XJVSEQxA">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/TT7XJVSEQxA/0.jpg" alt="Aperçu vidéo de yoko-shiho-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FTT7XJVSEQxA" alt="QR code de la vidéo yoko-shiho-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FTT7XJVSEQxA" alt="QR code de la vidéo yoko-shiho-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2166,10 +2806,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=e5HrhANfDcU">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/e5HrhANfDcU/0.jpg" alt="Aperçu vidéo de makura-gesa-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=e5HrhANfDcU">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/e5HrhANfDcU/0.jpg" alt="Aperçu vidéo de makura-gesa-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3De5HrhANfDcU" alt="QR code de la vidéo makura-gesa-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3De5HrhANfDcU" alt="QR code de la vidéo makura-gesa-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2212,6 +2860,7 @@
               <th class="col-dan">1D</th>
               <th class="col-dan">2D</th>
               <th class="col-dan">3D</th>
+              <th class="col-image">Image</th>
               <th class="col-video">Vidéo</th>
               <th class="col-tuto">Tuto</th>
             </tr>
@@ -2225,10 +2874,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/AeeoSxU2g9Q?si=nqyBRNBySySO8GiQ">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/AeeoSxU2g9Q/0.jpg" alt="Aperçu vidéo de ashi-gatame-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/AeeoSxU2g9Q?si=nqyBRNBySySO8GiQ">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/AeeoSxU2g9Q/0.jpg" alt="Aperçu vidéo de ashi-gatame-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FAeeoSxU2g9Q%3Fsi%3DnqyBRNBySySO8GiQ" alt="QR code de la vidéo ashi-gatame-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FAeeoSxU2g9Q%3Fsi%3DnqyBRNBySySO8GiQ" alt="QR code de la vidéo ashi-gatame-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2243,10 +2900,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/t3tQriIPdlI">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/t3tQriIPdlI/0.jpg" alt="Aperçu vidéo de gyaku-juji-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/t3tQriIPdlI">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/t3tQriIPdlI/0.jpg" alt="Aperçu vidéo de gyaku-juji-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Ft3tQriIPdlI" alt="QR code de la vidéo gyaku-juji-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Ft3tQriIPdlI" alt="QR code de la vidéo gyaku-juji-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2264,10 +2929,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/9f0n8jez7iA">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/9f0n8jez7iA/0.jpg" alt="Aperçu vidéo de hadaka-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/9f0n8jez7iA">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/9f0n8jez7iA/0.jpg" alt="Aperçu vidéo de hadaka-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F9f0n8jez7iA" alt="QR code de la vidéo hadaka-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F9f0n8jez7iA" alt="QR code de la vidéo hadaka-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2285,10 +2958,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=yaTGgRjnwB8">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/yaTGgRjnwB8/0.jpg" alt="Aperçu vidéo de kata-ha-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=yaTGgRjnwB8">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/yaTGgRjnwB8/0.jpg" alt="Aperçu vidéo de kata-ha-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyaTGgRjnwB8" alt="QR code de la vidéo kata-ha-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyaTGgRjnwB8" alt="QR code de la vidéo kata-ha-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2306,10 +2987,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/3VZVUAmiMD8">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/3VZVUAmiMD8/0.jpg" alt="Aperçu vidéo de kata-juji-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/3VZVUAmiMD8">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/3VZVUAmiMD8/0.jpg" alt="Aperçu vidéo de kata-juji-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F3VZVUAmiMD8" alt="QR code de la vidéo kata-juji-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F3VZVUAmiMD8" alt="QR code de la vidéo kata-juji-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2327,10 +3016,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/cHeIs-fSqwE">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/cHeIs-fSqwE/0.jpg" alt="Aperçu vidéo de kata-te-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/cHeIs-fSqwE">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/cHeIs-fSqwE/0.jpg" alt="Aperçu vidéo de kata-te-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FcHeIs-fSqwE" alt="QR code de la vidéo kata-te-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FcHeIs-fSqwE" alt="QR code de la vidéo kata-te-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2348,10 +3045,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=bgyM7sYN6Ug">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/bgyM7sYN6Ug/0.jpg" alt="Aperçu vidéo de morote-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=bgyM7sYN6Ug">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/bgyM7sYN6Ug/0.jpg" alt="Aperçu vidéo de morote-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbgyM7sYN6Ug" alt="QR code de la vidéo morote-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbgyM7sYN6Ug" alt="QR code de la vidéo morote-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2366,10 +3071,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/k2cHry9HByQ">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/k2cHry9HByQ/0.jpg" alt="Aperçu vidéo de nami-juji-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/k2cHry9HByQ">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/k2cHry9HByQ/0.jpg" alt="Aperçu vidéo de nami-juji-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fk2cHry9HByQ" alt="QR code de la vidéo nami-juji-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fk2cHry9HByQ" alt="QR code de la vidéo nami-juji-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2387,10 +3100,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/EiqyoVcIAi8">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/EiqyoVcIAi8/0.jpg" alt="Aperçu vidéo de okuri-eri-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/EiqyoVcIAi8">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/EiqyoVcIAi8/0.jpg" alt="Aperçu vidéo de okuri-eri-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FEiqyoVcIAi8" alt="QR code de la vidéo okuri-eri-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FEiqyoVcIAi8" alt="QR code de la vidéo okuri-eri-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2408,10 +3129,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=-RHC4V7TQiY">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/-RHC4V7TQiY/0.jpg" alt="Aperçu vidéo de ryo-te-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=-RHC4V7TQiY">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/-RHC4V7TQiY/0.jpg" alt="Aperçu vidéo de ryo-te-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-RHC4V7TQiY" alt="QR code de la vidéo ryo-te-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-RHC4V7TQiY" alt="QR code de la vidéo ryo-te-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2429,10 +3158,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/lq1CUBRAm7s">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/lq1CUBRAm7s/0.jpg" alt="Aperçu vidéo de sankaku-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/lq1CUBRAm7s">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/lq1CUBRAm7s/0.jpg" alt="Aperçu vidéo de sankaku-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Flq1CUBRAm7s" alt="QR code de la vidéo sankaku-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Flq1CUBRAm7s" alt="QR code de la vidéo sankaku-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2450,10 +3187,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/E3nvQzClcAU">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/E3nvQzClcAU/0.jpg" alt="Aperçu vidéo de sode-guruma-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/E3nvQzClcAU">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/E3nvQzClcAU/0.jpg" alt="Aperçu vidéo de sode-guruma-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FE3nvQzClcAU" alt="QR code de la vidéo sode-guruma-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FE3nvQzClcAU" alt="QR code de la vidéo sode-guruma-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2471,10 +3216,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/dKKpnD3eLcY">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/dKKpnD3eLcY/0.jpg" alt="Aperçu vidéo de tsukkomi-jime">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/dKKpnD3eLcY">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/dKKpnD3eLcY/0.jpg" alt="Aperçu vidéo de tsukkomi-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FdKKpnD3eLcY" alt="QR code de la vidéo tsukkomi-jime"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FdKKpnD3eLcY" alt="QR code de la vidéo tsukkomi-jime"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2520,6 +3273,7 @@
               <th class="col-dan">1D</th>
               <th class="col-dan">2D</th>
               <th class="col-dan">3D</th>
+              <th class="col-image">Image</th>
               <th class="col-video">Vidéo</th>
               <th class="col-tuto">Tuto</th>
             </tr>
@@ -2533,10 +3287,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/ClY7g_pX-4s">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/ClY7g_pX-4s/0.jpg" alt="Aperçu vidéo de ude-hishigi-ashi-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/ClY7g_pX-4s">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/ClY7g_pX-4s/0.jpg" alt="Aperçu vidéo de ude-hishigi-ashi-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FClY7g_pX-4s" alt="QR code de la vidéo ude-hishigi-ashi-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FClY7g_pX-4s" alt="QR code de la vidéo ude-hishigi-ashi-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2554,10 +3316,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/ZzEycg8R_9M">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/ZzEycg8R_9M/0.jpg" alt="Aperçu vidéo de ude-hishigi-hara-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/ZzEycg8R_9M">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/ZzEycg8R_9M/0.jpg" alt="Aperçu vidéo de ude-hishigi-hara-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FZzEycg8R_9M" alt="QR code de la vidéo ude-hishigi-hara-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FZzEycg8R_9M" alt="QR code de la vidéo ude-hishigi-hara-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2575,10 +3345,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/H2HtAJdiJcE">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/H2HtAJdiJcE/0.jpg" alt="Aperçu vidéo de ude-hishigi-hiza-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/H2HtAJdiJcE">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/H2HtAJdiJcE/0.jpg" alt="Aperçu vidéo de ude-hishigi-hiza-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FH2HtAJdiJcE" alt="QR code de la vidéo ude-hishigi-hiza-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FH2HtAJdiJcE" alt="QR code de la vidéo ude-hishigi-hiza-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2596,10 +3374,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/OWgSOlCuMXw">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/OWgSOlCuMXw/0.jpg" alt="Aperçu vidéo de ude-hishigi-juji-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/OWgSOlCuMXw">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/OWgSOlCuMXw/0.jpg" alt="Aperçu vidéo de ude-hishigi-juji-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FOWgSOlCuMXw" alt="QR code de la vidéo ude-hishigi-juji-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FOWgSOlCuMXw" alt="QR code de la vidéo ude-hishigi-juji-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2617,10 +3403,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/WefAmW4azhk">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/WefAmW4azhk/0.jpg" alt="Aperçu vidéo de ude-hishigi-sankaku-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/WefAmW4azhk">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/WefAmW4azhk/0.jpg" alt="Aperçu vidéo de ude-hishigi-sankaku-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FWefAmW4azhk" alt="QR code de la vidéo ude-hishigi-sankaku-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FWefAmW4azhk" alt="QR code de la vidéo ude-hishigi-sankaku-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2638,10 +3432,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/SBf0aTma1VI">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/SBf0aTma1VI/0.jpg" alt="Aperçu vidéo de ude-hishigi-ude-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/SBf0aTma1VI">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/SBf0aTma1VI/0.jpg" alt="Aperçu vidéo de ude-hishigi-ude-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FSBf0aTma1VI" alt="QR code de la vidéo ude-hishigi-ude-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FSBf0aTma1VI" alt="QR code de la vidéo ude-hishigi-ude-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2659,10 +3461,18 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/8F5p1zuJRG0">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/8F5p1zuJRG0/0.jpg" alt="Aperçu vidéo de ude-hishigi-waki-gatame">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/8F5p1zuJRG0">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/8F5p1zuJRG0/0.jpg" alt="Aperçu vidéo de ude-hishigi-waki-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F8F5p1zuJRG0" alt="QR code de la vidéo ude-hishigi-waki-gatame"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F8F5p1zuJRG0" alt="QR code de la vidéo ude-hishigi-waki-gatame"></span>
                   </a></div>
               </td>
               <td class="col-tuto">
@@ -2680,10 +3490,18 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
+              <td class="col-image">
+                <div class="media-links"><a class="media-link" href="https://youtu.be/AIlTvZb4RlE">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="https://img.youtube.com/vi/AIlTvZb4RlE/0.jpg" alt="Aperçu vidéo de ude-garami">
+                    </span>
+                  </a></div>
+              </td>
               <td class="col-video">
                 <div class="media-links"><a class="media-link" href="https://youtu.be/AIlTvZb4RlE">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video"><img class="media-link-preview" src="https://img.youtube.com/vi/AIlTvZb4RlE/0.jpg" alt="Aperçu vidéo de ude-garami"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FAIlTvZb4RlE" alt="QR code de la vidéo ude-garami"></span>
+                    <span class="media-link-body"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FAIlTvZb4RlE" alt="QR code de la vidéo ude-garami"></span>
                   </a></div>
               </td>
               <td class="col-tuto">

@@ -137,11 +137,12 @@
 
   .col-technique { width: 16%; }
   .col-kanji { width: 13%; text-align: center; }
-  .col-description { width: 27%; }
-  .col-translation { width: 16%; }
+  .col-description { width: 24%; }
+  .col-translation { width: 14%; }
   .col-dan { width: 4.5%; text-align: center; }
-  .col-video { width: 7.25%; text-align: center; }
-  .col-tuto { width: 7.25%; text-align: center; }
+  .col-image { width: 9%; text-align: center; }
+  .col-video { width: 5.5%; text-align: center; }
+  .col-tuto { width: 5.5%; text-align: center; }
 
   .technique-name {
     font-weight: 700;
@@ -198,7 +199,7 @@
   .media-link-preview {
     display: block;
     width: 100%;
-    max-width: 220px;
+    max-width: 180px;
     border: 1px solid var(--line);
     border-radius: 6px;
   }
@@ -217,7 +218,7 @@
     width: 100%;
   }
 
-  .media-link-body--video {
+  .media-link-body--image {
     align-items: center;
   }
 
@@ -293,11 +294,12 @@
 
     .col-technique { width: 16%; }
     .col-kanji { width: 13%; }
-    .col-description { width: 29%; }
-    .col-translation { width: 16%; }
+    .col-description { width: 25%; }
+    .col-translation { width: 15%; }
     .col-dan { width: 4%; }
-    .col-video { width: 7%; }
-    .col-tuto { width: 7%; }
+    .col-image { width: 10%; }
+    .col-video { width: 5.5%; }
+    .col-tuto { width: 5.5%; }
 
     .media-links {
       gap: 2px;
@@ -314,7 +316,7 @@
     }
 
     .media-link-preview {
-      max-width: 104px;
+      max-width: 92px;
       border-radius: 3px;
     }
 
@@ -371,6 +373,7 @@
               <th class="col-dan">1D</th>
               <th class="col-dan">2D</th>
               <th class="col-dan">3D</th>
+              <th class="col-image">Image</th>
               <th class="col-video">Vidéo</th>
               <th class="col-tuto">Tuto</th>
             </tr>
@@ -391,13 +394,24 @@
               <td class="col-dan">{%- if item['fr-1-dan'] == item.technique -%}<span class="dan-hit">●</span>{%- else -%}<span class="dan-miss">·</span>{%- endif -%}</td>
               <td class="col-dan">{%- if item['fr-2-dan'] == item.technique -%}<span class="dan-hit">●</span>{%- else -%}<span class="dan-miss">·</span>{%- endif -%}</td>
               <td class="col-dan">{%- if item['fr-3-dan'] == item.technique -%}<span class="dan-hit">●</span>{%- else -%}<span class="dan-miss">·</span>{%- endif -%}</td>
+              <td class="col-image">
+                <div class="media-links">
+                  {%- if item.video_thumbnail_url -%}
+                  <a class="media-link" href="{{ item.video_url or item.video_thumbnail_url }}">
+                    <span class="media-link-label">Image</span>
+                    <span class="media-link-body media-link-body--image">
+                      <img class="media-link-preview" src="{{ item.video_thumbnail_url }}" alt="Aperçu vidéo de {{ item.technique }}">
+                    </span>
+                  </a>
+                  {%- endif -%}
+                </div>
+              </td>
               <td class="col-video">
                 <div class="media-links">
                   {%- if item.video_url -%}
                   <a class="media-link" href="{{ item.video_url }}">
                     <span class="media-link-label">Vidéo</span>
-                    <span class="media-link-body media-link-body--video">
-                      {%- if item.video_thumbnail_url -%}<img class="media-link-preview" src="{{ item.video_thumbnail_url }}" alt="Aperçu vidéo de {{ item.technique }}">{%- endif -%}
+                    <span class="media-link-body">
                       {%- if item.video_qrcode_url -%}<img class="media-link-qrcode" src="{{ item.video_qrcode_url }}" alt="QR code de la vidéo {{ item.technique }}">{%- endif -%}
                     </span>
                   </a>
