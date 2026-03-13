@@ -198,7 +198,7 @@
   .media-link-preview {
     display: block;
     width: 100%;
-    max-width: 150px;
+    max-width: 220px;
     border: 1px solid var(--line);
     border-radius: 6px;
   }
@@ -207,6 +207,18 @@
     display: block;
     width: 76px;
     height: 76px;
+  }
+
+  .media-link-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .media-link-body--video {
+    align-items: center;
   }
 
   .sources {
@@ -302,13 +314,17 @@
     }
 
     .media-link-preview {
-      max-width: 84px;
+      max-width: 104px;
       border-radius: 3px;
     }
 
     .media-link-qrcode {
       width: 42px;
       height: 42px;
+    }
+
+    .media-link-body {
+      gap: 4px;
     }
   }
 </style>
@@ -380,8 +396,10 @@
                   {%- if item.video_url -%}
                   <a class="media-link" href="{{ item.video_url }}">
                     <span class="media-link-label">Vidéo</span>
-                    {%- if item.video_thumbnail_url -%}<img class="media-link-preview" src="{{ item.video_thumbnail_url }}" alt="Aperçu vidéo de {{ item.technique }}">{%- endif -%}
-                    {%- if item.video_qrcode_url -%}<img class="media-link-qrcode" src="{{ item.video_qrcode_url }}" alt="QR code de la vidéo {{ item.technique }}">{%- endif -%}
+                    <span class="media-link-body media-link-body--video">
+                      {%- if item.video_thumbnail_url -%}<img class="media-link-preview" src="{{ item.video_thumbnail_url }}" alt="Aperçu vidéo de {{ item.technique }}">{%- endif -%}
+                      {%- if item.video_qrcode_url -%}<img class="media-link-qrcode" src="{{ item.video_qrcode_url }}" alt="QR code de la vidéo {{ item.technique }}">{%- endif -%}
+                    </span>
                   </a>
                   {%- endif -%}
                 </div>
@@ -391,7 +409,9 @@
                   {%- if item.tutorial_url -%}
                   <a class="media-link" href="{{ item.tutorial_url }}">
                     <span class="media-link-label">Tuto</span>
-                    {%- if item.tutorial_qrcode_url -%}<img class="media-link-qrcode" src="{{ item.tutorial_qrcode_url }}" alt="QR code du tutoriel {{ item.technique }}">{%- endif -%}
+                    <span class="media-link-body">
+                      {%- if item.tutorial_qrcode_url -%}<img class="media-link-qrcode" src="{{ item.tutorial_qrcode_url }}" alt="QR code du tutoriel {{ item.technique }}">{%- endif -%}
+                    </span>
                   </a>
                   {%- endif -%}
                 </div>
