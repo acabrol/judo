@@ -28,20 +28,37 @@ french: {{items[0]['fr-subcategory-translation']}}
   {%- if 'dan' in key -%}
     {%- if value == item.technique -%}
       &#10004;
-    {%- elif value!=item.technique and value|string!='nan' -%}
+    {%- elif value -%}
       &#10008;
     {%- else -%}
       &nbsp;  {# Empty cell for better table formatting #}
     {%- endif -%}
   {%- else -%}
     {%- if key=='kanji' -%}
-    <ruby>{{ value }}<rt>{{item['furigana']}}</rt></ruby>
+    {%- if item['furigana'] -%}
+    <ruby>{{ value }}<rt>{{ item['furigana'] }}</rt></ruby>
+    {%- else -%}
+    {{ value }}
+    {%- endif -%}
     {%- elif key=='furigana' -%}
     {%- else -%}
     {{ value }}
     {%- endif -%}
   {%- endif -%}
-| {% endfor %} <a href="{{ item.tutorial }}"><img src="{{ item.picture }}" alt="Tutorial" style="width: 300px; height: auto;"></a>|<a href="https://youtu.be/{{ item.video_id }}"><img src="https://img.youtube.com/vi/{{ item.video_id }}/0.jpg" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>|
+| {% endfor %}
+  {%- if item.tutorial_url and item.picture -%}
+  <a href="{{ item.tutorial_url }}"><img src="{{ item.picture }}" alt="Tutorial" style="width: 300px; height: auto;"></a>
+  {%- elif item.picture -%}
+  <img src="{{ item.picture }}" alt="Illustration" style="width: 300px; height: auto;">
+  {%- else -%}
+  &nbsp;
+  {%- endif -%}
+| {%- if item.video_url and item.video_thumbnail_url -%}
+  <a href="{{ item.video_url }}"><img src="{{ item.video_thumbnail_url }}" alt="Video Thumbnail" style="width: 300px; height: auto;"></a>
+  {%- else -%}
+  &nbsp;
+  {%- endif -%}
+|
 {% endfor %}
 {%- endfor %}
 

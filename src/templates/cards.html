@@ -3,8 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Detailed Judo Techniques Cards</title>
-<script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script> <!-- QR Code library -->
 <style>
+  @page {
+    size: A4 portrait;
+    margin: 10mm;
+  }
   body {
     display: flex;
     flex-direction: column;
@@ -15,21 +18,22 @@
     background-color: #f0f0f0;
   }
   .a4 {
-    width: 200mm;
-    height: 267mm;
-    margin: 10mm auto 10mm;
+    width: 190mm;
+    min-height: 277mm;
+    margin: 0 auto 10mm;
     border: 1px dashed #bbb;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 10px;
+    gap: 4mm;
     background-color: white;
+    break-after: page;
     page-break-after: always;
   }
   .cell {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 4mm;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -39,6 +43,11 @@
     color: #333;
     position: relative; /* Allow positioning of QR codes */
     height: 100%; /* Full height of grid area */
+    overflow: hidden;
+  }
+  .cell--empty {
+    border-style: dashed;
+    background: #fafafa;
   }
   .container {
     font-size: 0;
@@ -73,99 +82,99 @@
     width: 90%;
     height: auto;
     margin: 0 0 0 0;
+    object-fit: contain;
   }
   .qrcode {
     position: absolute;
-    bottom: 10px;
+    bottom: 4mm;
     width: 25%;
     height: auto;
   }
   .tutorialQR {
-    left: 10px;
+    left: 4mm;
   }
   .videoQR {
-    right: 10px;
+    right: 4mm;
   }
   @media print {
+    body {
+      background: white;
+    }
     .a4 {
       border: none;
+      margin: 0;
     }
   }
 </style>
-<script>
-    function generateQRCode() {
-        // Find all elements with id = qrcode
-        var elements = document.querySelectorAll('[id="qrcode"]');
-
-        // Loop through each element
-        elements.forEach(function(element) {
-            var src = element.getAttribute('src'); // Get the src attribute
-            new QRCode(element, {
-    text: src,
-    width: 64,
-    height: 64
-  });
-
-        });
-    }
-
-    // Call the function when the page is loaded
-    window.onload = generateQRCode;
-</script>
 </head>
 <body>
 {%- for main_cat, sub_cats in data.items() -%}
 {%- for sub_cat, items in sub_cats.items() -%}
 {%- if items|length > 0 -%}
 {%- for i in range(0, items|length, 6) -%}
-<div class="a4" id="front">
-    {%- for j in range(i, i+6) if items[j] -%}
+{%- set page_items = items[i:i+6] -%}
+{%- set first_row = page_items[0:3] -%}
+{%- set second_row = page_items[3:6] -%}
+<div class="a4 a4--front">
+    {%- for item in page_items -%}
       <div class="cell">
-        <div>2024-2025 DAN:&nbsp;{%- if items[j].technique==items[j]['fr-1-dan'] -%}1&nbsp;{%- endif -%}{%- if items[j].technique==items[j]['fr-2-dan'] -%}2&nbsp;{%- endif -%}{%- if items[j].technique==items[j]['fr-3-dan'] -%}3&nbsp;{%- endif -%}</div>
+        <div>2024-2025 DAN:&nbsp;{%- if item.technique==item['fr-1-dan'] -%}1&nbsp;{%- endif -%}{%- if item.technique==item['fr-2-dan'] -%}2&nbsp;{%- endif -%}{%- if item.technique==item['fr-3-dan'] -%}3&nbsp;{%- endif -%}</div>
         <div><a href="https://www.blagnacartsmartiaux.fr"><img src="https://www.blagnacartsmartiaux.fr/site/wp-content/uploads/2020/05/cropped-bam-wide-152x51.png"/></a></div>
-        <div class="technique-name">{{ items[j].technique }}</div>
+        <div class="technique-name">{{ item.technique }}</div>
         <div class="kanji">
-          <span class="furigana">{{ items[j].furigana }}</span>
-          {{ items[j].kanji }}
+          {%- if item.furigana -%}<span class="furigana">{{ item.furigana }}</span>{%- endif -%}
+          {{ item.kanji }}
         </div>
       </div>
     {%- endfor -%}
+    {%- for _ in range(6 - (page_items|length)) -%}
+      <div class="cell cell--empty"></div>
+    {%- endfor -%}
   </div>
-<div class="a4" id="back">
-  <br/>
-  {%- for j in range(i, i+3)|reverse if items[j] -%}
+<div class="a4 a4--back">
+  {%- for _ in range(3 - (first_row|length)) -%}
+    <div class="cell cell--empty"></div>
+  {%- endfor -%}
+  {%- for item in first_row|reverse -%}
     <div class="cell">
-      <div class="technique-category">{{ items[j]['subcategory-name'] }}</div>
-      <div class="technique-name">{{ items[j].technique }}</div>
+      <div class="technique-category">{{ item['subcategory-name'] }}</div>
+      <div class="technique-name">{{ item.technique }}</div>
         <div class="kanji">
-          <span class="furigana">{{ items[j].furigana }}</span>
-          {{ items[j].kanji }}
+          {%- if item.furigana -%}<span class="furigana">{{ item.furigana }}</span>{%- endif -%}
+          {{ item.kanji }}
         </div>
-        {%- if items[j]['fr-translation'] -%}<div class="translation">{{ items[j]['fr-translation'] }}</div>{%- endif -%}
-        {%- if items[j]['fr-description'] -%}<div class="description">{{ items[j]['fr-description'] }}</div>{%- endif -%}
-      <img class="technique-image" src="{{ items[j].picture }}" alt="{{ items[j].technique }} Technique">
+        {%- if item['fr-translation'] -%}<div class="translation">{{ item['fr-translation'] }}</div>{%- endif -%}
+        {%- if item['fr-description'] -%}<div class="description">{{ item['fr-description'] }}</div>{%- endif -%}
+      {%- if item.picture -%}
+      <img class="technique-image" src="{{ item.picture }}" alt="{{ item.technique }} Technique">
+      {%- endif -%}
 
     <div class="container">
-      {%- if items[j].tutorial -%}<img  class="qrcode tutorialQR" alt="{{items[j].tutorial}}" src="data:image/png;base64,{{ items[j]['tutorial_qrcode'] }}"/>{%- endif -%}
-      {%- if items[j].video -%}<img  class="qrcode videoQR" alt="{{items[j].video}}" src="data:image/png;base64,{{ items[j]['video_qrcode'] }}"/>{%- endif -%}
+      {%- if item['tutorial_qrcode_url'] -%}<img  class="qrcode tutorialQR" alt="{{ item.tutorial_url }}" src="{{ item['tutorial_qrcode_url'] }}"/>{%- endif -%}
+      {%- if item['video_qrcode_url'] -%}<img  class="qrcode videoQR" alt="{{ item.video_url }}" src="{{ item['video_qrcode_url'] }}"/>{%- endif -%}
     </div>
     </div>
   {%- endfor -%}
-  {%- for j in range(i+3, i+6)|reverse if items[j] -%}
+  {%- for _ in range(3 - (second_row|length)) -%}
+    <div class="cell cell--empty"></div>
+  {%- endfor -%}
+  {%- for item in second_row|reverse -%}
     <div class="cell">
-        <div class="technique-category">{{ items[j]['subcategory-name'] }}</div>
-        <div class="technique-name">{{ items[j].technique }}</div>
+        <div class="technique-category">{{ item['subcategory-name'] }}</div>
+        <div class="technique-name">{{ item.technique }}</div>
             <div class="kanji">
-            <span class="furigana">{{ items[j].furigana }}</span>
-            {{ items[j].kanji }}
+            {%- if item.furigana -%}<span class="furigana">{{ item.furigana }}</span>{%- endif -%}
+            {{ item.kanji }}
             </div>
-            {%- if items[j]['fr-translation'] -%}<div class="translation">{{ items[j]['fr-translation'] }}</div>{%- endif -%}
-            {%- if items[j]['fr-description'] -%}<div class="description">{{ items[j]['fr-description'] }}</div>{%- endif -%}
-        <img class="technique-image" src="{{ items[j].picture }}" alt="{{ items[j].technique }} Technique">
+            {%- if item['fr-translation'] -%}<div class="translation">{{ item['fr-translation'] }}</div>{%- endif -%}
+            {%- if item['fr-description'] -%}<div class="description">{{ item['fr-description'] }}</div>{%- endif -%}
+        {%- if item.picture -%}
+        <img class="technique-image" src="{{ item.picture }}" alt="{{ item.technique }} Technique">
+        {%- endif -%}
 
         <div class="container">
-        {%- if items[j].tutorial -%}<img class="qrcode tutorialQR" alt="{{items[j].tutorial}}" src="data:image/png;base64,{{ items[j]['tutorial_qrcode'] }}"/>{%- endif -%}
-        {%- if items[j].video -%}<img class="qrcode videoQR" alt="{{items[j].video}}" src="data:image/png;base64,{{ items[j]['video_qrcode'] }}"/>{%- endif -%}
+        {%- if item['tutorial_qrcode_url'] -%}<img class="qrcode tutorialQR" alt="{{ item.tutorial_url }}" src="{{ item['tutorial_qrcode_url'] }}"/>{%- endif -%}
+        {%- if item['video_qrcode_url'] -%}<img class="qrcode videoQR" alt="{{ item.video_url }}" src="{{ item['video_qrcode_url'] }}"/>{%- endif -%}
         </div>
     </div>
   {%- endfor -%}
