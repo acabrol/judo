@@ -26,8 +26,6 @@ The generators read `data/techniques/techniques.csv` and update `docs/techniques
 
 ## Sources
 
-[Technical Referential French Federation of Judo](https://www.ffjudo.com/uploads/elfinder/CULTURE/GRADES%20CSDGE/REFERENTIEL%20TECHNIQUE%202024-2025%20GL.pdf)
-
-[Jury Memento French Federation of Judo](https://www.ffjudo.com/uploads/elfinder/CULTURE/GRADES%20CSDGE/M%C3%A9mento%202023-2024.pdf)
+[Technical Referential French Federation of Judo](https://www.ffjudo.com/resource-file/document/1762434499_e99cb17966bb166426a2.pdf)
 
 [Kodokan dictionary Japanese - English](https://archive.org/details/kodokan-new-japanese-english-dictionary-of-judo-etc./)
