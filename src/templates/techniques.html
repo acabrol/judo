@@ -135,12 +135,13 @@
     text-transform: uppercase;
   }
 
-  .col-technique { width: 17%; }
-  .col-kanji { width: 15%; text-align: center; }
-  .col-description { width: 30%; }
-  .col-translation { width: 18%; }
+  .col-technique { width: 16%; }
+  .col-kanji { width: 13%; text-align: center; }
+  .col-description { width: 27%; }
+  .col-translation { width: 16%; }
   .col-dan { width: 4.5%; text-align: center; }
-  .col-links { width: 6.5%; text-align: center; }
+  .col-video { width: 7.25%; text-align: center; }
+  .col-tuto { width: 7.25%; text-align: center; }
 
   .technique-name {
     font-weight: 700;
@@ -250,8 +251,7 @@
     }
 
     .screen-note,
-    .col-links,
-    .media-links {
+    .sources {
       display: none;
     }
 
@@ -276,13 +276,39 @@
     }
 
     th, td {
-      padding: 2.1mm 2.2mm;
+      padding: 1.4mm 1.6mm;
     }
 
-    .sources {
-      border: 0;
-      padding: 0;
-      background: transparent;
+    .col-technique { width: 16%; }
+    .col-kanji { width: 13%; }
+    .col-description { width: 29%; }
+    .col-translation { width: 16%; }
+    .col-dan { width: 4%; }
+    .col-video { width: 7%; }
+    .col-tuto { width: 7%; }
+
+    .media-links {
+      gap: 2px;
+    }
+
+    .media-link {
+      gap: 2px;
+      padding: 2px;
+      border-radius: 4px;
+    }
+
+    .media-link-label {
+      display: none;
+    }
+
+    .media-link-preview {
+      max-width: 84px;
+      border-radius: 3px;
+    }
+
+    .media-link-qrcode {
+      width: 42px;
+      height: 42px;
     }
   }
 </style>
@@ -329,7 +355,8 @@
               <th class="col-dan">1D</th>
               <th class="col-dan">2D</th>
               <th class="col-dan">3D</th>
-              <th class="col-links">Liens</th>
+              <th class="col-video">Vidéo</th>
+              <th class="col-tuto">Tuto</th>
             </tr>
           </thead>
           <tbody>
@@ -348,19 +375,23 @@
               <td class="col-dan">{%- if item['fr-1-dan'] == item.technique -%}<span class="dan-hit">●</span>{%- else -%}<span class="dan-miss">·</span>{%- endif -%}</td>
               <td class="col-dan">{%- if item['fr-2-dan'] == item.technique -%}<span class="dan-hit">●</span>{%- else -%}<span class="dan-miss">·</span>{%- endif -%}</td>
               <td class="col-dan">{%- if item['fr-3-dan'] == item.technique -%}<span class="dan-hit">●</span>{%- else -%}<span class="dan-miss">·</span>{%- endif -%}</td>
-              <td class="col-links">
+              <td class="col-video">
                 <div class="media-links">
-                  {%- if item.tutorial_url -%}
-                  <a class="media-link" href="{{ item.tutorial_url }}">
-                    <span class="media-link-label">Tuto</span>
-                    {%- if item.tutorial_qrcode_url -%}<img class="media-link-qrcode" src="{{ item.tutorial_qrcode_url }}" alt="QR code du tutoriel {{ item.technique }}">{%- endif -%}
-                  </a>
-                  {%- endif -%}
                   {%- if item.video_url -%}
                   <a class="media-link" href="{{ item.video_url }}">
                     <span class="media-link-label">Vidéo</span>
                     {%- if item.video_thumbnail_url -%}<img class="media-link-preview" src="{{ item.video_thumbnail_url }}" alt="Aperçu vidéo de {{ item.technique }}">{%- endif -%}
                     {%- if item.video_qrcode_url -%}<img class="media-link-qrcode" src="{{ item.video_qrcode_url }}" alt="QR code de la vidéo {{ item.technique }}">{%- endif -%}
+                  </a>
+                  {%- endif -%}
+                </div>
+              </td>
+              <td class="col-tuto">
+                <div class="media-links">
+                  {%- if item.tutorial_url -%}
+                  <a class="media-link" href="{{ item.tutorial_url }}">
+                    <span class="media-link-label">Tuto</span>
+                    {%- if item.tutorial_qrcode_url -%}<img class="media-link-qrcode" src="{{ item.tutorial_qrcode_url }}" alt="QR code du tutoriel {{ item.technique }}">{%- endif -%}
                   </a>
                   {%- endif -%}
                 </div>
