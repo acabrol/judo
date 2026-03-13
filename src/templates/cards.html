@@ -145,8 +145,8 @@
         </div>
         {%- if item['fr-translation'] -%}<div class="translation">{{ item['fr-translation'] }}</div>{%- endif -%}
         {%- if item['fr-description'] -%}<div class="description">{{ item['fr-description'] }}</div>{%- endif -%}
-      {%- if item.picture -%}
-      <img class="technique-image" src="{{ item.picture }}" alt="{{ item.technique }} Technique">
+      {%- if item.card_image_url -%}
+      <img class="technique-image" src="{{ item.card_image_url }}" alt="{{ item.technique }} Technique">
       {%- endif -%}
 
     <div class="container">
@@ -168,8 +168,8 @@
             </div>
             {%- if item['fr-translation'] -%}<div class="translation">{{ item['fr-translation'] }}</div>{%- endif -%}
             {%- if item['fr-description'] -%}<div class="description">{{ item['fr-description'] }}</div>{%- endif -%}
-        {%- if item.picture -%}
-        <img class="technique-image" src="{{ item.picture }}" alt="{{ item.technique }} Technique">
+        {%- if item.card_image_url -%}
+        <img class="technique-image" src="{{ item.card_image_url }}" alt="{{ item.technique }} Technique">
         {%- endif -%}
 
         <div class="container">

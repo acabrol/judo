@@ -39,6 +39,7 @@ EXCLUSION_LIST = [
     "tutorial",
     "tutorial_url",
     "video_url",
+    "card_image_url",
     "tutorial_qrcode_url",
     "video_qrcode_url",
 ]
@@ -74,6 +75,20 @@ def extract_video_id(url: str | None) -> str | None:
     return None
 
 
+def normalize_picture_url(url: str | None) -> str | None:
+    if not url:
+        return None
+    if url.startswith("http://"):
+        return "https://" + url[len("http://"):]
+    return url
+
+
+def build_video_thumbnail_url(video_id: str | None) -> str | None:
+    if not video_id:
+        return None
+    return f"https://img.youtube.com/vi/{video_id}/0.jpg"
+
+
 def qr_service_url(url: str | None) -> str | None:
     if not url:
         return None
@@ -89,6 +104,8 @@ def load_techniques() -> list[dict[str, str | None]]:
             normalized["tutorial_url"] = normalized.get("tutorial")
             normalized["video_url"] = normalized.get("video")
             normalized["video_id"] = extract_video_id(normalized["video_url"])
+            normalized["picture"] = normalize_picture_url(normalized.get("picture"))
+            normalized["card_image_url"] = build_video_thumbnail_url(normalized["video_id"]) or normalized["picture"]
             normalized["tutorial_qrcode_url"] = qr_service_url(normalized["tutorial_url"])
             normalized["video_qrcode_url"] = qr_service_url(normalized["video_url"])
             rows.append(normalized)
