@@ -58,6 +58,21 @@
     margin: 4px 0 0;
     font-weight: bold;
   }
+  .card-meta {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4mm;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  .season-label {
+    color: #444;
+  }
+  .dan-label {
+    text-align: right;
+  }
  .translation, .description {
     font-size: 10px;
     text-align: center;
@@ -118,7 +133,10 @@
 <div class="a4 a4--front">
     {%- for item in page_items -%}
       <div class="cell">
-        <div>2024-2025 DAN:&nbsp;{%- if item.technique==item['fr-1-dan'] -%}1&nbsp;{%- endif -%}{%- if item.technique==item['fr-2-dan'] -%}2&nbsp;{%- endif -%}{%- if item.technique==item['fr-3-dan'] -%}3&nbsp;{%- endif -%}</div>
+        <div class="card-meta">
+          <div class="season-label">{{ season_label }}</div>
+          <div class="dan-label">DAN:&nbsp;{%- if item.technique==item['fr-1-dan'] -%}1&nbsp;{%- endif -%}{%- if item.technique==item['fr-2-dan'] -%}2&nbsp;{%- endif -%}{%- if item.technique==item['fr-3-dan'] -%}3&nbsp;{%- endif -%}</div>
+        </div>
         <div><a href="https://www.blagnacartsmartiaux.fr"><img src="https://www.blagnacartsmartiaux.fr/site/wp-content/uploads/2020/05/cropped-bam-wide-152x51.png"/></a></div>
         <div class="technique-name">{{ item.technique }}</div>
         <div class="kanji">
@@ -137,6 +155,10 @@
   {%- endfor -%}
   {%- for item in first_row|reverse -%}
     <div class="cell">
+      <div class="card-meta">
+        <div class="season-label">{{ season_label }}</div>
+        <div class="dan-label">DAN:&nbsp;{%- if item.technique==item['fr-1-dan'] -%}1&nbsp;{%- endif -%}{%- if item.technique==item['fr-2-dan'] -%}2&nbsp;{%- endif -%}{%- if item.technique==item['fr-3-dan'] -%}3&nbsp;{%- endif -%}</div>
+      </div>
       <div class="technique-category">{{ item['subcategory-name'] }}</div>
       <div class="technique-name">{{ item.technique }}</div>
         <div class="kanji">
@@ -160,6 +182,10 @@
   {%- endfor -%}
   {%- for item in second_row|reverse -%}
     <div class="cell">
+        <div class="card-meta">
+          <div class="season-label">{{ season_label }}</div>
+          <div class="dan-label">DAN:&nbsp;{%- if item.technique==item['fr-1-dan'] -%}1&nbsp;{%- endif -%}{%- if item.technique==item['fr-2-dan'] -%}2&nbsp;{%- endif -%}{%- if item.technique==item['fr-3-dan'] -%}3&nbsp;{%- endif -%}</div>
+        </div>
         <div class="technique-category">{{ item['subcategory-name'] }}</div>
         <div class="technique-name">{{ item.technique }}</div>
             <div class="kanji">
