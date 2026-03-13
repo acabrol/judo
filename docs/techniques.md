@@ -1383,7 +1383,7 @@ permalink: /docs/techniques.html
           <td class="col-translation">principale-drapé_sur_une_épaule_en_diagonal-fixer</td>
           <td class="col-dan"><span class="dan-hit">●</span></td>
           <td class="col-dan"><span class="dan-miss">·</span></td>
-          <td class="col-dan"><span class="dan-hit">●</span></td>
+          <td class="col-dan"><span class="dan-miss">·</span></td>
           <td class="col-links">
             <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kesa/">Tuto</a><a href="https://www.youtube.com/watch?v=NDaQuJOFBYk">Vidéo</a></div>
           </td>

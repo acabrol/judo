@@ -93,6 +93,10 @@
     font-size: 0.92rem;
   }
 
+  .season-label {
+    font-weight: 700;
+  }
+
   .subcategory {
     margin-bottom: 16px;
     break-inside: avoid-page;
@@ -162,11 +166,22 @@
   .media-links {
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    align-items: center;
+    gap: 6px;
+    align-items: stretch;
   }
 
-  .media-links a {
+  .media-link {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    padding: 6px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: white;
+  }
+
+  .media-link-label {
     display: inline-block;
     min-width: 3.6rem;
     padding: 2px 6px;
@@ -176,6 +191,21 @@
     color: var(--ink);
     text-decoration: none;
     font-size: 0.72rem;
+    text-align: center;
+  }
+
+  .media-link-preview {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+  }
+
+  .media-link-qrcode {
+    display: block;
+    width: 76px;
+    height: 76px;
   }
 
   .sources {
@@ -271,6 +301,7 @@
           <h2 class="sheet-title">tachi-waza</h2>
         </div>
         <div class="sheet-meta">
+          <div class="season-label">Saison 2025-2026</div>
           <div><ruby>立技<rt>たちわざ</rt></ruby></div>
           <div>stand_up-technique · debout-technique</div>
         </div>
@@ -307,7 +338,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/hane/">Tuto</a><a href="https://youtu.be/M9_7De6A1kk">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/hane/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fhane%2F" alt="QR code du tutoriel hane-goshi"></a><a class="media-link" href="https://youtu.be/M9_7De6A1kk">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/M9_7De6A1kk/0.jpg" alt="Aperçu vidéo de hane-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FM9_7De6A1kk" alt="QR code de la vidéo hane-goshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -319,7 +352,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/harai/">Tuto</a><a href="https://youtu.be/qTo8HlAAkOo">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/harai/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fharai%2F" alt="QR code du tutoriel harai-goshi"></a><a class="media-link" href="https://youtu.be/qTo8HlAAkOo">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/qTo8HlAAkOo/0.jpg" alt="Aperçu vidéo de harai-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FqTo8HlAAkOo" alt="QR code de la vidéo harai-goshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -331,7 +366,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/kosiguruma/">Tuto</a><a href="https://youtu.be/SU7Id6uVJ44">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/kosiguruma/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fkosiguruma%2F" alt="QR code du tutoriel koshi-guruma"></a><a class="media-link" href="https://youtu.be/SU7Id6uVJ44">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/SU7Id6uVJ44/0.jpg" alt="Aperçu vidéo de koshi-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FSU7Id6uVJ44" alt="QR code de la vidéo koshi-guruma"></a></div>
               </td>
             </tr>
 <tr>
@@ -343,7 +380,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/oogosi/">Tuto</a><a href="https://youtu.be/yhu1mfy2vJ4">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/oogosi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Foogosi%2F" alt="QR code du tutoriel o-goshi"></a><a class="media-link" href="https://youtu.be/yhu1mfy2vJ4">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/yhu1mfy2vJ4/0.jpg" alt="Aperçu vidéo de o-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fyhu1mfy2vJ4" alt="QR code de la vidéo o-goshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -355,7 +394,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/sodeturikomi/">Tuto</a><a href="https://www.youtube.com/watch?v=QsmAxpmYLOI">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/sodeturikomi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fsodeturikomi%2F" alt="QR code du tutoriel sode-tsurikomi-goshi"></a><a class="media-link" href="https://www.youtube.com/watch?v=QsmAxpmYLOI">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/QsmAxpmYLOI/0.jpg" alt="Aperçu vidéo de sode-tsurikomi-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQsmAxpmYLOI" alt="QR code de la vidéo sode-tsurikomi-goshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -367,7 +408,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/turi/">Tuto</a><a href="https://www.youtube.com/watch?v=51Htlp7xEvE">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/turi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fturi%2F" alt="QR code du tutoriel tsuri-goshi"></a><a class="media-link" href="https://www.youtube.com/watch?v=51Htlp7xEvE">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/51Htlp7xEvE/0.jpg" alt="Aperçu vidéo de tsuri-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D51Htlp7xEvE" alt="QR code de la vidéo tsuri-goshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -379,7 +422,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/turikomi/">Tuto</a><a href="https://youtu.be/51Htlp7xEvE">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/turikomi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fturikomi%2F" alt="QR code du tutoriel tsurikomi-goshi"></a><a class="media-link" href="https://youtu.be/51Htlp7xEvE">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/51Htlp7xEvE/0.jpg" alt="Aperçu vidéo de tsurikomi-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F51Htlp7xEvE" alt="QR code de la vidéo tsurikomi-goshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -391,7 +436,8 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://youtu.be/0Q80pgrZYVk?si=vFlt07awBsFbC_OB&amp;t=140">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://youtu.be/0Q80pgrZYVk?si=vFlt07awBsFbC_OB&amp;t=140">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/0Q80pgrZYVk/0.jpg" alt="Aperçu vidéo de uchi-mata"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F0Q80pgrZYVk%3Fsi%3DvFlt07awBsFbC_OB%26t%3D140" alt="QR code de la vidéo uchi-mata"></a></div>
               </td>
             </tr>
 <tr>
@@ -403,7 +449,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/uki/">Tuto</a><a href="https://www.youtube.com/watch?v=bPKwtB4lyOQ">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/uki/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fuki%2F" alt="QR code du tutoriel uki-goshi"></a><a class="media-link" href="https://www.youtube.com/watch?v=bPKwtB4lyOQ">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/bPKwtB4lyOQ/0.jpg" alt="Aperçu vidéo de uki-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbPKwtB4lyOQ" alt="QR code de la vidéo uki-goshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -415,7 +463,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/usiro/">Tuto</a><a href="https://youtu.be/ORIYstuxYT8">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/usiro/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fusiro%2F" alt="QR code du tutoriel ushiro-goshi"></a><a class="media-link" href="https://youtu.be/ORIYstuxYT8">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/ORIYstuxYT8/0.jpg" alt="Aperçu vidéo de ushiro-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FORIYstuxYT8" alt="QR code de la vidéo ushiro-goshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -427,7 +477,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/uturi/">Tuto</a><a href="https://youtu.be/4pQd_bEnlf0">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/uturi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Futuri%2F" alt="QR code du tutoriel utsuri-goshi"></a><a class="media-link" href="https://youtu.be/4pQd_bEnlf0">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/4pQd_bEnlf0/0.jpg" alt="Aperçu vidéo de utsuri-goshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F4pQd_bEnlf0" alt="QR code de la vidéo utsuri-goshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -439,7 +491,8 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.youtube.com/watch?v=F-4fyNwx52w&amp;t=6s">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=F-4fyNwx52w&amp;t=6s">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/F-4fyNwx52w/0.jpg" alt="Aperçu vidéo de kubi-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DF-4fyNwx52w%26t%3D6s" alt="QR code de la vidéo kubi-nage"></a></div>
               </td>
             </tr>
 
@@ -477,7 +530,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/ipponseoi/">Tuto</a><a href="https://youtu.be/FQnOlCxo4oI">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/ipponseoi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fipponseoi%2F" alt="QR code du tutoriel ippon-seoi-nage"></a><a class="media-link" href="https://youtu.be/FQnOlCxo4oI">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/FQnOlCxo4oI/0.jpg" alt="Aperçu vidéo de ippon-seoi-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FFQnOlCxo4oI" alt="QR code de la vidéo ippon-seoi-nage"></a></div>
               </td>
             </tr>
 <tr>
@@ -489,7 +544,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/kataguruma/">Tuto</a><a href="https://youtu.be/cnHRhSy8yi4">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/kataguruma/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fkataguruma%2F" alt="QR code du tutoriel kata-guruma"></a><a class="media-link" href="https://youtu.be/cnHRhSy8yi4">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/cnHRhSy8yi4/0.jpg" alt="Aperçu vidéo de kata-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FcnHRhSy8yi4" alt="QR code de la vidéo kata-guruma"></a></div>
               </td>
             </tr>
 <tr>
@@ -501,7 +558,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/kibisugaesi/">Tuto</a><a href="https://youtu.be/tJylJYfBliA">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/kibisugaesi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fkibisugaesi%2F" alt="QR code du tutoriel kibisu-gaeshi"></a><a class="media-link" href="https://youtu.be/tJylJYfBliA">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/tJylJYfBliA/0.jpg" alt="Aperçu vidéo de kibisu-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FtJylJYfBliA" alt="QR code de la vidéo kibisu-gaeshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -513,7 +572,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/kutikitaosi/">Tuto</a><a href="https://youtu.be/ZNL47q1aJNY">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/kutikitaosi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fkutikitaosi%2F" alt="QR code du tutoriel kuchiki-taoshi"></a><a class="media-link" href="https://youtu.be/ZNL47q1aJNY">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/ZNL47q1aJNY/0.jpg" alt="Aperçu vidéo de kuchiki-taoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FZNL47q1aJNY" alt="QR code de la vidéo kuchiki-taoshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -525,7 +586,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/morotegari/">Tuto</a><a href="https://youtu.be/BHLQS4K85bs">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/morotegari/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fmorotegari%2F" alt="QR code du tutoriel morote-gari"></a><a class="media-link" href="https://youtu.be/BHLQS4K85bs">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/BHLQS4K85bs/0.jpg" alt="Aperçu vidéo de morote-gari"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FBHLQS4K85bs" alt="QR code de la vidéo morote-gari"></a></div>
               </td>
             </tr>
 <tr>
@@ -537,7 +600,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/obiotosi/">Tuto</a><a href="https://youtu.be/ff8U2TVZIYI">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/obiotosi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fobiotosi%2F" alt="QR code du tutoriel obi-otoshi"></a><a class="media-link" href="https://youtu.be/ff8U2TVZIYI">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/ff8U2TVZIYI/0.jpg" alt="Aperçu vidéo de obi-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fff8U2TVZIYI" alt="QR code de la vidéo obi-otoshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -549,7 +614,8 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://youtu.be/bpc82SrunUU">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://youtu.be/bpc82SrunUU">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/bpc82SrunUU/0.jpg" alt="Aperçu vidéo de obi-tori-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fbpc82SrunUU" alt="QR code de la vidéo obi-tori-gaeshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -561,7 +627,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/seoi/">Tuto</a><a href="https://youtu.be/zIq0xI0ogxk">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/seoi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fseoi%2F" alt="QR code du tutoriel morote-seoi-nage"></a><a class="media-link" href="https://youtu.be/zIq0xI0ogxk">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/zIq0xI0ogxk/0.jpg" alt="Aperçu vidéo de morote-seoi-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FzIq0xI0ogxk" alt="QR code de la vidéo morote-seoi-nage"></a></div>
               </td>
             </tr>
 <tr>
@@ -573,7 +641,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/seoiotosi/">Tuto</a><a href="https://youtu.be/vu1TMVNnq34">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/seoiotosi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fseoiotosi%2F" alt="QR code du tutoriel seoi-otoshi"></a><a class="media-link" href="https://youtu.be/vu1TMVNnq34">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/vu1TMVNnq34/0.jpg" alt="Aperçu vidéo de seoi-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fvu1TMVNnq34" alt="QR code de la vidéo seoi-otoshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -585,7 +655,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/sukui/">Tuto</a><a href="https://youtu.be/vU6aJ2kFxoI">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/sukui/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fsukui%2F" alt="QR code du tutoriel sukui-nage"></a><a class="media-link" href="https://youtu.be/vU6aJ2kFxoI">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/vU6aJ2kFxoI/0.jpg" alt="Aperçu vidéo de sukui-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FvU6aJ2kFxoI" alt="QR code de la vidéo sukui-nage"></a></div>
               </td>
             </tr>
 <tr>
@@ -597,7 +669,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/sumiotosi/">Tuto</a><a href="https://youtu.be/lLU9wv52ni0">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/sumiotosi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fsumiotosi%2F" alt="QR code du tutoriel sumi-otoshi"></a><a class="media-link" href="https://youtu.be/lLU9wv52ni0">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/lLU9wv52ni0/0.jpg" alt="Aperçu vidéo de sumi-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FlLU9wv52ni0" alt="QR code de la vidéo sumi-otoshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -609,7 +683,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/taiotosi/">Tuto</a><a href="https://youtu.be/4x6S3Q-Ktv8">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/taiotosi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Ftaiotosi%2F" alt="QR code du tutoriel tai-otoshi"></a><a class="media-link" href="https://youtu.be/4x6S3Q-Ktv8">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/4x6S3Q-Ktv8/0.jpg" alt="Aperçu vidéo de tai-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F4x6S3Q-Ktv8" alt="QR code de la vidéo tai-otoshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -621,7 +697,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.bjjee.com/articles/learn-one-of-the-best-old-school-judo-throws-te-guruma/">Tuto</a><a href="https://youtu.be/QA2PK_tm2fQ">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.bjjee.com/articles/learn-one-of-the-best-old-school-judo-throws-te-guruma/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.bjjee.com%2Farticles%2Flearn-one-of-the-best-old-school-judo-throws-te-guruma%2F" alt="QR code du tutoriel te-guruma"></a><a class="media-link" href="https://youtu.be/QA2PK_tm2fQ">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/QA2PK_tm2fQ/0.jpg" alt="Aperçu vidéo de te-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FQA2PK_tm2fQ" alt="QR code de la vidéo te-guruma"></a></div>
               </td>
             </tr>
 <tr>
@@ -633,7 +711,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/utimatasukasi/">Tuto</a><a href="https://youtu.be/V-RS3uhtVWM">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/utimatasukasi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Futimatasukasi%2F" alt="QR code du tutoriel uchi-mata-sukashi"></a><a class="media-link" href="https://youtu.be/V-RS3uhtVWM">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/V-RS3uhtVWM/0.jpg" alt="Aperçu vidéo de uchi-mata-sukashi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FV-RS3uhtVWM" alt="QR code de la vidéo uchi-mata-sukashi"></a></div>
               </td>
             </tr>
 <tr>
@@ -645,7 +725,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/ukiotosi/">Tuto</a><a href="https://youtu.be/6H5tmncOY4Q">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/ukiotosi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fukiotosi%2F" alt="QR code du tutoriel uki-otoshi"></a><a class="media-link" href="https://youtu.be/6H5tmncOY4Q">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/6H5tmncOY4Q/0.jpg" alt="Aperçu vidéo de uki-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F6H5tmncOY4Q" alt="QR code de la vidéo uki-otoshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -657,7 +739,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/yamaarasi/">Tuto</a><a href="https://youtu.be/MGlyKmSuzdc">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/te/yamaarasi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fyamaarasi%2F" alt="QR code du tutoriel yama-arashi"></a><a class="media-link" href="https://youtu.be/MGlyKmSuzdc">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/MGlyKmSuzdc/0.jpg" alt="Aperçu vidéo de yama-arashi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FMGlyKmSuzdc" alt="QR code de la vidéo yama-arashi"></a></div>
               </td>
             </tr>
 <tr>
@@ -669,7 +753,8 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://youtu.be/tvjQxhfz6RE?si=VLicjnlUJ9vRqD_m">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://youtu.be/tvjQxhfz6RE?si=VLicjnlUJ9vRqD_m">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/tvjQxhfz6RE/0.jpg" alt="Aperçu vidéo de eri-seoi-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FtvjQxhfz6RE%3Fsi%3DVLicjnlUJ9vRqD_m" alt="QR code de la vidéo eri-seoi-nage"></a></div>
               </td>
             </tr>
 
@@ -707,7 +792,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/asiguruma/">Tuto</a><a href="https://youtu.be/ROeayhvom9U">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/asiguruma/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fasiguruma%2F" alt="QR code du tutoriel ashi-guruma"></a><a class="media-link" href="https://youtu.be/ROeayhvom9U">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/ROeayhvom9U/0.jpg" alt="Aperçu vidéo de ashi-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FROeayhvom9U" alt="QR code de la vidéo ashi-guruma"></a></div>
               </td>
             </tr>
 <tr>
@@ -719,7 +806,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/deasiharai/">Tuto</a><a href="https://youtu.be/4BUUvqxi_Kk">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/deasiharai/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fdeasiharai%2F" alt="QR code du tutoriel de-ashi-barai (-harai)"></a><a class="media-link" href="https://youtu.be/4BUUvqxi_Kk">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/4BUUvqxi_Kk/0.jpg" alt="Aperçu vidéo de de-ashi-barai (-harai)"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F4BUUvqxi_Kk" alt="QR code de la vidéo de-ashi-barai (-harai)"></a></div>
               </td>
             </tr>
 <tr>
@@ -731,7 +820,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/hanegosi/">Tuto</a><a href="https://youtu.be/9bZAZSBtnGs">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/hanegosi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fhanegosi%2F" alt="QR code du tutoriel hane-goshi-gaeshi"></a><a class="media-link" href="https://youtu.be/9bZAZSBtnGs">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/9bZAZSBtnGs/0.jpg" alt="Aperçu vidéo de hane-goshi-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F9bZAZSBtnGs" alt="QR code de la vidéo hane-goshi-gaeshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -743,7 +834,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/haraiturikomi/">Tuto</a><a href="https://youtu.be/gGPXvWL8VbE">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/haraiturikomi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fharaiturikomi%2F" alt="QR code du tutoriel harai-tsurikomi-ashi"></a><a class="media-link" href="https://youtu.be/gGPXvWL8VbE">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/gGPXvWL8VbE/0.jpg" alt="Aperçu vidéo de harai-tsurikomi-ashi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FgGPXvWL8VbE" alt="QR code de la vidéo harai-tsurikomi-ashi"></a></div>
               </td>
             </tr>
 <tr>
@@ -755,7 +848,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/hizaguruma/">Tuto</a><a href="https://youtu.be/JPJx9-oAVns">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/hizaguruma/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fhizaguruma%2F" alt="QR code du tutoriel hiza-guruma"></a><a class="media-link" href="https://youtu.be/JPJx9-oAVns">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/JPJx9-oAVns/0.jpg" alt="Aperçu vidéo de hiza-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FJPJx9-oAVns" alt="QR code de la vidéo hiza-guruma"></a></div>
               </td>
             </tr>
 <tr>
@@ -767,7 +862,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/kosotogake/">Tuto</a><a href="https://youtu.be/8b6kY4s4zH4">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/kosotogake/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fkosotogake%2F" alt="QR code du tutoriel ko-soto-gake"></a><a class="media-link" href="https://youtu.be/8b6kY4s4zH4">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/8b6kY4s4zH4/0.jpg" alt="Aperçu vidéo de ko-soto-gake"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F8b6kY4s4zH4" alt="QR code de la vidéo ko-soto-gake"></a></div>
               </td>
             </tr>
 <tr>
@@ -779,7 +876,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/kosotogari/">Tuto</a><a href="https://youtu.be/jeQ541ScLB4">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/kosotogari/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fkosotogari%2F" alt="QR code du tutoriel ko-soto-gari"></a><a class="media-link" href="https://youtu.be/jeQ541ScLB4">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/jeQ541ScLB4/0.jpg" alt="Aperçu vidéo de ko-soto-gari"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FjeQ541ScLB4" alt="QR code de la vidéo ko-soto-gari"></a></div>
               </td>
             </tr>
 <tr>
@@ -791,7 +890,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/koutigari/">Tuto</a><a href="https://youtu.be/_MWAdYi_LC4">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/koutigari/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fkoutigari%2F" alt="QR code du tutoriel ko-uchi-gaeshi"></a><a class="media-link" href="https://youtu.be/_MWAdYi_LC4">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/_MWAdYi_LC4/0.jpg" alt="Aperçu vidéo de ko-uchi-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F_MWAdYi_LC4" alt="QR code de la vidéo ko-uchi-gaeshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -803,7 +904,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/koutigari/">Tuto</a><a href="https://youtu.be/3Jb3tZvr9Ng">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/koutigari/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fkoutigari%2F" alt="QR code du tutoriel ko-uchi-gari"></a><a class="media-link" href="https://youtu.be/3Jb3tZvr9Ng">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/3Jb3tZvr9Ng/0.jpg" alt="Aperçu vidéo de ko-uchi-gari"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F3Jb3tZvr9Ng" alt="QR code de la vidéo ko-uchi-gari"></a></div>
               </td>
             </tr>
 <tr>
@@ -815,7 +918,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/ooguruma/">Tuto</a><a href="https://youtu.be/SnZciTAY9vc">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/ooguruma/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fooguruma%2F" alt="QR code du tutoriel o-guruma"></a><a class="media-link" href="https://youtu.be/SnZciTAY9vc">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/SnZciTAY9vc/0.jpg" alt="Aperçu vidéo de o-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FSnZciTAY9vc" alt="QR code de la vidéo o-guruma"></a></div>
               </td>
             </tr>
 <tr>
@@ -827,7 +932,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/okuriasiharai/">Tuto</a><a href="https://youtu.be/nw1ZdRjrdRI">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/okuriasiharai/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fokuriasiharai%2F" alt="QR code du tutoriel okuri-ashi-barai (-harai)"></a><a class="media-link" href="https://youtu.be/nw1ZdRjrdRI">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/nw1ZdRjrdRI/0.jpg" alt="Aperçu vidéo de okuri-ashi-barai (-harai)"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fnw1ZdRjrdRI" alt="QR code de la vidéo okuri-ashi-barai (-harai)"></a></div>
               </td>
             </tr>
 <tr>
@@ -839,7 +946,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotogaesi/">Tuto</a><a href="https://youtu.be/8ZjM3X_EANo">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotogaesi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Foosotogaesi%2F" alt="QR code du tutoriel o-soto-gaeshi"></a><a class="media-link" href="https://youtu.be/8ZjM3X_EANo">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/8ZjM3X_EANo/0.jpg" alt="Aperçu vidéo de o-soto-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F8ZjM3X_EANo" alt="QR code de la vidéo o-soto-gaeshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -851,7 +960,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotogari/">Tuto</a><a href="https://www.youtube.com/watch?v=c-A_nP7mKAc">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotogari/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Foosotogari%2F" alt="QR code du tutoriel o-soto-gari"></a><a class="media-link" href="https://www.youtube.com/watch?v=c-A_nP7mKAc">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/c-A_nP7mKAc/0.jpg" alt="Aperçu vidéo de o-soto-gari"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dc-A_nP7mKAc" alt="QR code de la vidéo o-soto-gari"></a></div>
               </td>
             </tr>
 <tr>
@@ -863,7 +974,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotoguruma/">Tuto</a><a href="https://youtu.be/92KbCm6pQeI">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotoguruma/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Foosotoguruma%2F" alt="QR code du tutoriel o-soto-guruma"></a><a class="media-link" href="https://youtu.be/92KbCm6pQeI">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/92KbCm6pQeI/0.jpg" alt="Aperçu vidéo de o-soto-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F92KbCm6pQeI" alt="QR code de la vidéo o-soto-guruma"></a></div>
               </td>
             </tr>
 <tr>
@@ -875,7 +988,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotootosi/">Tuto</a><a href="https://youtu.be/2DsVvDw7b8g">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotootosi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Foosotootosi%2F" alt="QR code du tutoriel o-soto-otoshi"></a><a class="media-link" href="https://youtu.be/2DsVvDw7b8g">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/2DsVvDw7b8g/0.jpg" alt="Aperçu vidéo de o-soto-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F2DsVvDw7b8g" alt="QR code de la vidéo o-soto-otoshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -887,7 +1002,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/ooutigaesi/">Tuto</a><a href="https://youtu.be/dCyZTXyjIXE">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/ooutigaesi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fooutigaesi%2F" alt="QR code du tutoriel o-uchi-gaeshi"></a><a class="media-link" href="https://youtu.be/dCyZTXyjIXE">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/dCyZTXyjIXE/0.jpg" alt="Aperçu vidéo de o-uchi-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FdCyZTXyjIXE" alt="QR code de la vidéo o-uchi-gaeshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -899,7 +1016,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/ooutigari/">Tuto</a><a href="https://youtu.be/0itJFhV9pDQ">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/ooutigari/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fooutigari%2F" alt="QR code du tutoriel o-uchi-gari"></a><a class="media-link" href="https://youtu.be/0itJFhV9pDQ">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/0itJFhV9pDQ/0.jpg" alt="Aperçu vidéo de o-uchi-gari"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F0itJFhV9pDQ" alt="QR code de la vidéo o-uchi-gari"></a></div>
               </td>
             </tr>
 <tr>
@@ -911,7 +1030,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/sasaeturikomi/">Tuto</a><a href="https://youtu.be/699i--pvYmE">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/sasaeturikomi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fsasaeturikomi%2F" alt="QR code du tutoriel sasae-tsurikomi-ashi"></a><a class="media-link" href="https://youtu.be/699i--pvYmE">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/699i--pvYmE/0.jpg" alt="Aperçu vidéo de sasae-tsurikomi-ashi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F699i--pvYmE" alt="QR code de la vidéo sasae-tsurikomi-ashi"></a></div>
               </td>
             </tr>
 <tr>
@@ -923,7 +1044,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/tubame/">Tuto</a><a href="https://youtu.be/GwweWqqFB5g">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/tubame/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Ftubame%2F" alt="QR code du tutoriel tsubame-gaeshi"></a><a class="media-link" href="https://youtu.be/GwweWqqFB5g">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/GwweWqqFB5g/0.jpg" alt="Aperçu vidéo de tsubame-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FGwweWqqFB5g" alt="QR code de la vidéo tsubame-gaeshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -935,7 +1058,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/utimata/">Tuto</a><a href="https://youtu.be/iUpSu5J-bgw">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/asi/utimata/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Futimata%2F" alt="QR code du tutoriel uchi-mata"></a><a class="media-link" href="https://youtu.be/iUpSu5J-bgw">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/iUpSu5J-bgw/0.jpg" alt="Aperçu vidéo de uchi-mata"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FiUpSu5J-bgw" alt="QR code de la vidéo uchi-mata"></a></div>
               </td>
             </tr>
 
@@ -950,6 +1075,7 @@
           <h2 class="sheet-title">sutemi-waza</h2>
         </div>
         <div class="sheet-meta">
+          <div class="season-label">Saison 2025-2026</div>
           <div><ruby>捨身技<rt>すてみわざ</rt></ruby></div>
           <div>sacrifice_body-technique · sacrifice_corps-technique</div>
         </div>
@@ -986,7 +1112,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/masute/hikikomi/">Tuto</a><a href="https://youtu.be/92zUYWBp5N8">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/masute/hikikomi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fmasute%2Fhikikomi%2F" alt="QR code du tutoriel hikikomi-gaeshi"></a><a class="media-link" href="https://youtu.be/92zUYWBp5N8">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/92zUYWBp5N8/0.jpg" alt="Aperçu vidéo de hikikomi-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F92zUYWBp5N8" alt="QR code de la vidéo hikikomi-gaeshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -998,7 +1126,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/masute/sumigaesi/">Tuto</a><a href="https://youtu.be/5VhduA5xkbA">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/masute/sumigaesi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fmasute%2Fsumigaesi%2F" alt="QR code du tutoriel sumi-gaeshi"></a><a class="media-link" href="https://youtu.be/5VhduA5xkbA">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/5VhduA5xkbA/0.jpg" alt="Aperçu vidéo de sumi-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F5VhduA5xkbA" alt="QR code de la vidéo sumi-gaeshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -1010,7 +1140,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/masute/tawara/">Tuto</a><a href="https://youtu.be/TmTWgrmViZc">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/masute/tawara/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fmasute%2Ftawara%2F" alt="QR code du tutoriel tawara-gaeshi"></a><a class="media-link" href="https://youtu.be/TmTWgrmViZc">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/TmTWgrmViZc/0.jpg" alt="Aperçu vidéo de tawara-gaeshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FTmTWgrmViZc" alt="QR code de la vidéo tawara-gaeshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -1022,7 +1154,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/masute/tomoe/">Tuto</a><a href="https://youtu.be/880WbHvHv6A">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/masute/tomoe/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fmasute%2Ftomoe%2F" alt="QR code du tutoriel tomoe-nage"></a><a class="media-link" href="https://youtu.be/880WbHvHv6A">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/880WbHvHv6A/0.jpg" alt="Aperçu vidéo de tomoe-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F880WbHvHv6A" alt="QR code de la vidéo tomoe-nage"></a></div>
               </td>
             </tr>
 <tr>
@@ -1034,7 +1168,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/masute/uranage/">Tuto</a><a href="https://youtu.be/Fgi9b8DJ5sQ">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/masute/uranage/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fmasute%2Furanage%2F" alt="QR code du tutoriel ura-nage"></a><a class="media-link" href="https://youtu.be/Fgi9b8DJ5sQ">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/Fgi9b8DJ5sQ/0.jpg" alt="Aperçu vidéo de ura-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FFgi9b8DJ5sQ" alt="QR code de la vidéo ura-nage"></a></div>
               </td>
             </tr>
 
@@ -1072,7 +1208,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/dakiwakare/">Tuto</a><a href="https://youtu.be/Hr0cOMGBDYo">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/dakiwakare/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fdakiwakare%2F" alt="QR code du tutoriel daki-wakare"></a><a class="media-link" href="https://youtu.be/Hr0cOMGBDYo">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/Hr0cOMGBDYo/0.jpg" alt="Aperçu vidéo de daki-wakare"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FHr0cOMGBDYo" alt="QR code de la vidéo daki-wakare"></a></div>
               </td>
             </tr>
 <tr>
@@ -1084,7 +1222,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/hanemaki/">Tuto</a><a href="https://youtu.be/6CRBGLGz9j8">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/hanemaki/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fhanemaki%2F" alt="QR code du tutoriel hane-makikomi"></a><a class="media-link" href="https://youtu.be/6CRBGLGz9j8">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/6CRBGLGz9j8/0.jpg" alt="Aperçu vidéo de hane-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F6CRBGLGz9j8" alt="QR code de la vidéo hane-makikomi"></a></div>
               </td>
             </tr>
 <tr>
@@ -1096,7 +1236,8 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://youtu.be/VBaHzKaCXss">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://youtu.be/VBaHzKaCXss">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/VBaHzKaCXss/0.jpg" alt="Aperçu vidéo de harai-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FVBaHzKaCXss" alt="QR code de la vidéo harai-makikomi"></a></div>
               </td>
             </tr>
 <tr>
@@ -1108,7 +1249,8 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://youtu.be/_1eygIXLD_w">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://youtu.be/_1eygIXLD_w">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/_1eygIXLD_w/0.jpg" alt="Aperçu vidéo de ko-uchi-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F_1eygIXLD_w" alt="QR code de la vidéo ko-uchi-makikomi"></a></div>
               </td>
             </tr>
 <tr>
@@ -1120,7 +1262,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/oosotomaki/">Tuto</a><a href="https://youtu.be/DGDv2oMwmas">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/oosotomaki/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Foosotomaki%2F" alt="QR code du tutoriel osoto-makikomi"></a><a class="media-link" href="https://youtu.be/DGDv2oMwmas">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/DGDv2oMwmas/0.jpg" alt="Aperçu vidéo de osoto-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FDGDv2oMwmas" alt="QR code de la vidéo osoto-makikomi"></a></div>
               </td>
             </tr>
 <tr>
@@ -1132,7 +1276,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/sotomaki/">Tuto</a><a href="https://youtu.be/bWG9O1BVKtQ">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/sotomaki/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fsotomaki%2F" alt="QR code du tutoriel soto-makikomi"></a><a class="media-link" href="https://youtu.be/bWG9O1BVKtQ">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/bWG9O1BVKtQ/0.jpg" alt="Aperçu vidéo de soto-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FbWG9O1BVKtQ" alt="QR code de la vidéo soto-makikomi"></a></div>
               </td>
             </tr>
 <tr>
@@ -1144,7 +1290,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/taniotosi/">Tuto</a><a href="https://youtu.be/3b9Me3Fohpk">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/taniotosi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Ftaniotosi%2F" alt="QR code du tutoriel tani-otoshi"></a><a class="media-link" href="https://youtu.be/3b9Me3Fohpk">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/3b9Me3Fohpk/0.jpg" alt="Aperçu vidéo de tani-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F3b9Me3Fohpk" alt="QR code de la vidéo tani-otoshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -1156,7 +1304,8 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.youtube.com/watch?v=W8l0iOAqx5E">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=W8l0iOAqx5E">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/W8l0iOAqx5E/0.jpg" alt="Aperçu vidéo de yoko-tomoe-nage"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DW8l0iOAqx5E" alt="QR code de la vidéo yoko-tomoe-nage"></a></div>
               </td>
             </tr>
 <tr>
@@ -1168,7 +1317,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/utimaki/">Tuto</a><a href="https://youtu.be/_1eygIXLD_w">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/utimaki/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Futimaki%2F" alt="QR code du tutoriel uchi-makikomi"></a><a class="media-link" href="https://youtu.be/_1eygIXLD_w">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/_1eygIXLD_w/0.jpg" alt="Aperçu vidéo de uchi-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F_1eygIXLD_w" alt="QR code de la vidéo uchi-makikomi"></a></div>
               </td>
             </tr>
 <tr>
@@ -1180,7 +1331,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/utimatamaki/">Tuto</a><a href="https://youtu.be/jZXENTLpJCI">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/utimatamaki/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Futimatamaki%2F" alt="QR code du tutoriel uchi-mata-makikomi"></a><a class="media-link" href="https://youtu.be/jZXENTLpJCI">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/jZXENTLpJCI/0.jpg" alt="Aperçu vidéo de uchi-mata-makikomi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FjZXENTLpJCI" alt="QR code de la vidéo uchi-mata-makikomi"></a></div>
               </td>
             </tr>
 <tr>
@@ -1192,7 +1345,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/ukiwaza/">Tuto</a><a href="https://youtu.be/weVOpJ63gII">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/ukiwaza/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fukiwaza%2F" alt="QR code du tutoriel uki-waza"></a><a class="media-link" href="https://youtu.be/weVOpJ63gII">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/weVOpJ63gII/0.jpg" alt="Aperçu vidéo de uki-waza"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FweVOpJ63gII" alt="QR code de la vidéo uki-waza"></a></div>
               </td>
             </tr>
 <tr>
@@ -1204,7 +1359,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokogake/">Tuto</a><a href="https://youtu.be/tP1Sj1uDfSo">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokogake/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fyokogake%2F" alt="QR code du tutoriel yoko-gake"></a><a class="media-link" href="https://youtu.be/tP1Sj1uDfSo">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/tP1Sj1uDfSo/0.jpg" alt="Aperçu vidéo de yoko-gake"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FtP1Sj1uDfSo" alt="QR code de la vidéo yoko-gake"></a></div>
               </td>
             </tr>
 <tr>
@@ -1216,7 +1373,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokoguruma/">Tuto</a><a href="https://youtu.be/MehP6I5cY2c">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokoguruma/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fyokoguruma%2F" alt="QR code du tutoriel yoko-guruma"></a><a class="media-link" href="https://youtu.be/MehP6I5cY2c">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/MehP6I5cY2c/0.jpg" alt="Aperçu vidéo de yoko-guruma"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FMehP6I5cY2c" alt="QR code de la vidéo yoko-guruma"></a></div>
               </td>
             </tr>
 <tr>
@@ -1228,7 +1387,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokootosi/">Tuto</a><a href="https://youtu.be/MnNG67pF_a0">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokootosi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fyokootosi%2F" alt="QR code du tutoriel yoko-otoshi"></a><a class="media-link" href="https://youtu.be/MnNG67pF_a0">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/MnNG67pF_a0/0.jpg" alt="Aperçu vidéo de yoko-otoshi"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FMnNG67pF_a0" alt="QR code de la vidéo yoko-otoshi"></a></div>
               </td>
             </tr>
 <tr>
@@ -1240,7 +1401,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokowakare/">Tuto</a><a href="https://youtu.be/bp1tscHlePI">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokowakare/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fyokowakare%2F" alt="QR code du tutoriel yoko-wakare"></a><a class="media-link" href="https://youtu.be/bp1tscHlePI">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/bp1tscHlePI/0.jpg" alt="Aperçu vidéo de yoko-wakare"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fbp1tscHlePI" alt="QR code de la vidéo yoko-wakare"></a></div>
               </td>
             </tr>
 
@@ -1255,6 +1418,7 @@
           <h2 class="sheet-title">osaekomi-waza</h2>
         </div>
         <div class="sheet-meta">
+          <div class="season-label">Saison 2025-2026</div>
           <div><ruby>抑込技<rt>おさえこみわざ</rt></ruby></div>
           <div>seal_in_bulk-technique · scellement_massif-technique</div>
         </div>
@@ -1289,9 +1453,11 @@
               <td class="col-translation">principale-drapé_sur_une_épaule_en_diagonal-fixer</td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
-              <td class="col-dan"><span class="dan-hit">●</span></td>
+              <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kesa/">Tuto</a><a href="https://www.youtube.com/watch?v=NDaQuJOFBYk">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kesa/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fosae%2Fkesa%2F" alt="QR code du tutoriel hon-gesa-gatame"></a><a class="media-link" href="https://www.youtube.com/watch?v=NDaQuJOFBYk">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/NDaQuJOFBYk/0.jpg" alt="Aperçu vidéo de hon-gesa-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNDaQuJOFBYk" alt="QR code de la vidéo hon-gesa-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1303,7 +1469,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kamisihou/">Tuto</a><a href="https://youtu.be/HFuMjOv0WN8">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kamisihou/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fosae%2Fkamisihou%2F" alt="QR code du tutoriel kami-shiho-gatame"></a><a class="media-link" href="https://youtu.be/HFuMjOv0WN8">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/HFuMjOv0WN8/0.jpg" alt="Aperçu vidéo de kami-shiho-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FHFuMjOv0WN8" alt="QR code de la vidéo kami-shiho-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1315,7 +1483,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kata/">Tuto</a><a href="https://youtu.be/zQR3IOXxO_Q">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kata/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fosae%2Fkata%2F" alt="QR code du tutoriel kata-gatame"></a><a class="media-link" href="https://youtu.be/zQR3IOXxO_Q">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/zQR3IOXxO_Q/0.jpg" alt="Aperçu vidéo de kata-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FzQR3IOXxO_Q" alt="QR code de la vidéo kata-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1327,7 +1497,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kuzurekesa/">Tuto</a><a href="https://youtu.be/Q2fb9jaoUFQ">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kuzurekesa/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fosae%2Fkuzurekesa%2F" alt="QR code du tutoriel kuzure-gesa-gatame"></a><a class="media-link" href="https://youtu.be/Q2fb9jaoUFQ">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/Q2fb9jaoUFQ/0.jpg" alt="Aperçu vidéo de kuzure-gesa-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FQ2fb9jaoUFQ" alt="QR code de la vidéo kuzure-gesa-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1339,7 +1511,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kuzurekami/">Tuto</a><a href="https://youtu.be/YUrogQWdwiY">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kuzurekami/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fosae%2Fkuzurekami%2F" alt="QR code du tutoriel kuzure-kami-shiho-gatame"></a><a class="media-link" href="https://youtu.be/YUrogQWdwiY">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/YUrogQWdwiY/0.jpg" alt="Aperçu vidéo de kuzure-kami-shiho-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FYUrogQWdwiY" alt="QR code de la vidéo kuzure-kami-shiho-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1351,7 +1525,8 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://youtu.be/55-rFmBx53g">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://youtu.be/55-rFmBx53g">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/55-rFmBx53g/0.jpg" alt="Aperçu vidéo de kuzure-tate-shiho-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F55-rFmBx53g" alt="QR code de la vidéo kuzure-tate-shiho-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1363,7 +1538,8 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://youtu.be/54fQM7dYz0M?si=9DtSRV6XsOjN1kH0">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://youtu.be/54fQM7dYz0M?si=9DtSRV6XsOjN1kH0">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/54fQM7dYz0M/0.jpg" alt="Aperçu vidéo de kuzure-yoko-shiho-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F54fQM7dYz0M%3Fsi%3D9DtSRV6XsOjN1kH0" alt="QR code de la vidéo kuzure-yoko-shiho-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1375,7 +1551,8 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.youtube.com/watch?v=XjWzNxlKH1M">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=XjWzNxlKH1M">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/XjWzNxlKH1M/0.jpg" alt="Aperçu vidéo de tate-shiho-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXjWzNxlKH1M" alt="QR code de la vidéo tate-shiho-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1387,7 +1564,8 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://youtu.be/SBapox2M2dE">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://youtu.be/SBapox2M2dE">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/SBapox2M2dE/0.jpg" alt="Aperçu vidéo de ushiro-kesa-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FSBapox2M2dE" alt="QR code de la vidéo ushiro-kesa-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1399,7 +1577,8 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://youtu.be/TT7XJVSEQxA">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://youtu.be/TT7XJVSEQxA">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/TT7XJVSEQxA/0.jpg" alt="Aperçu vidéo de yoko-shiho-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FTT7XJVSEQxA" alt="QR code de la vidéo yoko-shiho-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1411,7 +1590,8 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.youtube.com/watch?v=e5HrhANfDcU">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=e5HrhANfDcU">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/e5HrhANfDcU/0.jpg" alt="Aperçu vidéo de makura-gesa-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3De5HrhANfDcU" alt="QR code de la vidéo makura-gesa-gatame"></a></div>
               </td>
             </tr>
 
@@ -1426,6 +1606,7 @@
           <h2 class="sheet-title">shime-waza</h2>
         </div>
         <div class="sheet-meta">
+          <div class="season-label">Saison 2025-2026</div>
           <div><ruby>絞技<rt>しめわざ</rt></ruby></div>
           <div>strangle-technique · etranglement-technique</div>
         </div>
@@ -1462,7 +1643,8 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://youtu.be/AeeoSxU2g9Q?si=nqyBRNBySySO8GiQ">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://youtu.be/AeeoSxU2g9Q?si=nqyBRNBySySO8GiQ">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/AeeoSxU2g9Q/0.jpg" alt="Aperçu vidéo de ashi-gatame-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FAeeoSxU2g9Q%3Fsi%3DnqyBRNBySySO8GiQ" alt="QR code de la vidéo ashi-gatame-jime"></a></div>
               </td>
             </tr>
 <tr>
@@ -1474,7 +1656,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/gyaku/">Tuto</a><a href="https://youtu.be/t3tQriIPdlI">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/gyaku/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fgyaku%2F" alt="QR code du tutoriel gyaku-juji-jime"></a><a class="media-link" href="https://youtu.be/t3tQriIPdlI">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/t3tQriIPdlI/0.jpg" alt="Aperçu vidéo de gyaku-juji-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Ft3tQriIPdlI" alt="QR code de la vidéo gyaku-juji-jime"></a></div>
               </td>
             </tr>
 <tr>
@@ -1486,7 +1670,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/hadaka/">Tuto</a><a href="https://youtu.be/9f0n8jez7iA">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/hadaka/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fhadaka%2F" alt="QR code du tutoriel hadaka-jime"></a><a class="media-link" href="https://youtu.be/9f0n8jez7iA">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/9f0n8jez7iA/0.jpg" alt="Aperçu vidéo de hadaka-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F9f0n8jez7iA" alt="QR code de la vidéo hadaka-jime"></a></div>
               </td>
             </tr>
 <tr>
@@ -1498,7 +1684,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/kataha/">Tuto</a><a href="https://www.youtube.com/watch?v=yaTGgRjnwB8">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/kataha/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fkataha%2F" alt="QR code du tutoriel kata-ha-jime"></a><a class="media-link" href="https://www.youtube.com/watch?v=yaTGgRjnwB8">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/yaTGgRjnwB8/0.jpg" alt="Aperçu vidéo de kata-ha-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyaTGgRjnwB8" alt="QR code de la vidéo kata-ha-jime"></a></div>
               </td>
             </tr>
 <tr>
@@ -1510,7 +1698,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/kata/">Tuto</a><a href="https://youtu.be/3VZVUAmiMD8">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/kata/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fkata%2F" alt="QR code du tutoriel kata-juji-jime"></a><a class="media-link" href="https://youtu.be/3VZVUAmiMD8">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/3VZVUAmiMD8/0.jpg" alt="Aperçu vidéo de kata-juji-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F3VZVUAmiMD8" alt="QR code de la vidéo kata-juji-jime"></a></div>
               </td>
             </tr>
 <tr>
@@ -1522,7 +1712,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/katate/">Tuto</a><a href="https://youtu.be/cHeIs-fSqwE">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/katate/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fkatate%2F" alt="QR code du tutoriel kata-te-jime"></a><a class="media-link" href="https://youtu.be/cHeIs-fSqwE">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/cHeIs-fSqwE/0.jpg" alt="Aperçu vidéo de kata-te-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FcHeIs-fSqwE" alt="QR code de la vidéo kata-te-jime"></a></div>
               </td>
             </tr>
 <tr>
@@ -1534,7 +1726,8 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.youtube.com/watch?v=bgyM7sYN6Ug">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.youtube.com/watch?v=bgyM7sYN6Ug">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/bgyM7sYN6Ug/0.jpg" alt="Aperçu vidéo de morote-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbgyM7sYN6Ug" alt="QR code de la vidéo morote-jime"></a></div>
               </td>
             </tr>
 <tr>
@@ -1546,7 +1739,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/nami/">Tuto</a><a href="https://youtu.be/k2cHry9HByQ">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/nami/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fnami%2F" alt="QR code du tutoriel nami-juji-jime"></a><a class="media-link" href="https://youtu.be/k2cHry9HByQ">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/k2cHry9HByQ/0.jpg" alt="Aperçu vidéo de nami-juji-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Fk2cHry9HByQ" alt="QR code de la vidéo nami-juji-jime"></a></div>
               </td>
             </tr>
 <tr>
@@ -1558,7 +1753,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/okurieri/">Tuto</a><a href="https://youtu.be/EiqyoVcIAi8">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/okurieri/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fokurieri%2F" alt="QR code du tutoriel okuri-eri-jime"></a><a class="media-link" href="https://youtu.be/EiqyoVcIAi8">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/EiqyoVcIAi8/0.jpg" alt="Aperçu vidéo de okuri-eri-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FEiqyoVcIAi8" alt="QR code de la vidéo okuri-eri-jime"></a></div>
               </td>
             </tr>
 <tr>
@@ -1570,7 +1767,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/ryoute/">Tuto</a><a href="https://www.youtube.com/watch?v=-RHC4V7TQiY">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/ryoute/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fryoute%2F" alt="QR code du tutoriel ryo-te-jime"></a><a class="media-link" href="https://www.youtube.com/watch?v=-RHC4V7TQiY">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/-RHC4V7TQiY/0.jpg" alt="Aperçu vidéo de ryo-te-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-RHC4V7TQiY" alt="QR code de la vidéo ryo-te-jime"></a></div>
               </td>
             </tr>
 <tr>
@@ -1582,7 +1781,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/sankaku/">Tuto</a><a href="https://youtu.be/lq1CUBRAm7s">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/sankaku/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fsankaku%2F" alt="QR code du tutoriel sankaku-jime"></a><a class="media-link" href="https://youtu.be/lq1CUBRAm7s">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/lq1CUBRAm7s/0.jpg" alt="Aperçu vidéo de sankaku-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2Flq1CUBRAm7s" alt="QR code de la vidéo sankaku-jime"></a></div>
               </td>
             </tr>
 <tr>
@@ -1594,7 +1795,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/sodeguruma/">Tuto</a><a href="https://youtu.be/E3nvQzClcAU">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/sodeguruma/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fsodeguruma%2F" alt="QR code du tutoriel sode-guruma-jime"></a><a class="media-link" href="https://youtu.be/E3nvQzClcAU">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/E3nvQzClcAU/0.jpg" alt="Aperçu vidéo de sode-guruma-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FE3nvQzClcAU" alt="QR code de la vidéo sode-guruma-jime"></a></div>
               </td>
             </tr>
 <tr>
@@ -1606,7 +1809,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/tukkomi/">Tuto</a><a href="https://youtu.be/dKKpnD3eLcY">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/sime/tukkomi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Ftukkomi%2F" alt="QR code du tutoriel tsukkomi-jime"></a><a class="media-link" href="https://youtu.be/dKKpnD3eLcY">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/dKKpnD3eLcY/0.jpg" alt="Aperçu vidéo de tsukkomi-jime"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FdKKpnD3eLcY" alt="QR code de la vidéo tsukkomi-jime"></a></div>
               </td>
             </tr>
 
@@ -1621,6 +1826,7 @@
           <h2 class="sheet-title">kansetsu-waza</h2>
         </div>
         <div class="sheet-meta">
+          <div class="season-label">Saison 2025-2026</div>
           <div><ruby>関節技<rt>かんせつわざ</rt></ruby></div>
           <div>involve_joint-technique · implication_articulation-technique</div>
         </div>
@@ -1657,7 +1863,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udeasi/">Tuto</a><a href="https://youtu.be/ClY7g_pX-4s">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udeasi/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudeasi%2F" alt="QR code du tutoriel ude-hishigi-ashi-gatame"></a><a class="media-link" href="https://youtu.be/ClY7g_pX-4s">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/ClY7g_pX-4s/0.jpg" alt="Aperçu vidéo de ude-hishigi-ashi-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FClY7g_pX-4s" alt="QR code de la vidéo ude-hishigi-ashi-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1669,7 +1877,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udehara/">Tuto</a><a href="https://youtu.be/ZzEycg8R_9M">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udehara/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudehara%2F" alt="QR code du tutoriel ude-hishigi-hara-gatame"></a><a class="media-link" href="https://youtu.be/ZzEycg8R_9M">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/ZzEycg8R_9M/0.jpg" alt="Aperçu vidéo de ude-hishigi-hara-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FZzEycg8R_9M" alt="QR code de la vidéo ude-hishigi-hara-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1681,7 +1891,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udehiza/">Tuto</a><a href="https://youtu.be/H2HtAJdiJcE">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udehiza/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudehiza%2F" alt="QR code du tutoriel ude-hishigi-hiza-gatame"></a><a class="media-link" href="https://youtu.be/H2HtAJdiJcE">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/H2HtAJdiJcE/0.jpg" alt="Aperçu vidéo de ude-hishigi-hiza-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FH2HtAJdiJcE" alt="QR code de la vidéo ude-hishigi-hiza-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1693,7 +1905,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udejyuji/">Tuto</a><a href="https://youtu.be/OWgSOlCuMXw">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udejyuji/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudejyuji%2F" alt="QR code du tutoriel ude-hishigi-juji-gatame"></a><a class="media-link" href="https://youtu.be/OWgSOlCuMXw">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/OWgSOlCuMXw/0.jpg" alt="Aperçu vidéo de ude-hishigi-juji-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FOWgSOlCuMXw" alt="QR code de la vidéo ude-hishigi-juji-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1705,7 +1919,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udesankakku/">Tuto</a><a href="https://youtu.be/WefAmW4azhk">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udesankakku/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudesankakku%2F" alt="QR code du tutoriel ude-hishigi-sankaku-gatame"></a><a class="media-link" href="https://youtu.be/WefAmW4azhk">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/WefAmW4azhk/0.jpg" alt="Aperçu vidéo de ude-hishigi-sankaku-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FWefAmW4azhk" alt="QR code de la vidéo ude-hishigi-sankaku-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1717,7 +1933,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udeude/">Tuto</a><a href="https://youtu.be/SBf0aTma1VI">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udeude/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudeude%2F" alt="QR code du tutoriel ude-hishigi-ude-gatame"></a><a class="media-link" href="https://youtu.be/SBf0aTma1VI">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/SBf0aTma1VI/0.jpg" alt="Aperçu vidéo de ude-hishigi-ude-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FSBf0aTma1VI" alt="QR code de la vidéo ude-hishigi-ude-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1729,7 +1947,9 @@
               <td class="col-dan"><span class="dan-hit">●</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udewaki/">Tuto</a><a href="https://youtu.be/8F5p1zuJRG0">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udewaki/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudewaki%2F" alt="QR code du tutoriel ude-hishigi-waki-gatame"></a><a class="media-link" href="https://youtu.be/8F5p1zuJRG0">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/8F5p1zuJRG0/0.jpg" alt="Aperçu vidéo de ude-hishigi-waki-gatame"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2F8F5p1zuJRG0" alt="QR code de la vidéo ude-hishigi-waki-gatame"></a></div>
               </td>
             </tr>
 <tr>
@@ -1741,7 +1961,9 @@
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-dan"><span class="dan-miss">·</span></td>
               <td class="col-links">
-                <div class="media-links"><a href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udegarami/">Tuto</a><a href="https://youtu.be/AIlTvZb4RlE">Vidéo</a></div>
+                <div class="media-links"><a class="media-link" href="https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udegarami/">
+                    <span class="media-link-label">Tuto</span><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudegarami%2F" alt="QR code du tutoriel ude-garami"></a><a class="media-link" href="https://youtu.be/AIlTvZb4RlE">
+                    <span class="media-link-label">Vidéo</span><img class="media-link-preview" src="https://img.youtube.com/vi/AIlTvZb4RlE/0.jpg" alt="Aperçu vidéo de ude-garami"><img class="media-link-qrcode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&amp;data=https%3A%2F%2Fyoutu.be%2FAIlTvZb4RlE" alt="QR code de la vidéo ude-garami"></a></div>
               </td>
             </tr>
 

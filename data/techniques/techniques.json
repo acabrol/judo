@@ -33,7 +33,9 @@
         "video_id": "M9_7De6A1kk",
         "video_url": "https://youtu.be/M9_7De6A1kk",
         "video_thumbnail_url": "https://img.youtube.com/vi/M9_7De6A1kk/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/hane/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/hane/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fhane%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FM9_7De6A1kk"
       },
       {
         "root_category-name": "nage-waza",
@@ -67,7 +69,9 @@
         "video_id": "qTo8HlAAkOo",
         "video_url": "https://youtu.be/qTo8HlAAkOo",
         "video_thumbnail_url": "https://img.youtube.com/vi/qTo8HlAAkOo/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/harai/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/harai/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fharai%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FqTo8HlAAkOo"
       },
       {
         "root_category-name": "nage-waza",
@@ -101,7 +105,9 @@
         "video_id": "SU7Id6uVJ44",
         "video_url": "https://youtu.be/SU7Id6uVJ44",
         "video_thumbnail_url": "https://img.youtube.com/vi/SU7Id6uVJ44/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/kosiguruma/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/kosiguruma/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fkosiguruma%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FSU7Id6uVJ44"
       },
       {
         "root_category-name": "nage-waza",
@@ -135,7 +141,9 @@
         "video_id": "yhu1mfy2vJ4",
         "video_url": "https://youtu.be/yhu1mfy2vJ4",
         "video_thumbnail_url": "https://img.youtube.com/vi/yhu1mfy2vJ4/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/oogosi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/oogosi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Foogosi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2Fyhu1mfy2vJ4"
       },
       {
         "root_category-name": "nage-waza",
@@ -169,7 +177,9 @@
         "video_id": "QsmAxpmYLOI",
         "video_url": "https://www.youtube.com/watch?v=QsmAxpmYLOI",
         "video_thumbnail_url": "https://img.youtube.com/vi/QsmAxpmYLOI/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/sodeturikomi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/sodeturikomi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fsodeturikomi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DQsmAxpmYLOI"
       },
       {
         "root_category-name": "nage-waza",
@@ -203,7 +213,9 @@
         "video_id": "51Htlp7xEvE",
         "video_url": "https://www.youtube.com/watch?v=51Htlp7xEvE",
         "video_thumbnail_url": "https://img.youtube.com/vi/51Htlp7xEvE/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/turi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/turi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fturi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D51Htlp7xEvE"
       },
       {
         "root_category-name": "nage-waza",
@@ -237,7 +249,9 @@
         "video_id": "51Htlp7xEvE",
         "video_url": "https://youtu.be/51Htlp7xEvE",
         "video_thumbnail_url": "https://img.youtube.com/vi/51Htlp7xEvE/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/turikomi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/turikomi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fturikomi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F51Htlp7xEvE"
       },
       {
         "root_category-name": "nage-waza",
@@ -271,7 +285,9 @@
         "video_id": "0Q80pgrZYVk",
         "video_url": "https://youtu.be/0Q80pgrZYVk?si=vFlt07awBsFbC_OB&t=140",
         "video_thumbnail_url": "https://img.youtube.com/vi/0Q80pgrZYVk/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F0Q80pgrZYVk%3Fsi%3DvFlt07awBsFbC_OB%26t%3D140"
       },
       {
         "root_category-name": "nage-waza",
@@ -305,7 +321,9 @@
         "video_id": "bPKwtB4lyOQ",
         "video_url": "https://www.youtube.com/watch?v=bPKwtB4lyOQ",
         "video_thumbnail_url": "https://img.youtube.com/vi/bPKwtB4lyOQ/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/uki/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/uki/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fuki%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbPKwtB4lyOQ"
       },
       {
         "root_category-name": "nage-waza",
@@ -339,7 +357,9 @@
         "video_id": "ORIYstuxYT8",
         "video_url": "https://youtu.be/ORIYstuxYT8",
         "video_thumbnail_url": "https://img.youtube.com/vi/ORIYstuxYT8/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/usiro/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/usiro/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Fusiro%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FORIYstuxYT8"
       },
       {
         "root_category-name": "nage-waza",
@@ -373,7 +393,9 @@
         "video_id": "4pQd_bEnlf0",
         "video_url": "https://youtu.be/4pQd_bEnlf0",
         "video_thumbnail_url": "https://img.youtube.com/vi/4pQd_bEnlf0/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/uturi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/kosi/uturi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fkosi%2Futuri%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F4pQd_bEnlf0"
       },
       {
         "root_category-name": "nage-waza",
@@ -407,7 +429,9 @@
         "video_id": "F-4fyNwx52w",
         "video_url": "https://www.youtube.com/watch?v=F-4fyNwx52w&t=6s",
         "video_thumbnail_url": "https://img.youtube.com/vi/F-4fyNwx52w/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DF-4fyNwx52w%26t%3D6s"
       }
     ],
     "te-waza": [
@@ -443,7 +467,9 @@
         "video_id": "FQnOlCxo4oI",
         "video_url": "https://youtu.be/FQnOlCxo4oI",
         "video_thumbnail_url": "https://img.youtube.com/vi/FQnOlCxo4oI/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/ipponseoi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/ipponseoi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fipponseoi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FFQnOlCxo4oI"
       },
       {
         "root_category-name": "nage-waza",
@@ -477,7 +503,9 @@
         "video_id": "cnHRhSy8yi4",
         "video_url": "https://youtu.be/cnHRhSy8yi4",
         "video_thumbnail_url": "https://img.youtube.com/vi/cnHRhSy8yi4/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/kataguruma/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/kataguruma/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fkataguruma%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FcnHRhSy8yi4"
       },
       {
         "root_category-name": "nage-waza",
@@ -511,7 +539,9 @@
         "video_id": "tJylJYfBliA",
         "video_url": "https://youtu.be/tJylJYfBliA",
         "video_thumbnail_url": "https://img.youtube.com/vi/tJylJYfBliA/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/kibisugaesi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/kibisugaesi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fkibisugaesi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FtJylJYfBliA"
       },
       {
         "root_category-name": "nage-waza",
@@ -545,7 +575,9 @@
         "video_id": "ZNL47q1aJNY",
         "video_url": "https://youtu.be/ZNL47q1aJNY",
         "video_thumbnail_url": "https://img.youtube.com/vi/ZNL47q1aJNY/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/kutikitaosi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/kutikitaosi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fkutikitaosi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FZNL47q1aJNY"
       },
       {
         "root_category-name": "nage-waza",
@@ -579,7 +611,9 @@
         "video_id": "BHLQS4K85bs",
         "video_url": "https://youtu.be/BHLQS4K85bs",
         "video_thumbnail_url": "https://img.youtube.com/vi/BHLQS4K85bs/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/morotegari/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/morotegari/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fmorotegari%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FBHLQS4K85bs"
       },
       {
         "root_category-name": "nage-waza",
@@ -613,7 +647,9 @@
         "video_id": "ff8U2TVZIYI",
         "video_url": "https://youtu.be/ff8U2TVZIYI",
         "video_thumbnail_url": "https://img.youtube.com/vi/ff8U2TVZIYI/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/obiotosi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/obiotosi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fobiotosi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2Fff8U2TVZIYI"
       },
       {
         "root_category-name": "nage-waza",
@@ -647,7 +683,9 @@
         "video_id": "bpc82SrunUU",
         "video_url": "https://youtu.be/bpc82SrunUU",
         "video_thumbnail_url": "https://img.youtube.com/vi/bpc82SrunUU/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2Fbpc82SrunUU"
       },
       {
         "root_category-name": "nage-waza",
@@ -681,7 +719,9 @@
         "video_id": "zIq0xI0ogxk",
         "video_url": "https://youtu.be/zIq0xI0ogxk",
         "video_thumbnail_url": "https://img.youtube.com/vi/zIq0xI0ogxk/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/seoi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/seoi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fseoi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FzIq0xI0ogxk"
       },
       {
         "root_category-name": "nage-waza",
@@ -715,7 +755,9 @@
         "video_id": "vu1TMVNnq34",
         "video_url": "https://youtu.be/vu1TMVNnq34",
         "video_thumbnail_url": "https://img.youtube.com/vi/vu1TMVNnq34/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/seoiotosi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/seoiotosi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fseoiotosi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2Fvu1TMVNnq34"
       },
       {
         "root_category-name": "nage-waza",
@@ -749,7 +791,9 @@
         "video_id": "vU6aJ2kFxoI",
         "video_url": "https://youtu.be/vU6aJ2kFxoI",
         "video_thumbnail_url": "https://img.youtube.com/vi/vU6aJ2kFxoI/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/sukui/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/sukui/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fsukui%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FvU6aJ2kFxoI"
       },
       {
         "root_category-name": "nage-waza",
@@ -783,7 +827,9 @@
         "video_id": "lLU9wv52ni0",
         "video_url": "https://youtu.be/lLU9wv52ni0",
         "video_thumbnail_url": "https://img.youtube.com/vi/lLU9wv52ni0/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/sumiotosi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/sumiotosi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fsumiotosi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FlLU9wv52ni0"
       },
       {
         "root_category-name": "nage-waza",
@@ -817,7 +863,9 @@
         "video_id": "4x6S3Q-Ktv8",
         "video_url": "https://youtu.be/4x6S3Q-Ktv8",
         "video_thumbnail_url": "https://img.youtube.com/vi/4x6S3Q-Ktv8/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/taiotosi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/taiotosi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Ftaiotosi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F4x6S3Q-Ktv8"
       },
       {
         "root_category-name": "nage-waza",
@@ -851,7 +899,9 @@
         "video_id": "QA2PK_tm2fQ",
         "video_url": "https://youtu.be/QA2PK_tm2fQ",
         "video_thumbnail_url": "https://img.youtube.com/vi/QA2PK_tm2fQ/0.jpg",
-        "tutorial_url": "https://www.bjjee.com/articles/learn-one-of-the-best-old-school-judo-throws-te-guruma/"
+        "tutorial_url": "https://www.bjjee.com/articles/learn-one-of-the-best-old-school-judo-throws-te-guruma/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.bjjee.com%2Farticles%2Flearn-one-of-the-best-old-school-judo-throws-te-guruma%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FQA2PK_tm2fQ"
       },
       {
         "root_category-name": "nage-waza",
@@ -885,7 +935,9 @@
         "video_id": "V-RS3uhtVWM",
         "video_url": "https://youtu.be/V-RS3uhtVWM",
         "video_thumbnail_url": "https://img.youtube.com/vi/V-RS3uhtVWM/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/utimatasukasi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/utimatasukasi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Futimatasukasi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FV-RS3uhtVWM"
       },
       {
         "root_category-name": "nage-waza",
@@ -919,7 +971,9 @@
         "video_id": "6H5tmncOY4Q",
         "video_url": "https://youtu.be/6H5tmncOY4Q",
         "video_thumbnail_url": "https://img.youtube.com/vi/6H5tmncOY4Q/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/ukiotosi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/ukiotosi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fukiotosi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F6H5tmncOY4Q"
       },
       {
         "root_category-name": "nage-waza",
@@ -953,7 +1007,9 @@
         "video_id": "MGlyKmSuzdc",
         "video_url": "https://youtu.be/MGlyKmSuzdc",
         "video_thumbnail_url": "https://img.youtube.com/vi/MGlyKmSuzdc/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/yamaarasi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/te/yamaarasi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fte%2Fyamaarasi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FMGlyKmSuzdc"
       },
       {
         "root_category-name": "nage-waza",
@@ -987,7 +1043,9 @@
         "video_id": "tvjQxhfz6RE",
         "video_url": "https://youtu.be/tvjQxhfz6RE?si=VLicjnlUJ9vRqD_m",
         "video_thumbnail_url": "https://img.youtube.com/vi/tvjQxhfz6RE/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FtvjQxhfz6RE%3Fsi%3DVLicjnlUJ9vRqD_m"
       }
     ],
     "ashi-waza": [
@@ -1023,7 +1081,9 @@
         "video_id": "ROeayhvom9U",
         "video_url": "https://youtu.be/ROeayhvom9U",
         "video_thumbnail_url": "https://img.youtube.com/vi/ROeayhvom9U/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/asiguruma/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/asiguruma/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fasiguruma%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FROeayhvom9U"
       },
       {
         "root_category-name": "nage-waza",
@@ -1057,7 +1117,9 @@
         "video_id": "4BUUvqxi_Kk",
         "video_url": "https://youtu.be/4BUUvqxi_Kk",
         "video_thumbnail_url": "https://img.youtube.com/vi/4BUUvqxi_Kk/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/deasiharai/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/deasiharai/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fdeasiharai%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F4BUUvqxi_Kk"
       },
       {
         "root_category-name": "nage-waza",
@@ -1091,7 +1153,9 @@
         "video_id": "9bZAZSBtnGs",
         "video_url": "https://youtu.be/9bZAZSBtnGs",
         "video_thumbnail_url": "https://img.youtube.com/vi/9bZAZSBtnGs/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/hanegosi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/hanegosi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fhanegosi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F9bZAZSBtnGs"
       },
       {
         "root_category-name": "nage-waza",
@@ -1125,7 +1189,9 @@
         "video_id": "gGPXvWL8VbE",
         "video_url": "https://youtu.be/gGPXvWL8VbE",
         "video_thumbnail_url": "https://img.youtube.com/vi/gGPXvWL8VbE/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/haraiturikomi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/haraiturikomi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fharaiturikomi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FgGPXvWL8VbE"
       },
       {
         "root_category-name": "nage-waza",
@@ -1159,7 +1225,9 @@
         "video_id": "JPJx9-oAVns",
         "video_url": "https://youtu.be/JPJx9-oAVns",
         "video_thumbnail_url": "https://img.youtube.com/vi/JPJx9-oAVns/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/hizaguruma/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/hizaguruma/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fhizaguruma%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FJPJx9-oAVns"
       },
       {
         "root_category-name": "nage-waza",
@@ -1193,7 +1261,9 @@
         "video_id": "8b6kY4s4zH4",
         "video_url": "https://youtu.be/8b6kY4s4zH4",
         "video_thumbnail_url": "https://img.youtube.com/vi/8b6kY4s4zH4/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/kosotogake/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/kosotogake/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fkosotogake%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F8b6kY4s4zH4"
       },
       {
         "root_category-name": "nage-waza",
@@ -1227,7 +1297,9 @@
         "video_id": "jeQ541ScLB4",
         "video_url": "https://youtu.be/jeQ541ScLB4",
         "video_thumbnail_url": "https://img.youtube.com/vi/jeQ541ScLB4/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/kosotogari/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/kosotogari/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fkosotogari%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FjeQ541ScLB4"
       },
       {
         "root_category-name": "nage-waza",
@@ -1261,7 +1333,9 @@
         "video_id": "_MWAdYi_LC4",
         "video_url": "https://youtu.be/_MWAdYi_LC4",
         "video_thumbnail_url": "https://img.youtube.com/vi/_MWAdYi_LC4/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/koutigari/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/koutigari/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fkoutigari%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F_MWAdYi_LC4"
       },
       {
         "root_category-name": "nage-waza",
@@ -1295,7 +1369,9 @@
         "video_id": "3Jb3tZvr9Ng",
         "video_url": "https://youtu.be/3Jb3tZvr9Ng",
         "video_thumbnail_url": "https://img.youtube.com/vi/3Jb3tZvr9Ng/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/koutigari/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/koutigari/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fkoutigari%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F3Jb3tZvr9Ng"
       },
       {
         "root_category-name": "nage-waza",
@@ -1329,7 +1405,9 @@
         "video_id": "SnZciTAY9vc",
         "video_url": "https://youtu.be/SnZciTAY9vc",
         "video_thumbnail_url": "https://img.youtube.com/vi/SnZciTAY9vc/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/ooguruma/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/ooguruma/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fooguruma%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FSnZciTAY9vc"
       },
       {
         "root_category-name": "nage-waza",
@@ -1363,7 +1441,9 @@
         "video_id": "nw1ZdRjrdRI",
         "video_url": "https://youtu.be/nw1ZdRjrdRI",
         "video_thumbnail_url": "https://img.youtube.com/vi/nw1ZdRjrdRI/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/okuriasiharai/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/okuriasiharai/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fokuriasiharai%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2Fnw1ZdRjrdRI"
       },
       {
         "root_category-name": "nage-waza",
@@ -1397,7 +1477,9 @@
         "video_id": "8ZjM3X_EANo",
         "video_url": "https://youtu.be/8ZjM3X_EANo",
         "video_thumbnail_url": "https://img.youtube.com/vi/8ZjM3X_EANo/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotogaesi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotogaesi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Foosotogaesi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F8ZjM3X_EANo"
       },
       {
         "root_category-name": "nage-waza",
@@ -1431,7 +1513,9 @@
         "video_id": "c-A_nP7mKAc",
         "video_url": "https://www.youtube.com/watch?v=c-A_nP7mKAc",
         "video_thumbnail_url": "https://img.youtube.com/vi/c-A_nP7mKAc/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotogari/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotogari/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Foosotogari%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dc-A_nP7mKAc"
       },
       {
         "root_category-name": "nage-waza",
@@ -1465,7 +1549,9 @@
         "video_id": "92KbCm6pQeI",
         "video_url": "https://youtu.be/92KbCm6pQeI",
         "video_thumbnail_url": "https://img.youtube.com/vi/92KbCm6pQeI/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotoguruma/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotoguruma/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Foosotoguruma%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F92KbCm6pQeI"
       },
       {
         "root_category-name": "nage-waza",
@@ -1499,7 +1585,9 @@
         "video_id": "2DsVvDw7b8g",
         "video_url": "https://youtu.be/2DsVvDw7b8g",
         "video_thumbnail_url": "https://img.youtube.com/vi/2DsVvDw7b8g/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotootosi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/oosotootosi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Foosotootosi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F2DsVvDw7b8g"
       },
       {
         "root_category-name": "nage-waza",
@@ -1533,7 +1621,9 @@
         "video_id": "dCyZTXyjIXE",
         "video_url": "https://youtu.be/dCyZTXyjIXE",
         "video_thumbnail_url": "https://img.youtube.com/vi/dCyZTXyjIXE/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/ooutigaesi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/ooutigaesi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fooutigaesi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FdCyZTXyjIXE"
       },
       {
         "root_category-name": "nage-waza",
@@ -1567,7 +1657,9 @@
         "video_id": "0itJFhV9pDQ",
         "video_url": "https://youtu.be/0itJFhV9pDQ",
         "video_thumbnail_url": "https://img.youtube.com/vi/0itJFhV9pDQ/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/ooutigari/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/ooutigari/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fooutigari%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F0itJFhV9pDQ"
       },
       {
         "root_category-name": "nage-waza",
@@ -1601,7 +1693,9 @@
         "video_id": "699i--pvYmE",
         "video_url": "https://youtu.be/699i--pvYmE",
         "video_thumbnail_url": "https://img.youtube.com/vi/699i--pvYmE/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/sasaeturikomi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/sasaeturikomi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Fsasaeturikomi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F699i--pvYmE"
       },
       {
         "root_category-name": "nage-waza",
@@ -1635,7 +1729,9 @@
         "video_id": "GwweWqqFB5g",
         "video_url": "https://youtu.be/GwweWqqFB5g",
         "video_thumbnail_url": "https://img.youtube.com/vi/GwweWqqFB5g/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/tubame/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/tubame/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Ftubame%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FGwweWqqFB5g"
       },
       {
         "root_category-name": "nage-waza",
@@ -1669,7 +1765,9 @@
         "video_id": "iUpSu5J-bgw",
         "video_url": "https://youtu.be/iUpSu5J-bgw",
         "video_thumbnail_url": "https://img.youtube.com/vi/iUpSu5J-bgw/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/utimata/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/asi/utimata/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fasi%2Futimata%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FiUpSu5J-bgw"
       }
     ]
   },
@@ -1707,7 +1805,9 @@
         "video_id": "92zUYWBp5N8",
         "video_url": "https://youtu.be/92zUYWBp5N8",
         "video_thumbnail_url": "https://img.youtube.com/vi/92zUYWBp5N8/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/masute/hikikomi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/masute/hikikomi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fmasute%2Fhikikomi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F92zUYWBp5N8"
       },
       {
         "root_category-name": "nage-waza",
@@ -1741,7 +1841,9 @@
         "video_id": "5VhduA5xkbA",
         "video_url": "https://youtu.be/5VhduA5xkbA",
         "video_thumbnail_url": "https://img.youtube.com/vi/5VhduA5xkbA/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/masute/sumigaesi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/masute/sumigaesi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fmasute%2Fsumigaesi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F5VhduA5xkbA"
       },
       {
         "root_category-name": "nage-waza",
@@ -1775,7 +1877,9 @@
         "video_id": "TmTWgrmViZc",
         "video_url": "https://youtu.be/TmTWgrmViZc",
         "video_thumbnail_url": "https://img.youtube.com/vi/TmTWgrmViZc/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/masute/tawara/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/masute/tawara/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fmasute%2Ftawara%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FTmTWgrmViZc"
       },
       {
         "root_category-name": "nage-waza",
@@ -1809,7 +1913,9 @@
         "video_id": "880WbHvHv6A",
         "video_url": "https://youtu.be/880WbHvHv6A",
         "video_thumbnail_url": "https://img.youtube.com/vi/880WbHvHv6A/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/masute/tomoe/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/masute/tomoe/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fmasute%2Ftomoe%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F880WbHvHv6A"
       },
       {
         "root_category-name": "nage-waza",
@@ -1843,7 +1949,9 @@
         "video_id": "Fgi9b8DJ5sQ",
         "video_url": "https://youtu.be/Fgi9b8DJ5sQ",
         "video_thumbnail_url": "https://img.youtube.com/vi/Fgi9b8DJ5sQ/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/masute/uranage/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/masute/uranage/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fmasute%2Furanage%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FFgi9b8DJ5sQ"
       }
     ],
     "yoko-sutemi-waza": [
@@ -1879,7 +1987,9 @@
         "video_id": "Hr0cOMGBDYo",
         "video_url": "https://youtu.be/Hr0cOMGBDYo",
         "video_thumbnail_url": "https://img.youtube.com/vi/Hr0cOMGBDYo/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/dakiwakare/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/dakiwakare/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fdakiwakare%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FHr0cOMGBDYo"
       },
       {
         "root_category-name": "nage-waza",
@@ -1913,7 +2023,9 @@
         "video_id": "6CRBGLGz9j8",
         "video_url": "https://youtu.be/6CRBGLGz9j8",
         "video_thumbnail_url": "https://img.youtube.com/vi/6CRBGLGz9j8/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/hanemaki/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/hanemaki/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fhanemaki%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F6CRBGLGz9j8"
       },
       {
         "root_category-name": "nage-waza",
@@ -1947,7 +2059,9 @@
         "video_id": "VBaHzKaCXss",
         "video_url": "https://youtu.be/VBaHzKaCXss",
         "video_thumbnail_url": "https://img.youtube.com/vi/VBaHzKaCXss/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FVBaHzKaCXss"
       },
       {
         "root_category-name": "nage-waza",
@@ -1981,7 +2095,9 @@
         "video_id": "_1eygIXLD_w",
         "video_url": "https://youtu.be/_1eygIXLD_w",
         "video_thumbnail_url": "https://img.youtube.com/vi/_1eygIXLD_w/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F_1eygIXLD_w"
       },
       {
         "root_category-name": "nage-waza",
@@ -2015,7 +2131,9 @@
         "video_id": "DGDv2oMwmas",
         "video_url": "https://youtu.be/DGDv2oMwmas",
         "video_thumbnail_url": "https://img.youtube.com/vi/DGDv2oMwmas/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/oosotomaki/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/oosotomaki/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Foosotomaki%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FDGDv2oMwmas"
       },
       {
         "root_category-name": "nage-waza",
@@ -2049,7 +2167,9 @@
         "video_id": "bWG9O1BVKtQ",
         "video_url": "https://youtu.be/bWG9O1BVKtQ",
         "video_thumbnail_url": "https://img.youtube.com/vi/bWG9O1BVKtQ/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/sotomaki/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/sotomaki/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fsotomaki%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FbWG9O1BVKtQ"
       },
       {
         "root_category-name": "nage-waza",
@@ -2083,7 +2203,9 @@
         "video_id": "3b9Me3Fohpk",
         "video_url": "https://youtu.be/3b9Me3Fohpk",
         "video_thumbnail_url": "https://img.youtube.com/vi/3b9Me3Fohpk/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/taniotosi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/taniotosi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Ftaniotosi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F3b9Me3Fohpk"
       },
       {
         "root_category-name": "nage-waza",
@@ -2117,7 +2239,9 @@
         "video_id": "W8l0iOAqx5E",
         "video_url": "https://www.youtube.com/watch?v=W8l0iOAqx5E",
         "video_thumbnail_url": "https://img.youtube.com/vi/W8l0iOAqx5E/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DW8l0iOAqx5E"
       },
       {
         "root_category-name": "nage-waza",
@@ -2151,7 +2275,9 @@
         "video_id": "_1eygIXLD_w",
         "video_url": "https://youtu.be/_1eygIXLD_w",
         "video_thumbnail_url": "https://img.youtube.com/vi/_1eygIXLD_w/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/utimaki/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/utimaki/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Futimaki%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F_1eygIXLD_w"
       },
       {
         "root_category-name": "nage-waza",
@@ -2185,7 +2311,9 @@
         "video_id": "jZXENTLpJCI",
         "video_url": "https://youtu.be/jZXENTLpJCI",
         "video_thumbnail_url": "https://img.youtube.com/vi/jZXENTLpJCI/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/utimatamaki/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/utimatamaki/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Futimatamaki%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FjZXENTLpJCI"
       },
       {
         "root_category-name": "nage-waza",
@@ -2219,7 +2347,9 @@
         "video_id": "weVOpJ63gII",
         "video_url": "https://youtu.be/weVOpJ63gII",
         "video_thumbnail_url": "https://img.youtube.com/vi/weVOpJ63gII/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/ukiwaza/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/ukiwaza/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fukiwaza%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FweVOpJ63gII"
       },
       {
         "root_category-name": "nage-waza",
@@ -2253,7 +2383,9 @@
         "video_id": "tP1Sj1uDfSo",
         "video_url": "https://youtu.be/tP1Sj1uDfSo",
         "video_thumbnail_url": "https://img.youtube.com/vi/tP1Sj1uDfSo/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokogake/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokogake/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fyokogake%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FtP1Sj1uDfSo"
       },
       {
         "root_category-name": "nage-waza",
@@ -2287,7 +2419,9 @@
         "video_id": "MehP6I5cY2c",
         "video_url": "https://youtu.be/MehP6I5cY2c",
         "video_thumbnail_url": "https://img.youtube.com/vi/MehP6I5cY2c/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokoguruma/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokoguruma/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fyokoguruma%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FMehP6I5cY2c"
       },
       {
         "root_category-name": "nage-waza",
@@ -2321,7 +2455,9 @@
         "video_id": "MnNG67pF_a0",
         "video_url": "https://youtu.be/MnNG67pF_a0",
         "video_thumbnail_url": "https://img.youtube.com/vi/MnNG67pF_a0/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokootosi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokootosi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fyokootosi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FMnNG67pF_a0"
       },
       {
         "root_category-name": "nage-waza",
@@ -2355,7 +2491,9 @@
         "video_id": "bp1tscHlePI",
         "video_url": "https://youtu.be/bp1tscHlePI",
         "video_thumbnail_url": "https://img.youtube.com/vi/bp1tscHlePI/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokowakare/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/nage/yoko/yokowakare/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fnage%2Fyoko%2Fyokowakare%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2Fbp1tscHlePI"
       }
     ]
   },
@@ -2382,7 +2520,7 @@
         "fr-description": "Contrôle fondamental en travers",
         "fr-1-dan": "hon-gesa-gatame",
         "fr-2-dan": null,
-        "fr-3-dan": "hon-gesa-gatame",
+        "fr-3-dan": null,
         "kanji": "本袈裟固",
         "furigana": "けさがため",
         "en-translation": "principal-draped_over_one shoulder_diagonnaly-set",
@@ -2393,7 +2531,9 @@
         "video_id": "NDaQuJOFBYk",
         "video_url": "https://www.youtube.com/watch?v=NDaQuJOFBYk",
         "video_thumbnail_url": "https://img.youtube.com/vi/NDaQuJOFBYk/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kesa/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kesa/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fosae%2Fkesa%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DNDaQuJOFBYk"
       },
       {
         "root_category-name": "katame-waza",
@@ -2427,7 +2567,9 @@
         "video_id": "HFuMjOv0WN8",
         "video_url": "https://youtu.be/HFuMjOv0WN8",
         "video_thumbnail_url": "https://img.youtube.com/vi/HFuMjOv0WN8/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kamisihou/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kamisihou/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fosae%2Fkamisihou%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FHFuMjOv0WN8"
       },
       {
         "root_category-name": "katame-waza",
@@ -2461,7 +2603,9 @@
         "video_id": "zQR3IOXxO_Q",
         "video_url": "https://youtu.be/zQR3IOXxO_Q",
         "video_thumbnail_url": "https://img.youtube.com/vi/zQR3IOXxO_Q/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kata/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kata/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fosae%2Fkata%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FzQR3IOXxO_Q"
       },
       {
         "root_category-name": "katame-waza",
@@ -2495,7 +2639,9 @@
         "video_id": "Q2fb9jaoUFQ",
         "video_url": "https://youtu.be/Q2fb9jaoUFQ",
         "video_thumbnail_url": "https://img.youtube.com/vi/Q2fb9jaoUFQ/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kuzurekesa/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kuzurekesa/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fosae%2Fkuzurekesa%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FQ2fb9jaoUFQ"
       },
       {
         "root_category-name": "katame-waza",
@@ -2529,7 +2675,9 @@
         "video_id": "YUrogQWdwiY",
         "video_url": "https://youtu.be/YUrogQWdwiY",
         "video_thumbnail_url": "https://img.youtube.com/vi/YUrogQWdwiY/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kuzurekami/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/osae/kuzurekami/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fosae%2Fkuzurekami%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FYUrogQWdwiY"
       },
       {
         "root_category-name": "katame-waza",
@@ -2563,7 +2711,9 @@
         "video_id": "55-rFmBx53g",
         "video_url": "https://youtu.be/55-rFmBx53g",
         "video_thumbnail_url": "https://img.youtube.com/vi/55-rFmBx53g/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F55-rFmBx53g"
       },
       {
         "root_category-name": "katame-waza",
@@ -2597,7 +2747,9 @@
         "video_id": "54fQM7dYz0M",
         "video_url": "https://youtu.be/54fQM7dYz0M?si=9DtSRV6XsOjN1kH0",
         "video_thumbnail_url": "https://img.youtube.com/vi/54fQM7dYz0M/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F54fQM7dYz0M%3Fsi%3D9DtSRV6XsOjN1kH0"
       },
       {
         "root_category-name": "katame-waza",
@@ -2631,7 +2783,9 @@
         "video_id": "XjWzNxlKH1M",
         "video_url": "https://www.youtube.com/watch?v=XjWzNxlKH1M",
         "video_thumbnail_url": "https://img.youtube.com/vi/XjWzNxlKH1M/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DXjWzNxlKH1M"
       },
       {
         "root_category-name": "katame-waza",
@@ -2665,7 +2819,9 @@
         "video_id": "SBapox2M2dE",
         "video_url": "https://youtu.be/SBapox2M2dE",
         "video_thumbnail_url": "https://img.youtube.com/vi/SBapox2M2dE/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FSBapox2M2dE"
       },
       {
         "root_category-name": "katame-waza",
@@ -2699,7 +2855,9 @@
         "video_id": "TT7XJVSEQxA",
         "video_url": "https://youtu.be/TT7XJVSEQxA",
         "video_thumbnail_url": "https://img.youtube.com/vi/TT7XJVSEQxA/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FTT7XJVSEQxA"
       },
       {
         "root_category-name": "katame-waza",
@@ -2733,7 +2891,9 @@
         "video_id": "e5HrhANfDcU",
         "video_url": "https://www.youtube.com/watch?v=e5HrhANfDcU",
         "video_thumbnail_url": "https://img.youtube.com/vi/e5HrhANfDcU/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3De5HrhANfDcU"
       }
     ]
   },
@@ -2771,7 +2931,9 @@
         "video_id": "AeeoSxU2g9Q",
         "video_url": "https://youtu.be/AeeoSxU2g9Q?si=nqyBRNBySySO8GiQ",
         "video_thumbnail_url": "https://img.youtube.com/vi/AeeoSxU2g9Q/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FAeeoSxU2g9Q%3Fsi%3DnqyBRNBySySO8GiQ"
       },
       {
         "root_category-name": "katame-waza",
@@ -2805,7 +2967,9 @@
         "video_id": "t3tQriIPdlI",
         "video_url": "https://youtu.be/t3tQriIPdlI",
         "video_thumbnail_url": "https://img.youtube.com/vi/t3tQriIPdlI/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/gyaku/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/gyaku/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fgyaku%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2Ft3tQriIPdlI"
       },
       {
         "root_category-name": "katame-waza",
@@ -2839,7 +3003,9 @@
         "video_id": "9f0n8jez7iA",
         "video_url": "https://youtu.be/9f0n8jez7iA",
         "video_thumbnail_url": "https://img.youtube.com/vi/9f0n8jez7iA/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/hadaka/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/hadaka/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fhadaka%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F9f0n8jez7iA"
       },
       {
         "root_category-name": "katame-waza",
@@ -2873,7 +3039,9 @@
         "video_id": "yaTGgRjnwB8",
         "video_url": "https://www.youtube.com/watch?v=yaTGgRjnwB8",
         "video_thumbnail_url": "https://img.youtube.com/vi/yaTGgRjnwB8/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/kataha/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/kataha/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fkataha%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyaTGgRjnwB8"
       },
       {
         "root_category-name": "katame-waza",
@@ -2907,7 +3075,9 @@
         "video_id": "3VZVUAmiMD8",
         "video_url": "https://youtu.be/3VZVUAmiMD8",
         "video_thumbnail_url": "https://img.youtube.com/vi/3VZVUAmiMD8/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/kata/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/kata/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fkata%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F3VZVUAmiMD8"
       },
       {
         "root_category-name": "katame-waza",
@@ -2941,7 +3111,9 @@
         "video_id": "cHeIs-fSqwE",
         "video_url": "https://youtu.be/cHeIs-fSqwE",
         "video_thumbnail_url": "https://img.youtube.com/vi/cHeIs-fSqwE/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/katate/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/katate/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fkatate%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FcHeIs-fSqwE"
       },
       {
         "root_category-name": "katame-waza",
@@ -2975,7 +3147,9 @@
         "video_id": "bgyM7sYN6Ug",
         "video_url": "https://www.youtube.com/watch?v=bgyM7sYN6Ug",
         "video_thumbnail_url": "https://img.youtube.com/vi/bgyM7sYN6Ug/0.jpg",
-        "tutorial_url": null
+        "tutorial_url": null,
+        "tutorial_qrcode_url": null,
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbgyM7sYN6Ug"
       },
       {
         "root_category-name": "katame-waza",
@@ -3009,7 +3183,9 @@
         "video_id": "k2cHry9HByQ",
         "video_url": "https://youtu.be/k2cHry9HByQ",
         "video_thumbnail_url": "https://img.youtube.com/vi/k2cHry9HByQ/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/nami/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/nami/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fnami%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2Fk2cHry9HByQ"
       },
       {
         "root_category-name": "katame-waza",
@@ -3043,7 +3219,9 @@
         "video_id": "EiqyoVcIAi8",
         "video_url": "https://youtu.be/EiqyoVcIAi8",
         "video_thumbnail_url": "https://img.youtube.com/vi/EiqyoVcIAi8/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/okurieri/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/okurieri/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fokurieri%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FEiqyoVcIAi8"
       },
       {
         "root_category-name": "katame-waza",
@@ -3077,7 +3255,9 @@
         "video_id": "-RHC4V7TQiY",
         "video_url": "https://www.youtube.com/watch?v=-RHC4V7TQiY",
         "video_thumbnail_url": "https://img.youtube.com/vi/-RHC4V7TQiY/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/ryoute/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/ryoute/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fryoute%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-RHC4V7TQiY"
       },
       {
         "root_category-name": "katame-waza",
@@ -3111,7 +3291,9 @@
         "video_id": "lq1CUBRAm7s",
         "video_url": "https://youtu.be/lq1CUBRAm7s",
         "video_thumbnail_url": "https://img.youtube.com/vi/lq1CUBRAm7s/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/sankaku/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/sankaku/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fsankaku%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2Flq1CUBRAm7s"
       },
       {
         "root_category-name": "katame-waza",
@@ -3145,7 +3327,9 @@
         "video_id": "E3nvQzClcAU",
         "video_url": "https://youtu.be/E3nvQzClcAU",
         "video_thumbnail_url": "https://img.youtube.com/vi/E3nvQzClcAU/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/sodeguruma/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/sodeguruma/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Fsodeguruma%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FE3nvQzClcAU"
       },
       {
         "root_category-name": "katame-waza",
@@ -3179,7 +3363,9 @@
         "video_id": "dKKpnD3eLcY",
         "video_url": "https://youtu.be/dKKpnD3eLcY",
         "video_thumbnail_url": "https://img.youtube.com/vi/dKKpnD3eLcY/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/tukkomi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/sime/tukkomi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fsime%2Ftukkomi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FdKKpnD3eLcY"
       }
     ]
   },
@@ -3217,7 +3403,9 @@
         "video_id": "ClY7g_pX-4s",
         "video_url": "https://youtu.be/ClY7g_pX-4s",
         "video_thumbnail_url": "https://img.youtube.com/vi/ClY7g_pX-4s/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udeasi/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udeasi/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudeasi%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FClY7g_pX-4s"
       },
       {
         "root_category-name": "katame-waza",
@@ -3251,7 +3439,9 @@
         "video_id": "ZzEycg8R_9M",
         "video_url": "https://youtu.be/ZzEycg8R_9M",
         "video_thumbnail_url": "https://img.youtube.com/vi/ZzEycg8R_9M/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udehara/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udehara/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudehara%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FZzEycg8R_9M"
       },
       {
         "root_category-name": "katame-waza",
@@ -3285,7 +3475,9 @@
         "video_id": "H2HtAJdiJcE",
         "video_url": "https://youtu.be/H2HtAJdiJcE",
         "video_thumbnail_url": "https://img.youtube.com/vi/H2HtAJdiJcE/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udehiza/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udehiza/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudehiza%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FH2HtAJdiJcE"
       },
       {
         "root_category-name": "katame-waza",
@@ -3319,7 +3511,9 @@
         "video_id": "OWgSOlCuMXw",
         "video_url": "https://youtu.be/OWgSOlCuMXw",
         "video_thumbnail_url": "https://img.youtube.com/vi/OWgSOlCuMXw/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udejyuji/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udejyuji/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudejyuji%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FOWgSOlCuMXw"
       },
       {
         "root_category-name": "katame-waza",
@@ -3353,7 +3547,9 @@
         "video_id": "WefAmW4azhk",
         "video_url": "https://youtu.be/WefAmW4azhk",
         "video_thumbnail_url": "https://img.youtube.com/vi/WefAmW4azhk/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udesankakku/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udesankakku/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudesankakku%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FWefAmW4azhk"
       },
       {
         "root_category-name": "katame-waza",
@@ -3387,7 +3583,9 @@
         "video_id": "SBf0aTma1VI",
         "video_url": "https://youtu.be/SBf0aTma1VI",
         "video_thumbnail_url": "https://img.youtube.com/vi/SBf0aTma1VI/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udeude/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udeude/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudeude%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FSBf0aTma1VI"
       },
       {
         "root_category-name": "katame-waza",
@@ -3421,7 +3619,9 @@
         "video_id": "8F5p1zuJRG0",
         "video_url": "https://youtu.be/8F5p1zuJRG0",
         "video_thumbnail_url": "https://img.youtube.com/vi/8F5p1zuJRG0/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udewaki/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udewaki/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudewaki%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2F8F5p1zuJRG0"
       },
       {
         "root_category-name": "katame-waza",
@@ -3455,7 +3655,9 @@
         "video_id": "AIlTvZb4RlE",
         "video_url": "https://youtu.be/AIlTvZb4RlE",
         "video_thumbnail_url": "https://img.youtube.com/vi/AIlTvZb4RlE/0.jpg",
-        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udegarami/"
+        "tutorial_url": "https://www.judo-ch.jp/english/dictionary/technique/katame/kansetu/udegarami/",
+        "tutorial_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fwww.judo-ch.jp%2Fenglish%2Fdictionary%2Ftechnique%2Fkatame%2Fkansetu%2Fudegarami%2F",
+        "video_qrcode_url": "https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https%3A%2F%2Fyoutu.be%2FAIlTvZb4RlE"
       }
     ]
   }

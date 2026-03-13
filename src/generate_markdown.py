@@ -3,7 +3,7 @@ from __future__ import annotations
 import csv
 import json
 from pathlib import Path
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, quote, urlparse
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
@@ -15,6 +15,7 @@ JSON_OUTPUT = PROJECT_ROOT / "data" / "techniques" / "techniques.json"
 MARKDOWN_OUTPUT = PROJECT_ROOT / "docs" / "techniques.md"
 HTML_OUTPUT = PROJECT_ROOT / "docs" / "techniques.html"
 TEMPLATE_DIR = BASE_DIR / "templates"
+SEASON_LABEL = "Saison 2025-2026"
 
 EXCLUSION_LIST = [
     "root_category-name",
@@ -76,6 +77,12 @@ def extract_video_id(url: str | None) -> str | None:
     return None
 
 
+def qr_service_url(url: str | None) -> str | None:
+    if not url:
+        return None
+    return f"https://api.qrserver.com/v1/create-qr-code/?size=120x120&data={quote(url, safe='')}"
+
+
 def load_techniques() -> list[dict[str, str | None]]:
     with DATA_FILE.open(encoding="utf-8-sig", newline="") as handle:
         reader = csv.DictReader(handle)
@@ -91,6 +98,8 @@ def load_techniques() -> list[dict[str, str | None]]:
                 else None
             )
             normalized["tutorial_url"] = normalized.get("tutorial")
+            normalized["tutorial_qrcode_url"] = qr_service_url(normalized["tutorial_url"])
+            normalized["video_qrcode_url"] = qr_service_url(normalized["video_url"])
             rows.append(normalized)
         return rows
 
@@ -118,7 +127,7 @@ def render_html(organized_data: dict[str, dict[str, list[dict[str, str | None]]]
         autoescape=select_autoescape(["html", "xml"]),
     )
     template = env.get_template("techniques.html")
-    return template.render(data=organized_data)
+    return template.render(data=organized_data, season_label=SEASON_LABEL)
 
 
 def main() -> None:
