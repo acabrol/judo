@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Judo Techniques Revision Sheets</title>
+<style>
+  :root {
+    --paper: #fbf7ef;
+    --ink: #1b1b1b;
+    --muted: #5d5a54;
+    --line: #bdb6ab;
+    --line-strong: #72695f;
+    --accent: #a43d2f;
+    --header: #ebe2d4;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 24px;
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--ink);
+    background:
+      linear-gradient(180deg, rgba(164, 61, 47, 0.08), transparent 180px),
+      var(--paper);
+  }
+
+  .page {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .hero {
+    margin-bottom: 18px;
+    padding: 18px 22px;
+    border: 1px solid var(--line);
+    background: rgba(255, 255, 255, 0.55);
+  }
+
+  .hero h1 {
+    margin: 0 0 6px;
+    font-size: 2rem;
+    line-height: 1.05;
+  }
+
+  .hero p {
+    margin: 0;
+    max-width: 90ch;
+    color: var(--muted);
+  }
+
+  .screen-note {
+    margin-top: 10px;
+    font-size: 0.92rem;
+  }
+
+  .sheet {
+    margin-bottom: 18px;
+    padding: 14px 16px 18px;
+    border: 1px solid var(--line);
+    background: rgba(255, 255, 255, 0.72);
+    break-before: page;
+    page-break-before: always;
+  }
+
+  .sheet:first-of-type {
+    break-before: auto;
+    page-break-before: auto;
+  }
+
+  .sheet-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: end;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--line-strong);
+  }
+
+  .sheet-title {
+    margin: 0;
+    font-size: 1.45rem;
+  }
+
+  .sheet-meta {
+    color: var(--muted);
+    text-align: right;
+    font-size: 0.92rem;
+  }
+
+  .subcategory {
+    margin-bottom: 16px;
+    break-inside: avoid-page;
+    page-break-inside: avoid;
+  }
+
+  .subcategory h3 {
+    margin: 0 0 4px;
+    font-size: 1rem;
+  }
+
+  .subcategory-meta {
+    margin: 0 0 8px;
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 0.82rem;
+    line-height: 1.2;
+  }
+
+  th, td {
+    border: 1px solid var(--line);
+    padding: 5px 6px;
+    vertical-align: top;
+  }
+
+  th {
+    background: var(--header);
+    font-size: 0.7rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .col-technique { width: 17%; }
+  .col-kanji { width: 15%; text-align: center; }
+  .col-description { width: 30%; }
+  .col-translation { width: 18%; }
+  .col-dan { width: 4.5%; text-align: center; }
+  .col-links { width: 6.5%; text-align: center; }
+
+  .technique-name {
+    font-weight: 700;
+  }
+
+  ruby {
+    ruby-position: over;
+  }
+
+  rt {
+    font-size: 0.68rem;
+    color: var(--muted);
+  }
+
+  .dan-hit {
+    font-weight: 700;
+  }
+
+  .dan-miss {
+    color: #b4aea4;
+  }
+
+  .media-links {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+  }
+
+  .media-links a {
+    display: inline-block;
+    min-width: 3.6rem;
+    padding: 2px 6px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: white;
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 0.72rem;
+  }
+
+  .sources {
+    margin-top: 22px;
+    padding: 12px 16px;
+    border: 1px solid var(--line);
+    background: rgba(255, 255, 255, 0.65);
+  }
+
+  .sources h2 {
+    margin: 0 0 8px;
+    font-size: 1rem;
+  }
+
+  .sources ul {
+    margin: 0;
+    padding-left: 18px;
+  }
+
+  @media print {
+    @page {
+      size: A4 landscape;
+      margin: 9mm;
+    }
+
+    body {
+      padding: 0;
+      background: white;
+      font-size: 11px;
+    }
+
+    .page {
+      max-width: none;
+    }
+
+    .hero {
+      margin-bottom: 10px;
+      padding: 0 0 8px;
+      border: 0;
+      border-bottom: 2px solid var(--line-strong);
+      background: transparent;
+    }
+
+    .screen-note,
+    .col-links,
+    .media-links {
+      display: none;
+    }
+
+    .sheet {
+      margin: 0 0 10px;
+      padding: 0;
+      border: 0;
+      background: transparent;
+    }
+
+    .sheet-header {
+      margin-bottom: 8px;
+      padding-bottom: 5px;
+    }
+
+    .subcategory {
+      margin-bottom: 10px;
+    }
+
+    table {
+      font-size: 8.8px;
+    }
+
+    th, td {
+      padding: 2.1mm 2.2mm;
+    }
+
+    .sources {
+      border: 0;
+      padding: 0;
+      background: transparent;
+    }
+  }
+</style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <h1>Judo Techniques Revision Sheets</h1>
+      <p>Version compacte pour réviser et imprimer en A4 paysage. Les liens vidéo et tutoriel restent visibles à l'écran, mais sont masqués à l'impression.</p>
+      <p class="screen-note">Conseil d'impression : orientation paysage, marges par défaut du navigateur, arrière-plans activés si vous voulez conserver les zones de repère.</p>
+    </section>
+
+{% for main_cat, sub_cats in data.items() -%}
+{%- set first_key = sub_cats.keys() | list | first -%}
+{%- set category_item = sub_cats[first_key][0] -%}
+    <section class="sheet">
+      <header class="sheet-header">
+        <div>
+          <h2 class="sheet-title">{{ main_cat }}</h2>
+        </div>
+        <div class="sheet-meta">
+          <div><ruby>{{ category_item['main_category-kanji'] }}<rt>{{ category_item['main_category-furigana'] }}</rt></ruby></div>
+          <div>{{ category_item['en-main_category-translation'] }} · {{ category_item['fr-main_category-translation'] }}</div>
+        </div>
+      </header>
+
+{% for sub_cat, items in sub_cats.items() -%}
+      <section class="subcategory">
+        <h3>{{ sub_cat }}</h3>
+        <p class="subcategory-meta">
+          <ruby>{{ items[0]['subcategory-kanji'] }}<rt>{{ items[0]['subcategory-furigana'] }}</rt></ruby>
+          · {{ items[0]['en-subcategory-translation'] }}
+          · {{ items[0]['fr-subcategory-translation'] }}
+        </p>
+
+        <table>
+          <thead>
+            <tr>
+              <th class="col-technique">Technique</th>
+              <th class="col-kanji">Kanji</th>
+              <th class="col-description">Description FR</th>
+              <th class="col-translation">Traduction FR</th>
+              <th class="col-dan">1D</th>
+              <th class="col-dan">2D</th>
+              <th class="col-dan">3D</th>
+              <th class="col-links">Liens</th>
+            </tr>
+          </thead>
+          <tbody>
+{% for item in items -%}
+            <tr>
+              <td class="col-technique"><div class="technique-name">{{ item.technique }}</div></td>
+              <td class="col-kanji">
+                {%- if item.furigana -%}
+                <ruby>{{ item.kanji }}<rt>{{ item.furigana }}</rt></ruby>
+                {%- else -%}
+                {{ item.kanji }}
+                {%- endif -%}
+              </td>
+              <td class="col-description">{{ item['fr-description'] or '' }}</td>
+              <td class="col-translation">{{ item['fr-translation'] or '' }}</td>
+              <td class="col-dan">{%- if item['fr-1-dan'] == item.technique -%}<span class="dan-hit">●</span>{%- else -%}<span class="dan-miss">·</span>{%- endif -%}</td>
+              <td class="col-dan">{%- if item['fr-2-dan'] == item.technique -%}<span class="dan-hit">●</span>{%- else -%}<span class="dan-miss">·</span>{%- endif -%}</td>
+              <td class="col-dan">{%- if item['fr-3-dan'] == item.technique -%}<span class="dan-hit">●</span>{%- else -%}<span class="dan-miss">·</span>{%- endif -%}</td>
+              <td class="col-links">
+                <div class="media-links">
+                  {%- if item.tutorial_url -%}<a href="{{ item.tutorial_url }}">Tuto</a>{%- endif -%}
+                  {%- if item.video_url -%}<a href="{{ item.video_url }}">Vidéo</a>{%- endif -%}
+                </div>
+              </td>
+            </tr>
+{% endfor %}
+          </tbody>
+        </table>
+      </section>
+{% endfor %}
+    </section>
+{% endfor %}
+
+    <section class="sources">
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://www.ffjudo.com/uploads/elfinder/CULTURE/GRADES%20CSDGE/REFERENTIEL%20TECHNIQUE%202024-2025%20GL.pdf">FFJDA Technical Referential</a></li>
+        <li><a href="https://www.judo-ch.jp">Judo Channel</a></li>
+        <li><a href="https://www.youtube.com/@KODOKANJUDO">YouTube KODOKAN JUDO</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

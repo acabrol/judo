@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
-from jinja2 import Environment, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -13,6 +13,7 @@ PROJECT_ROOT = BASE_DIR.parent
 DATA_FILE = PROJECT_ROOT / "data" / "techniques" / "techniques.csv"
 JSON_OUTPUT = PROJECT_ROOT / "data" / "techniques" / "techniques.json"
 MARKDOWN_OUTPUT = PROJECT_ROOT / "docs" / "techniques.md"
+HTML_OUTPUT = PROJECT_ROOT / "docs" / "techniques.html"
 TEMPLATE_DIR = BASE_DIR / "templates"
 
 EXCLUSION_LIST = [
@@ -111,6 +112,15 @@ def render_markdown(organized_data: dict[str, dict[str, list[dict[str, str | Non
     return template.render(data=organized_data, exclude=EXCLUSION_LIST)
 
 
+def render_html(organized_data: dict[str, dict[str, list[dict[str, str | None]]]]) -> str:
+    env = Environment(
+        loader=FileSystemLoader(str(TEMPLATE_DIR)),
+        autoescape=select_autoescape(["html", "xml"]),
+    )
+    template = env.get_template("techniques.html")
+    return template.render(data=organized_data)
+
+
 def main() -> None:
     rows = load_techniques()
     organized_data = organize_techniques(rows)
@@ -122,7 +132,14 @@ def main() -> None:
     with MARKDOWN_OUTPUT.open("w", encoding="utf-8") as handle:
         handle.write(markdown)
 
-    print(f"Generated {MARKDOWN_OUTPUT.relative_to(PROJECT_ROOT)} and {JSON_OUTPUT.relative_to(PROJECT_ROOT)}")
+    html = render_html(organized_data)
+    with HTML_OUTPUT.open("w", encoding="utf-8") as handle:
+        handle.write(html)
+
+    print(
+        f"Generated {MARKDOWN_OUTPUT.relative_to(PROJECT_ROOT)}, "
+        f"{HTML_OUTPUT.relative_to(PROJECT_ROOT)} and {JSON_OUTPUT.relative_to(PROJECT_ROOT)}"
+    )
 
 
 if __name__ == "__main__":
