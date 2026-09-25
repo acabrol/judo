@@ -108,13 +108,13 @@
   }
 
   .col-technique { width: 16%; }
-  .col-kanji { width: 13%; text-align: center; }
-  .col-description { width: 24%; }
-  .col-translation { width: 14%; }
+  .col-kanji { width: 12%; text-align: center; }
+  .col-description { width: 21%; }
+  .col-translation { width: 12%; }
   .col-dan { width: 4.5%; text-align: center; }
-  .col-image { width: 9%; text-align: center; }
-  .col-video { width: 5.5%; text-align: center; }
-  .col-tuto { width: 5.5%; text-align: center; }
+  .col-image { width: 8.5%; text-align: center; }
+  .col-video { width: 8.5%; text-align: center; }
+  .col-tuto { width: 8.5%; text-align: center; }
 
   .technique-name {
     font-weight: 700;
@@ -157,7 +157,7 @@
 
   .media-link-label {
     display: inline-block;
-    min-width: 3.6rem;
+    max-width: 100%;
     padding: 2px 6px;
     border: 1px solid var(--line);
     border-radius: 999px;
@@ -179,7 +179,9 @@
   .media-link-qrcode {
     display: block;
     width: 76px;
-    height: 76px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1;
   }
 
   .media-link-body {
@@ -192,6 +194,16 @@
 
   .media-link-body--image {
     align-items: center;
+  }
+
+  @media screen {
+    .subcategory {
+      overflow-x: auto;
+    }
+
+    table {
+      min-width: 1100px;
+    }
   }
 
   @media print {
@@ -276,7 +288,6 @@
 
     .media-link-qrcode {
       width: 42px;
-      height: 42px;
     }
 
     .media-link-body {
