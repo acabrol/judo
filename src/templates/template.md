@@ -19,6 +19,11 @@ permalink: /docs/techniques.html
     margin-bottom: 0.4rem;
   }
 
+  .grade-guide {
+    break-after: page;
+    page-break-after: always;
+  }
+
   .revision-intro {
     margin: 0 0 1rem;
     color: #444;
@@ -211,9 +216,12 @@ permalink: /docs/techniques.html
 
 <div class="revision-guide">
   <h1>Judo Techniques Revision Sheets</h1>
+  <p>{{ season_label }}</p>
   <p class="revision-intro">
     Fiches compactes pour réviser les techniques, les kanji, les lectures japonaises et les attendus de grade.
   </p>
+
+{% include 'grades.html' %}
   <p class="screen-note">
     À l'écran, les colonnes <strong>Tuto</strong> et <strong>Vidéo</strong> restent disponibles.
     À l'impression, elles sont masquées pour conserver une vraie mise en page A4 paysage.
@@ -308,7 +316,8 @@ permalink: /docs/techniques.html
   <section class="sources">
     <h2>Sources</h2>
     <ul>
-      <li><a href="https://www.ffjudo.com/uploads/elfinder/CULTURE/GRADES%20CSDGE/REFERENTIEL%20TECHNIQUE%202024-2025%20GL.pdf">FFJDA Technical Referential</a></li>
+      <li><a href="{{ referential.source_url }}">France Judo — Référentiel technique {{ referential.season }}</a></li>
+      <li><a href="{{ referential.annex_url }}#page=1">France Judo — Annexe 1 : programme technique UV2 judo</a></li>
       <li><a href="https://www.judo-ch.jp">Judo Channel</a></li>
       <li><a href="https://www.youtube.com/@KODOKANJUDO">YouTube KODOKAN JUDO</a></li>
     </ul>

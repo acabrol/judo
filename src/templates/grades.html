@@ -1,0 +1,29 @@
+<section class="grade-guide">
+  <h2>Grades judo du 1er au 4e dan — {{ season_label }}</h2>
+  <p>{{ referential.assessment }}</p>
+  <table class="revision-table">
+    <colgroup><col style="width: 8%"><col style="width: 24%"><col style="width: 48%"><col style="width: 20%"></colgroup>
+    <thead><tr><th>Grade</th><th>UV1 — Kata</th><th>UV2 — Technique</th><th>UV4 — Engagement</th></tr></thead>
+    <tbody>
+{% for grade in referential.grades %}
+      <tr><td>{{ grade.dan }}</td><td>{{ grade.kata }}</td><td>{{ grade.technique }}</td><td>{{ grade.engagement }}</td></tr>
+{% endfor %}
+    </tbody>
+  </table>
+  <h3>UV3 — Efficacité : deux options</h3>
+  <p><strong>Sportive.</strong> {{ referential.sportive }}</p>
+  <p><strong>Combinée.</strong> {{ referential.combined }}</p>
+  <ul>
+{% for grade in referential.grades %}
+    <li><strong>{{ grade.dan }} :</strong> {{ grade.combined_exercises }}</li>
+{% endfor %}
+  </ul>
+  <p>{{ referential.equivalences }}</p>
+  <p><strong>Transition :</strong> {{ referential.transition }}</p>
+  <p>Résumé du cursus ordinaire judo, hors aménagements individuels. Sources :
+    <a href="{{ referential.source_url }}#page=12">règlement, p. 92–93</a>,
+    <a href="{{ referential.source_url }}#page=36">transition, p. 116</a> et
+    <a href="{{ referential.annex_url }}#page=1">annexe 1, p. 1</a>.
+  </p>
+  <p>{{ referential.technique_note }}</p>
+</section>

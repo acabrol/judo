@@ -7,6 +7,8 @@ from urllib.parse import parse_qs, quote, urlparse
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from referential import load_referential
+
 
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE_DIR.parent
@@ -15,7 +17,6 @@ JSON_OUTPUT = PROJECT_ROOT / "data" / "techniques" / "techniques.json"
 MARKDOWN_OUTPUT = PROJECT_ROOT / "docs" / "techniques.md"
 HTML_OUTPUT = PROJECT_ROOT / "docs" / "techniques.html"
 TEMPLATE_DIR = BASE_DIR / "templates"
-SEASON_LABEL = "Saison 2025-2026"
 
 EXCLUSION_LIST = [
     "root_category-name",
@@ -118,7 +119,11 @@ def organize_techniques(rows: list[dict[str, str | None]]) -> dict[str, dict[str
 def render_markdown(organized_data: dict[str, dict[str, list[dict[str, str | None]]]]) -> str:
     env = Environment(loader=FileSystemLoader(str(TEMPLATE_DIR)))
     template = env.get_template("template.md")
-    return template.render(data=organized_data, exclude=EXCLUSION_LIST)
+    referential = load_referential()
+    return template.render(
+        data=organized_data, exclude=EXCLUSION_LIST,
+        referential=referential, season_label=f"Saison {referential['season']}",
+    )
 
 
 def render_html(organized_data: dict[str, dict[str, list[dict[str, str | None]]]]) -> str:
@@ -127,7 +132,11 @@ def render_html(organized_data: dict[str, dict[str, list[dict[str, str | None]]]
         autoescape=select_autoescape(["html", "xml"]),
     )
     template = env.get_template("techniques.html")
-    return template.render(data=organized_data, season_label=SEASON_LABEL)
+    referential = load_referential()
+    return template.render(
+        data=organized_data, referential=referential,
+        season_label=f"Saison {referential['season']}",
+    )
 
 
 def main() -> None:

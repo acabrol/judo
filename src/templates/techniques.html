@@ -268,6 +268,11 @@
       display: none;
     }
 
+    .grade-guide {
+      break-after: page;
+      page-break-after: always;
+    }
+
     .sheet {
       margin: 0 0 10px;
       padding: 0;
@@ -278,10 +283,26 @@
     .sheet-header {
       margin-bottom: 8px;
       padding-bottom: 5px;
+      break-after: avoid-page;
     }
 
     .subcategory {
       margin-bottom: 10px;
+      break-inside: auto;
+      page-break-inside: auto;
+    }
+
+    .subcategory h3,
+    .subcategory-meta {
+      break-after: avoid-page;
+    }
+
+    tr {
+      break-inside: avoid-page;
+    }
+
+    .grade-guide table {
+      font-size: 10px;
     }
 
     table {
@@ -335,9 +356,11 @@
   <main class="page">
     <section class="hero">
       <h1>Judo Techniques Revision Sheets</h1>
-      <p>Version compacte pour réviser et imprimer en A4 paysage. Les liens vidéo et tutoriel restent visibles à l'écran, mais sont masqués à l'impression.</p>
+      <p>Fiches de révision en A4 paysage. Les vidéos et tutoriels sont accessibles par leurs liens à l'écran et par les QR codes à l'impression.</p>
       <p class="screen-note">Conseil d'impression : orientation paysage, marges par défaut du navigateur, arrière-plans activés si vous voulez conserver les zones de repère.</p>
     </section>
+
+{% include 'grades.html' %}
 
 {% for main_cat, sub_cats in data.items() -%}
 {%- set first_key = sub_cats.keys() | list | first -%}
@@ -442,7 +465,8 @@
     <section class="sources">
       <h2>Sources</h2>
       <ul>
-        <li><a href="https://www.ffjudo.com/uploads/elfinder/CULTURE/GRADES%20CSDGE/REFERENTIEL%20TECHNIQUE%202024-2025%20GL.pdf">FFJDA Technical Referential</a></li>
+        <li><a href="{{ referential.source_url }}">France Judo — Référentiel technique {{ referential.season }}</a></li>
+        <li><a href="{{ referential.annex_url }}#page=1">France Judo — Annexe 1 : programme technique UV2 judo</a></li>
         <li><a href="https://www.judo-ch.jp">Judo Channel</a></li>
         <li><a href="https://www.youtube.com/@KODOKANJUDO">YouTube KODOKAN JUDO</a></li>
       </ul>

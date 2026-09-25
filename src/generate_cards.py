@@ -6,13 +6,14 @@ from urllib.parse import parse_qs, quote, urlparse
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from referential import load_referential
+
 
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE_DIR.parent
 DATA_FILE = PROJECT_ROOT / "data" / "techniques" / "techniques.csv"
 OUTPUT_FILE = PROJECT_ROOT / "docs" / "cards.html"
 TEMPLATE_DIR = BASE_DIR / "templates"
-SEASON_LABEL = "Saison 2025-2026"
 
 EXCLUSION_LIST = [
     "root_category-name",
@@ -130,7 +131,11 @@ def render_html(organized_data: dict[str, dict[str, list[dict[str, str | None]]]
         autoescape=select_autoescape(["html", "xml"]),
     )
     template = env.get_template("cards.html")
-    return template.render(data=organized_data, exclude=EXCLUSION_LIST, season_label=SEASON_LABEL)
+    referential = load_referential()
+    return template.render(
+        data=organized_data, exclude=EXCLUSION_LIST,
+        referential=referential, season_label=f"Saison {referential['season']}",
+    )
 
 
 def main() -> None:
