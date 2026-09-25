@@ -34,30 +34,6 @@
     margin: 0 auto;
   }
 
-  .hero {
-    margin-bottom: 18px;
-    padding: 18px 22px;
-    border: 1px solid var(--line);
-    background: rgba(255, 255, 255, 0.55);
-  }
-
-  .hero h1 {
-    margin: 0 0 6px;
-    font-size: 2rem;
-    line-height: 1.05;
-  }
-
-  .hero p {
-    margin: 0;
-    max-width: 90ch;
-    color: var(--muted);
-  }
-
-  .screen-note {
-    margin-top: 10px;
-    font-size: 0.92rem;
-  }
-
   .sheet {
     margin-bottom: 18px;
     padding: 14px 16px 18px;
@@ -91,10 +67,6 @@
     color: var(--muted);
     text-align: right;
     font-size: 0.92rem;
-  }
-
-  .season-label {
-    font-weight: 700;
   }
 
   .subcategory {
@@ -222,23 +194,6 @@
     align-items: center;
   }
 
-  .sources {
-    margin-top: 22px;
-    padding: 12px 16px;
-    border: 1px solid var(--line);
-    background: rgba(255, 255, 255, 0.65);
-  }
-
-  .sources h2 {
-    margin: 0 0 8px;
-    font-size: 1rem;
-  }
-
-  .sources ul {
-    margin: 0;
-    padding-left: 18px;
-  }
-
   @media print {
     @page {
       size: A4 landscape;
@@ -253,24 +208,6 @@
 
     .page {
       max-width: none;
-    }
-
-    .hero {
-      margin-bottom: 10px;
-      padding: 0 0 8px;
-      border: 0;
-      border-bottom: 2px solid var(--line-strong);
-      background: transparent;
-    }
-
-    .screen-note,
-    .sources {
-      display: none;
-    }
-
-    .grade-guide {
-      break-after: page;
-      page-break-after: always;
     }
 
     .sheet {
@@ -299,10 +236,6 @@
 
     tr {
       break-inside: avoid-page;
-    }
-
-    .grade-guide table {
-      font-size: 10px;
     }
 
     table {
@@ -354,13 +287,6 @@
 </head>
 <body>
   <main class="page">
-    <section class="hero">
-      <h1>Judo Techniques Revision Sheets</h1>
-      <p>Fiches de révision en A4 paysage. Les vidéos et tutoriels sont accessibles par leurs liens à l'écran et par les QR codes à l'impression.</p>
-      <p class="screen-note">Conseil d'impression : orientation paysage, marges par défaut du navigateur, arrière-plans activés si vous voulez conserver les zones de repère.</p>
-    </section>
-
-{% include 'grades.html' %}
 
 {% for main_cat, sub_cats in data.items() -%}
 {%- set first_key = sub_cats.keys() | list | first -%}
@@ -371,7 +297,6 @@
           <h2 class="sheet-title">{{ main_cat }}</h2>
         </div>
         <div class="sheet-meta">
-          <div class="season-label">{{ season_label }}</div>
           <div><ruby>{{ category_item['main_category-kanji'] }}<rt>{{ category_item['main_category-furigana'] }}</rt></ruby></div>
           <div>{{ category_item['en-main_category-translation'] }} · {{ category_item['fr-main_category-translation'] }}</div>
         </div>
@@ -462,15 +387,6 @@
     </section>
 {% endfor %}
 
-    <section class="sources">
-      <h2>Sources</h2>
-      <ul>
-        <li><a href="{{ referential.source_url }}">France Judo — Référentiel technique {{ referential.season }}</a></li>
-        <li><a href="{{ referential.annex_url }}#page=1">France Judo — Annexe 1 : programme technique UV2 judo</a></li>
-        <li><a href="https://www.judo-ch.jp">Judo Channel</a></li>
-        <li><a href="https://www.youtube.com/@KODOKANJUDO">YouTube KODOKAN JUDO</a></li>
-      </ul>
-    </section>
   </main>
 </body>
 </html>

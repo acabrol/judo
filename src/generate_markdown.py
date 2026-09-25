@@ -7,8 +7,6 @@ from urllib.parse import parse_qs, quote, urlparse
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
-from referential import load_referential
-
 
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE_DIR.parent
@@ -119,11 +117,7 @@ def organize_techniques(rows: list[dict[str, str | None]]) -> dict[str, dict[str
 def render_markdown(organized_data: dict[str, dict[str, list[dict[str, str | None]]]]) -> str:
     env = Environment(loader=FileSystemLoader(str(TEMPLATE_DIR)))
     template = env.get_template("template.md")
-    referential = load_referential()
-    return template.render(
-        data=organized_data, exclude=EXCLUSION_LIST,
-        referential=referential, season_label=f"Saison {referential['season']}",
-    )
+    return template.render(data=organized_data, exclude=EXCLUSION_LIST)
 
 
 def render_html(organized_data: dict[str, dict[str, list[dict[str, str | None]]]]) -> str:
@@ -132,11 +126,7 @@ def render_html(organized_data: dict[str, dict[str, list[dict[str, str | None]]]
         autoescape=select_autoescape(["html", "xml"]),
     )
     template = env.get_template("techniques.html")
-    referential = load_referential()
-    return template.render(
-        data=organized_data, referential=referential,
-        season_label=f"Saison {referential['season']}",
-    )
+    return template.render(data=organized_data)
 
 
 def main() -> None:

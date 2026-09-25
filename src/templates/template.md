@@ -15,28 +15,6 @@ permalink: /docs/techniques.html
     font-size: 0.95rem;
   }
 
-  .revision-guide h1 {
-    margin-bottom: 0.4rem;
-  }
-
-  .grade-guide {
-    break-after: page;
-    page-break-after: always;
-  }
-
-  .revision-intro {
-    margin: 0 0 1rem;
-    color: #444;
-  }
-
-  .screen-note {
-    margin: 0 0 1rem;
-    padding: 0.75rem 1rem;
-    border-left: 4px solid #b22222;
-    background: #fff5f2;
-    color: #6b2b1a;
-  }
-
   .category-sheet {
     margin: 0 0 1.4rem;
     padding: 0;
@@ -179,17 +157,7 @@ permalink: /docs/techniques.html
     background: #fff;
   }
 
-  .sources {
-    margin-top: 1.5rem;
-    font-size: 0.9rem;
-  }
-
-  .sources ul {
-    margin: 0.4rem 0 0;
-  }
-
   @media print {
-    .screen-note,
     .media-links {
       display: none;
     }
@@ -215,18 +183,6 @@ permalink: /docs/techniques.html
 </style>
 
 <div class="revision-guide">
-  <h1>Judo Techniques Revision Sheets</h1>
-  <p>{{ season_label }}</p>
-  <p class="revision-intro">
-    Fiches compactes pour réviser les techniques, les kanji, les lectures japonaises et les attendus de grade.
-  </p>
-
-{% include 'grades.html' %}
-  <p class="screen-note">
-    À l'écran, les colonnes <strong>Tuto</strong> et <strong>Vidéo</strong> restent disponibles.
-    À l'impression, elles sont masquées pour conserver une vraie mise en page A4 paysage.
-  </p>
-
 {% for main_cat, sub_cats in data.items() -%}
 {%- set first_key = sub_cats.keys() | list | first %}
 {%- set category_item = sub_cats[first_key][0] %}
@@ -313,13 +269,4 @@ permalink: /docs/techniques.html
 </section>
 {% endfor %}
 
-  <section class="sources">
-    <h2>Sources</h2>
-    <ul>
-      <li><a href="{{ referential.source_url }}">France Judo — Référentiel technique {{ referential.season }}</a></li>
-      <li><a href="{{ referential.annex_url }}#page=1">France Judo — Annexe 1 : programme technique UV2 judo</a></li>
-      <li><a href="https://www.judo-ch.jp">Judo Channel</a></li>
-      <li><a href="https://www.youtube.com/@KODOKANJUDO">YouTube KODOKAN JUDO</a></li>
-    </ul>
-  </section>
 </div>

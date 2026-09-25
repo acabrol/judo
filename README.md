@@ -16,7 +16,7 @@ Judo knowledge base and printable technique cards published on GitHub Pages.
 
 ## Référentiel 2026-2027
 
-Les fiches présentent les nouvelles épreuves judo du 1er au 4e dan (kata, UV2,
+Les cartes présentent les nouvelles épreuves judo du 1er au 4e dan (kata, UV2,
 efficacité sportive ou combinée, engagement et transition jusqu'au 31 décembre
 2028). La saison, les sources et ces exigences sont centralisées dans
 [`data/referential.json`](data/referential.json).
@@ -26,6 +26,10 @@ conserve les listes de projections et de techniques au sol de 2025-2026 ainsi
 que leur répartition par dan. Le CSV et les repères de dan restent donc inchangés.
 Les colonnes 1D/2D/3D et les mentions « UV2 DAN » correspondent aux lignes de
 l'annexe 1 ; elles ne résument pas l'ensemble des épreuves du grade.
+
+La page Techniques contient uniquement les tableaux de techniques, regroupés par
+famille, pour la pratique en cours et l’impression en A4 paysage. Les programmes
+de grades et d’UV3 figurent dans les cartes.
 
 ## Regenerate the site
 

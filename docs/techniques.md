@@ -15,28 +15,6 @@ permalink: /docs/techniques.html
     font-size: 0.95rem;
   }
 
-  .revision-guide h1 {
-    margin-bottom: 0.4rem;
-  }
-
-  .grade-guide {
-    break-after: page;
-    page-break-after: always;
-  }
-
-  .revision-intro {
-    margin: 0 0 1rem;
-    color: #444;
-  }
-
-  .screen-note {
-    margin: 0 0 1rem;
-    padding: 0.75rem 1rem;
-    border-left: 4px solid #b22222;
-    background: #fff5f2;
-    color: #6b2b1a;
-  }
-
   .category-sheet {
     margin: 0 0 1.4rem;
     padding: 0;
@@ -179,17 +157,7 @@ permalink: /docs/techniques.html
     background: #fff;
   }
 
-  .sources {
-    margin-top: 1.5rem;
-    font-size: 0.9rem;
-  }
-
-  .sources ul {
-    margin: 0.4rem 0 0;
-  }
-
   @media print {
-    .screen-note,
     .media-links {
       display: none;
     }
@@ -215,58 +183,6 @@ permalink: /docs/techniques.html
 </style>
 
 <div class="revision-guide">
-  <h1>Judo Techniques Revision Sheets</h1>
-  <p>Saison 2026-2027</p>
-  <p class="revision-intro">
-    Fiches compactes pour réviser les techniques, les kanji, les lectures japonaises et les attendus de grade.
-  </p>
-
-<section class="grade-guide">
-  <h2>Grades judo du 1er au 4e dan — Saison 2026-2027</h2>
-  <p>Les anciennes dominantes compétition et technique sont remplacées par un programme commun d’UV1 et d’UV2 ; le choix sportive/combinée porte sur l’UV3. Les défenses jujitsu ne font plus partie de l’UV2 judo. L’UV2 des 2e, 3e et 4e dan et l’UV3 combinée sont indiquées non fractionnables, avec appréciation de l’ensemble des épreuves.</p>
-  <table class="revision-table">
-    <colgroup><col style="width: 8%"><col style="width: 24%"><col style="width: 48%"><col style="width: 20%"></colgroup>
-    <thead><tr><th>Grade</th><th>UV1 — Kata</th><th>UV2 — Technique</th><th>UV4 — Engagement</th></tr></thead>
-    <tbody>
-
-      <tr><td>1er dan</td><td>3 premières séries du nage-no-kata en tori ; 1 série choisie par le jury en uke. Dispense du rôle de uke à partir de 40 ans.</td><td>6 projections et 4 techniques au sol choisies par le jury dans l’annexe 1, couvrant les familles. Projections en déplacement, sol en situation d’étude. 5 min maximum ; une méconnaissance acceptée dans chacun des deux domaines.</td><td>½ journée de stage ou de mise en situation comme commissaire sportif ou arbitre.</td></tr>
-
-      <tr><td>2e dan</td><td>5 séries du nage-no-kata en tori.</td><td>1 projection et 1 technique au sol au choix (3 à 4 min), puis 6 projections et 3 techniques au sol imposées de l’annexe 1, différentes des techniques choisies (5 min maximum). Projections en contexte dynamique, sol en situation d’étude.</td><td>½ journée de stage ou de mise en situation comme commissaire sportif ou arbitre.</td></tr>
-
-      <tr><td>3e dan</td><td>Katame-no-kata en tori.</td><td>3 projections et 2 techniques au sol au choix : 3 min minimum par domaine, 8 min maximum au total. Projections dans des directions différentes et en contexte dynamique, sol à partir de situations de combat. Puis 3 projections et 2 techniques au sol imposées de l’annexe 1 (5 min maximum).</td><td>1 journée de stage ou de mise en situation comme commissaire sportif ou arbitre.</td></tr>
-
-      <tr><td>4e dan</td><td>Ju-no-kata en tori.</td><td>Go-No-Sen en tori, puis tokui-waza debout (3 min : opportunités, séquences tactiques, liaisons debout-sol) et au sol (2 min). Des pauses de récupération sont prévues entre les épreuves.</td><td>1 journée de stage ou de mise en situation comme commissaire sportif ou arbitre.</td></tr>
-
-    </tbody>
-  </table>
-  <h3>UV3 — Efficacité : deux options</h3>
-  <p><strong>Sportive.</strong> Pour chacun des quatre dan : 100 points cumulés en relation grade-championnat judo ou en shiai/test d’efficacité judo, ou 5 victoires consécutives par ippon ou waza-ari totalisant au moins 44 points sur une seule compétition.</p>
-  <p><strong>Combinée.</strong> 20 points en shiai/test d’efficacité judo et/ou relation grade-championnat judo, plus les exercices ci-dessous. À partir de 40 ans, seule la partie des 20 points est dispensée ; les exercices restent à présenter selon les consignes du coordonnateur.</p>
-  <ul>
-
-    <li><strong>1er dan :</strong> Uchi-komi en déplacement : 1 min 30 sur 2 techniques (une sur avancée, une sur recul) ; 2 exercices de kakari-geiko et/ou yaku-soku-geiko de 2 min.</li>
-
-    <li><strong>2e dan :</strong> Uchi-komi en déplacement : 1 min 30 sur 2 techniques différentes ; nage-komi en déplacement ; 2 exercices de kakari-geiko et/ou yaku-soku-geiko de 2 min.</li>
-
-    <li><strong>3e dan :</strong> Uchi-komi sur 3 techniques différentes (1 min maximum) ; nage-komi sur 2 techniques différentes (1 min maximum) ; 2 exercices de kakari-geiko et/ou yaku-soku-geiko de 2 min maximum.</li>
-
-    <li><strong>4e dan :</strong> Uchi-komi, nage-komi, kakari-geiko et/ou yaku-soku-geiko : 10 min maximum.</li>
-
-  </ul>
-  <p>UV1 des 1er au 3e dan : équivalence pour les podiums des championnats de France dans le kata demandé. UV4 : équivalences prévues pour les commissaires sportifs départementaux ou arbitres départementaux en activité et les participants à la coupe du jeune officiel. Validation par l’OTD et remontée sur l’extranet ; une UV4 acquise pour un même dan est équivalente entre les quatre disciplines.</p>
-  <p><strong>Transition :</strong> Les UV1, UV2 ou UV3 entièrement validées avant le 1er septembre 2026 restent acquises jusqu’au 31 décembre 2028 pour les candidats dont le grade est inachevé. Les UV manquantes suivent le nouveau règlement ; pendant cette transition, la présentation des anciens kata peut être demandée pour l’UV1.</p>
-  <p>Résumé du cursus ordinaire judo, hors aménagements individuels. Sources :
-    <a href="https://www.ffjudo.com/resource-file/document/1790067237_8e4fbc1c45259d99e5f5.pdf#page=12">règlement, p. 92–93</a>,
-    <a href="https://www.ffjudo.com/resource-file/document/1790067237_8e4fbc1c45259d99e5f5.pdf#page=36">transition, p. 116</a> et
-    <a href="https://www.ffjudo.com/resource-file/document/1789035361_068de2d2976847c37f5a.pdf#page=1">annexe 1, p. 1</a>.
-  </p>
-  <p>Repères UV2 : 1D, 2D et 3D désignent les lignes de l’annexe 1 pour chaque dan. Les listes de projections et de techniques au sol sont inchangées par rapport à 2025-2026. Un point indique une présence dans cette annexe ; les autres techniques complètent le répertoire de révision.</p>
-</section>
-  <p class="screen-note">
-    À l'écran, les colonnes <strong>Tuto</strong> et <strong>Vidéo</strong> restent disponibles.
-    À l'impression, elles sont masquées pour conserver une vraie mise en page A4 paysage.
-  </p>
-
 
 <section class="category-sheet">
   <header class="category-header">
@@ -1956,13 +1872,4 @@ permalink: /docs/techniques.html
 </section>
 
 
-  <section class="sources">
-    <h2>Sources</h2>
-    <ul>
-      <li><a href="https://www.ffjudo.com/resource-file/document/1790067237_8e4fbc1c45259d99e5f5.pdf">France Judo — Référentiel technique 2026-2027</a></li>
-      <li><a href="https://www.ffjudo.com/resource-file/document/1789035361_068de2d2976847c37f5a.pdf#page=1">France Judo — Annexe 1 : programme technique UV2 judo</a></li>
-      <li><a href="https://www.judo-ch.jp">Judo Channel</a></li>
-      <li><a href="https://www.youtube.com/@KODOKANJUDO">YouTube KODOKAN JUDO</a></li>
-    </ul>
-  </section>
 </div>
