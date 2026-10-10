@@ -17,7 +17,7 @@ Here is the table grouped by the **English Translation** category for better org
 | 車     | ぐるま     | Guruma  | Wheel                       | Roue                       |
 | 隅     | すみ       | Sumi    | Corner                      | Coin                       |
 | 浮     | う         | U       | Float                       | Flotter                    |
-| 返     | がえ       | Gae     | Return                      | Renverser                  |
+| 返し / 返 | かえし / がえし | Kaeshi / Gaeshi | Return / Counter            | Retour / Contre            |
 | 移     | うつ       | Utsu    | Move                        | Transférer                 |
 | 投     | なげ       | Nage    | Throw                       | Lancer                     |
 | 並     | なみ       | Nami    | Ordinary                    | Ordinaire                  |
