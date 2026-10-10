@@ -45,19 +45,12 @@ Here is the table grouped by the **English Translation** category for better org
 | 袖     | そで       | Sode    | Sleeve                      | Manche                     |
 | 襟     | えり       | Eri     | Lapel                       | Revers                     |
 | 帯     | おび       | Obi     | Belt                        | ceinture                   |
-| 体    | からだ    | Karada  | Body                | Corps              |
-| 頭    | あたま    | Atama   | Head                | Tête               |
-| 髪    | かみ      | Kami    | Hair                | Cheveux            |
-| 首    | くび      | Kubi    | Neck                | Cou                |
-| 肩    | かた      | Kata    | Shoulder            | Épaule             |
-| 腹    | はら      | Hara    | Abdomen             | Abdomen            |
-| 腕    | うで      | Ude     | Arm                 | Bras               |
-| 肘    | ひじ      | Hiji    | Elbow               | Coude              |
-| 手    | て        | Te      | Hand                | Main               |
-| 足    | あし      | Ashi    | Foot/Leg            | Pied/Jambe         |
-| 膝    | ひざ      | Hiza    | Knee                | Genou              |
 
-## body parts
+## Body parts
+
+The readings below match those used in the technique names. Some kanji have a
+different reading in everyday Japanese or when they are combined with another
+word; these variants are shown in the notes.
 
 ```ascii
                                       .....                                        
@@ -106,22 +99,27 @@ Here is the table grouped by the **English Translation** category for better org
                             .....,             ,.....  YUBI
 ```
 
-| Kanji  | Furigana  | Romaji | English Translation | French Translation |
-|-------|----------|--------|---------------------|--------------------|
-| 腰     | こし       | Koshi  | Hip                 | Hanche             |
-| 股     | また       | Mata   | Thigh or Crotch     | Cuisse ou Entre Jambe |
-| 首     | くび       | Kubi   | Neck                | Cou                |
-| 手     | て         | Te     | Hand                | Main               |
-| 背     | せお       | Seo    | Back                | Dos                |
-| 肩     | かた       | Kata   | Shoulder            | Épaule             |
-| 踵     | きびす     | Kibisu | Heel                | Talon              |
-| 体     | たい       | Tai    | Body                | Corps              |
-| 腕     | うで       | Ude    | Arm                 | Bras               |
-| 足     | あし       | Ashi   | Leg or Foot         | Jambe    ou Pied   |
-| 腹     | はら       | Hara   | Abdomen             | Abdomen            |
-| 膝     | ひざ       | Hiza   | Knee                | Genou              |
-| 脇     | わき       | Waki   | Armpit              | Aisselle           |
-| 裸     | はだか     | Hadaka | Naked               | Nu                 |
+| Kanji | Furigana | Romaji | English translation | French translation | Notes in the techniques |
+|---|---|---|---|---|---|
+| 体 | たい / からだ | Tai / Karada | Body | Corps | 体落 is read たいおとし. |
+| 頭 | あたま | Atama | Head | Tête | |
+| 髪 | かみ | Kami | Hair | Cheveux | |
+| 首 | くび | Kubi | Neck | Cou | 首投 is read くびなげ. |
+| 肩 | かた | Kata | Shoulder | Épaule | 肩車, 肩固. |
+| 背中 | せなか | Senaka | Back | Dos | In 背負投, 背負 is read せおい (to carry on the back). |
+| 胸 | むね | Mune | Chest | Poitrine | |
+| 腹 | はら | Hara | Abdomen | Ventre / abdomen | 腕挫腹固. |
+| 腰 | こし | Koshi | Hip / waist | Hanche / taille | Becomes ごし in names such as 大腰（おおごし）. |
+| 股 | また | Mata | Thigh / crotch | Cuisse / entrejambe | 内股. |
+| 腕 | うで | Ude | Arm | Bras | 腕緘, 腕挫腕固. |
+| 肘 | ひじ | Hiji | Elbow | Coude | |
+| 手 | て | Te | Hand | Main | 手技, 手車, 両手. |
+| 腋 | わき | Waki | Armpit | Aisselle | The technique file uses the anatomical form 腋 in 腕挫腋固. |
+| 指 | ゆび | Yubi | Finger / toe | Doigt / orteil | |
+| 脚 | あし | Ashi | Leg | Jambe | 腕挫脚固. |
+| 足 | あし | Ashi | Foot / leg | Pied / jambe | 足技, 足車, 釣込足. |
+| 膝 | ひざ | Hiza | Knee | Genou | 膝車, 腕挫膝固. |
+| 踵 | きびす / かかと | Kibisu / Kakato | Heel | Talon | 踵返 uses the reading きびす. |
 
 ```ascii
                              #@@@@@@@@@@@@@@@@@@@@@.                            
@@ -160,8 +158,6 @@ Here is the table grouped by the **English Translation** category for better org
 | Kanji | Furigana | Romaji | English Translation | French Translation |
 |-------|----------|--------|---------------------|--------------------|
 | 袖     | そで       | Sode   | Sleeve              | Manche             |
-| 襟     | えり       | Eri    | Collar              | Col                |
-| 引手     | ひきて       | Hiki-te    | Pull-hand     | Tirer-main |
-| 釣手     | つりて       | Tsuri-te    | Fich-hand     | Pécher-main |
-
-
+| 襟     | えり       | Eri    | Collar / lapel      | Col / revers       |
+| 引手     | ひきて       | Hiki-te    | Pulling hand     | Main qui tire |
+| 釣手     | つりて       | Tsuri-te    | Lifting hand     | Main qui soulève |
