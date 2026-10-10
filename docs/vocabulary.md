@@ -13,38 +13,34 @@ Here is the table grouped by the **English Translation** category for better org
 | 技     | わざ       | Waza    | Technique                   | Technique                  |
 | 逆     | ぎゃく     | Gyaku   | Reverse                     | Inverse                    |
 | 片     | かた       | Kata    | One Side                    | Un côté                    |
-| 両     | もろ       | Moro    | Both                        | Deux                       |
-| 車     | ぐるま     | Guruma  | Wheel                       | Roue                       |
+| 両     | りょう     | Ryō     | Both                        | Les deux                   |
+| 車     | くるま / ぐるま | Kuruma / Guruma | Wheel                 | Roue                       |
 | 隅     | すみ       | Sumi    | Corner                      | Coin                       |
-| 浮     | う         | U       | Float                       | Flotter                    |
+| 浮き / 浮 | うき    | Uki     | Floating                    | Flottant                   |
 | 返し / 返 | かえし / がえし | Kaeshi / Gaeshi | Return / Counter            | Retour / Contre            |
 | 移り / 移 | うつり（移る：うつる） | Utsuri (Utsuru) | Shift / Transfer           | Déplacement / Transfert    |
 | 投     | なげ       | Nage    | Throw                       | Lancer                     |
 | 並     | なみ       | Nami    | Ordinary                    | Ordinaire                  |
-| 十     | じゅう     | Jū      | Ten                         | Croix                      |
-| 字     | じ         | Ji      | Character                   | Croix                      |
-| 三     | さん       | San     | Three                       | Triangle                   |
-| 角     | かく       | Kaku    | Angle                       | Triangle                   |
-| 緘     | がらみ     | Garami  | Entwine                     | Enrouler                   |
-| 絞     | じめ       | Jime    | Strangle                    | Étrangler                  |
-| 三     | さん       | San     | Three                       | Triangle                   |
+| 十字   | じゅうじ   | Jūji    | Cross                       | Croix                      |
+| 三角   | さんかく   | Sankaku | Triangle                    | Triangle                   |
+| 緘     | からみ / がらみ | Karami / Garami | Entanglement          | Enroulement                |
+| 絞め / 絞 | しめ / じめ | Shime / Jime | Strangle / Choke         | Étranglement               |
 | 大     | おお       | Ō       | Big                         | Grand                      |
-| 立     | たつ       | Tatsu   | Stand                       | Debout                     |
-| 負     | いな       | Ina     | Carry                       | Porter                     |
-| 背負     | せお       | Seo     | Carry On The Back           | Porter  sur le dos         |
+| 立     | たち       | Tachi   | Standing                    | Debout                     |
+| 背負   | せおい     | Seoi    | Carry on the back           | Porter sur le dos          |
 | 双     | もろ       | Moro    | Pair                        | Deux                       |
+| 諸     | もろ       | Moro    | Together / both             | Ensemble / les deux        |
 | 送     | おくり     | Okuri   | Send                        | Envoyer                    |
 | 込     | こみ       | Komi    | Including                   | Incluant                     |
 | 内     | うち       | Uchi    | Inside                      | Intérieur                  |
 | 後     | うしろ     | Ushiro  | Behind                      | Arrière                    |
-| 一本   | いっ       | Ippon   | One long cylindrical thing  | Un objet long cylindrique  |
+| 一本   | いっぽん   | Ippon   | One point / one full unit   | Un point / une unité       |
 | 袖     | そで       | Sode    | Sleeve                      | Manche                     |
-| 挫     | しぎ       | Shigi   | Sprain                      | Briser                     |
-| 朽     | くちき     | Kuchiki | Decayed Wood                | Bois pourri                |
+| 腕挫   | うでひしぎ | Ude-hishigi | Arm lock                  | Clé de bras                |
+| 朽木   | くちき     | Kuchiki | Decayed tree                | Arbre pourri               |
 | 釣     | つり       | Tsuri   | Fishing                     | Pêcher                     |
-| 袖     | そで       | Sode    | Sleeve                      | Manche                     |
 | 襟     | えり       | Eri     | Lapel                       | Revers                     |
-| 帯     | おび       | Obi     | Belt                        | ceinture                   |
+| 帯     | おび       | Obi     | Belt                        | Ceinture                   |
 
 ## Body parts
 
