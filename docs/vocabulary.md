@@ -16,15 +16,15 @@ Here is the table grouped by the **English Translation** category for better org
 | 両     | りょう     | Ryō     | Both                        | Les deux                   |
 | 車     | くるま / ぐるま | Kuruma / Guruma | Wheel                 | Roue                       |
 | 隅     | すみ       | Sumi    | Corner                      | Coin                       |
-| 浮き / 浮 | うき    | Uki     | Floating                    | Flottant                   |
-| 返し / 返 | かえし / がえし | Kaeshi / Gaeshi | Return / Counter            | Retour / Contre            |
-| 移り / 移 | うつり（移る：うつる） | Utsuri (Utsuru) | Shift / Transfer           | Déplacement / Transfert    |
+| 浮     | うき       | Uki     | Floating                    | Flottant                   |
+| 返     | がえし     | Gaeshi  | Return / Counter            | Retour / Contre            |
+| 移     | うつり     | Utsuri  | Shift / Transfer            | Déplacement / Transfert    |
 | 投     | なげ       | Nage    | Throw                       | Lancer                     |
 | 並     | なみ       | Nami    | Ordinary                    | Ordinaire                  |
 | 十字   | じゅうじ   | Jūji    | Cross                       | Croix                      |
 | 三角   | さんかく   | Sankaku | Triangle                    | Triangle                   |
-| 緘     | からみ / がらみ | Karami / Garami | Entanglement          | Enroulement                |
-| 絞め / 絞 | しめ / じめ | Shime / Jime | Strangle / Choke         | Étranglement               |
+| 緘     | がらみ     | Garami  | Entanglement                | Enroulement                |
+| 絞     | しめ / じめ | Shime / Jime | Strangle / Choke          | Étranglement               |
 | 大     | おお       | Ō       | Big                         | Grand                      |
 | 立     | たち       | Tachi   | Standing                    | Debout                     |
 | 背負   | せおい     | Seoi    | Carry on the back           | Porter sur le dos          |
