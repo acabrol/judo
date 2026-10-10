@@ -18,7 +18,7 @@ Here is the table grouped by the **English Translation** category for better org
 | 隅     | すみ       | Sumi    | Corner                      | Coin                       |
 | 浮     | う         | U       | Float                       | Flotter                    |
 | 返し / 返 | かえし / がえし | Kaeshi / Gaeshi | Return / Counter            | Retour / Contre            |
-| 移     | うつ       | Utsu    | Move                        | Transférer                 |
+| 移り / 移 | うつり（移る：うつる） | Utsuri (Utsuru) | Shift / Transfer           | Déplacement / Transfert    |
 | 投     | なげ       | Nage    | Throw                       | Lancer                     |
 | 並     | なみ       | Nami    | Ordinary                    | Ordinaire                  |
 | 十     | じゅう     | Jū      | Ten                         | Croix                      |
